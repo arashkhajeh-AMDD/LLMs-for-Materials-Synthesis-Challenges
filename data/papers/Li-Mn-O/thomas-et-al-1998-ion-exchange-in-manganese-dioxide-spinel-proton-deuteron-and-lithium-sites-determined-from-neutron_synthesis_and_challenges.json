@@ -1,0 +1,303 @@
+{
+    "file_name": "thomas-et-al-1998-ion-exchange-in-manganese-dioxide-spinel-proton-deuteron-and-lithium-sites-determined-from-neutron",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1+xMn2-xO4+\u03b4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": "high phase purity"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Lithium Insertion",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "\u03b3-MnO2",
+                                "stoichiometry": "5 grams"
+                            },
+                            {
+                                "name": "LiI",
+                                "stoichiometry": "3-fold excess of 2.3 M solution"
+                            }
+                        ],
+                        "solvent": "acetonitrile",
+                        "precipitant": null,
+                        "temperature": "70 \u00b0C",
+                        "pressure": null,
+                        "duration": "7 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Oxidation and Structural Transformation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "700 \u00b0C",
+                        "pressure": null,
+                        "duration": "36 hours",
+                        "atmosphere": "flowing oxygen",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Washing",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "unit cell parameters"
+                    },
+                    {
+                        "name": "Chemical Analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Thermogravimetry",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Deuterated MnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "DCl",
+                                "stoichiometry": "0.5 M"
+                            }
+                        ],
+                        "solvent": "D2O",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "dry nitrogen",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Washing and Drying",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": "dynamic vacuum",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Neutron Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Protonated MnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "HCl",
+                                "stoichiometry": "0.5 M"
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "3 days",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Washing",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Neutron Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Relithiated (H)MnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Lithium Reinsertion",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Protonated MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": "0.025 M"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "9 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Neutron Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1.27Mn1.73O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Reduction of tetravalent Mn above 400\u00b0C in air, making it difficult to obtain well-crystallized Mn4+ lithium manganate spinels.",
+                "type": "chemical",
+                "impact": "This reduction compromises the high Mn4+ content and phase purity, which are critical for the material's intended applications."
+            },
+            "solution": {
+                "description": "Heating under flowing oxygen followed by slow cooling to favor high oxygen and Mn4+ content.",
+                "methodology": "Controlled oxygen flow and slow cooling during synthesis.",
+                "effectiveness": "Successfully produced a high-purity spinel phase with high Mn4+ content and better crystallinity."
+            },
+            "evidence": {
+                "source": "Experimental Section and Results and Discussion",
+                "data": "The parent compound had a high O/Mn content (n+Mn = 3.95) and a unit cell parameter of 8.159(2) \u00c5, consistent with high Mn4+ content."
+            },
+            "context": {
+                "material_properties": "High Mn4+ content and phase purity are essential for lithium-proton exchange and ion-insertion applications.",
+                "experimental_conditions": "Heating at 700\u00b0C under flowing oxygen for 36 hours, followed by slow cooling.",
+                "application_relevance": "Ensures the material's suitability for lithium recovery and sensing applications."
+            }
+        },
+        {
+            "material": "Protonated MnO2",
+            "stage": "re-lithiation",
+            "challenge": {
+                "description": "Loss of oxygen during re-lithiation in LiOH solution, leading to slight oxygen deficiency in the relithiated spinel compound.",
+                "type": "chemical",
+                "impact": "Oxygen deficiency affects the structural integrity and chemical properties of the relithiated material."
+            },
+            "solution": {
+                "description": "Reinsertion of lithium ions into the protonated MnO2 compound by lithium-proton exchange mechanism.",
+                "methodology": "Immersion in 0.025 M LiOH solution for 9 hours.",
+                "effectiveness": "Partially successful; 40% of the protons inserted during delithiation remained in the relithiated material."
+            },
+            "evidence": {
+                "source": "Results and Discussion",
+                "data": "The relithiated phase had a unit cell parameter of 8.184(3) \u00c5, indicating slight oxygen deficiency compared to the parent compound."
+            },
+            "context": {
+                "material_properties": "Retention of structural integrity and chemical properties during re-lithiation is critical for reversible lithium-proton exchange.",
+                "experimental_conditions": "Re-lithiation in LiOH solution at ambient temperature.",
+                "application_relevance": "Ensures the material's reusability in lithium recovery and sensing applications."
+            }
+        },
+        {
+            "material": "Deuterated MnO2",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Difficulty in directly determining the positions of hydrogen or deuterium atoms in the lattice.",
+                "type": "structural",
+                "impact": "Lack of precise atomic positioning data limits understanding of the proton/deuteron insertion mechanism and its effects on the material's properties."
+            },
+            "solution": {
+                "description": "Use of neutron powder diffraction and difference Fourier maps to locate deuterium atoms in ordered positions.",
+                "methodology": "Neutron diffraction refinement with deuterium included at 96g sites.",
+                "effectiveness": "Successfully identified deuterium positions, providing insights into the interstitial space occupation in the spinel structure."
+            },
+            "evidence": {
+                "source": "Analysis of the Neutron Diffraction Data",
+                "data": "Difference Fourier maps showed positive residual peaks in 96g sites ~1 \u00c5 from oxygen atoms, confirming deuterium positions."
+            },
+            "context": {
+                "material_properties": "Precise positioning of deuterium is essential for understanding the material's ion-exchange and protonic properties.",
+                "experimental_conditions": "Neutron diffraction data collected at 295 K with a neutron wavelength of 1.47 \u00c5.",
+                "application_relevance": "Supports the development of materials for proton insertion and ion-exchange applications."
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "file_name": "1-s2.0-S016727380400298X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "octahedral single crystals",
+                "purity": "stoichiometric"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Flux Method",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM\u2013EDX",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Density measurement",
+                        "parameters": "4.29 \u00b1 0.01 g/cm\u00b3 at 300 K"
+                    },
+                    {
+                        "name": "DSC",
+                        "parameters": "Temperature transitions around 280 and 320 K"
+                    },
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "130 K, 200 K, and 330 K; Mo K\u03b1 radiation"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Formation of mainly three twin components inside the crystal during structural analysis.",
+                "type": "structural",
+                "impact": "The presence of twin components complicates the accurate measurement of intensity data and structural refinement."
+            },
+            "solution": {
+                "description": "A slow cooling rate of 0.05 K/min was applied to obtain a single-domain specimen with orthorhombic symmetry.",
+                "methodology": "Controlled cooling process to reduce twinning effects.",
+                "effectiveness": "Successfully allowed the measurement of intensity data from a single-domain specimen, enabling accurate structural analysis."
+            },
+            "evidence": {
+                "source": "Section 2.2, Structure analysis",
+                "data": "The intensity data of mainly single-domain specimens were successfully measured after applying the slow cooling rate."
+            },
+            "context": {
+                "material_properties": "Orthorhombic symmetry at low temperatures with a 3a \u00d7 3a \u00d7 a superstructure.",
+                "experimental_conditions": "Slow cooling rate of 0.05 K/min during crystal preparation.",
+                "application_relevance": "Accurate structural characterization is critical for understanding the material's phase transitions and potential applications in lithium-ion batteries."
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+directories:
+  stored_csv_xlsx_directory: data/csv_xlsx
+  sqldb_directory: data/sqldb.db
+  uploaded_files_sqldb_directory: data/uploaded_files_sqldb.db
+  stored_csv_xlsx_sqldb_directory: data/csv_xlsx_sqldb.db
+  persist_directory: data/papers_vectordb
+
+llm_config:
+    agent_llm_system_role: "Given the following user question, corresponding SQL query, and SQL result, answer the user question.\n
+    Question: {question}\n
+    SQL Query: {query}\n
+    SQL Result: {result}\n
+    Answer: 
+    "
+    rag_llm_system_role: "You will recieve the user's question along with the search results of that question over a database. Give the user the proper answer."
+    engine: "gpt-4"
+    temperature: 0.0
+
+comments_rag_config:
+  collection_name: comments_energy
+  top_k: 1
+
+
+content_table_rag_config:
+  unstructured_docs: "data/table-definitions"
+  vectordb: "data/table_definitions_vectordb"
+  collection_name: table-definitions-rag-chroma
+  llm: gpt-4
+  llm_temperature: 0.0
+  embedding_model: text-embedding-ada-002
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 2
+
+paper_rag_configs:
+  unstructured_docs: "data/papers"
+  vectordb: "data/papers_vectordb"
+  collection_name: synthetis-papers
+  llm: gpt-4
+  llm_temperature: 0.0
+  embedding_model: text-embedding-ada-002
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 3

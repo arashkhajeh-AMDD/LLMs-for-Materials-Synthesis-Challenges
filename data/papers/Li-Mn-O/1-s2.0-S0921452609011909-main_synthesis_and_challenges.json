@@ -1,0 +1,547 @@
+{
+    "file_name": "1-s2.0-S0921452609011909-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1.03Mn1.97O4",
+                "phase": "cubic spinel",
+                "dopants": [],
+                "morphology": "nearly spherical particles",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate (Li(CH3COO)\u00b72H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate (Mn(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": "1.0 (metal ions to citric acid ratio)"
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "100\u2013120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": "Ammonium hydroxide solution (to adjust pH to 6\u20137)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "140\u00b0C",
+                        "pressure": null,
+                        "duration": "5\u20136 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "15 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb=1.54 \u00c5), scan range 10\u201390\u00b0 at 0.5\u00b0/min"
+                    },
+                    {
+                        "name": "FE-SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": "Bands at 514 and 617 cm\u207b\u00b9"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.03Fe0.2Mn1.77O4",
+                "phase": "cubic spinel",
+                "dopants": [
+                    {
+                        "element": "Fe",
+                        "concentration": "0.2"
+                    }
+                ],
+                "morphology": "truncated octahedral particles",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate (Li(CH3COO)\u00b72H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate (Mn(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Iron nitrate (Fe(NO3)2\u00b79H2O)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": "1.0 (metal ions to citric acid ratio)"
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "100\u2013120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": "Ammonium hydroxide solution (to adjust pH to 6\u20137)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "140\u00b0C",
+                        "pressure": null,
+                        "duration": "5\u20136 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "15 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb=1.54 \u00c5), scan range 10\u201390\u00b0 at 0.5\u00b0/min"
+                    },
+                    {
+                        "name": "FE-SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": "Bands at 514 and 617 cm\u207b\u00b9"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.03Mg0.2Mn1.77O4",
+                "phase": "cubic spinel",
+                "dopants": [
+                    {
+                        "element": "Mg",
+                        "concentration": "0.2"
+                    }
+                ],
+                "morphology": "truncated octahedral particles",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate (Li(CH3COO)\u00b72H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate (Mn(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Magnesium acetate (Mg(CH3COO)2\u00b72H2O)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": "1.0 (metal ions to citric acid ratio)"
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "100\u2013120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": "Ammonium hydroxide solution (to adjust pH to 6\u20137)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "140\u00b0C",
+                        "pressure": null,
+                        "duration": "5\u20136 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "15 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb=1.54 \u00c5), scan range 10\u201390\u00b0 at 0.5\u00b0/min"
+                    },
+                    {
+                        "name": "FE-SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": "Bands at 514 and 617 cm\u207b\u00b9"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.03Mg0.1Fe0.1Mn1.77O4",
+                "phase": "cubic spinel",
+                "dopants": [
+                    {
+                        "element": "Mg",
+                        "concentration": "0.1"
+                    },
+                    {
+                        "element": "Fe",
+                        "concentration": "0.1"
+                    }
+                ],
+                "morphology": "truncated octahedral particles",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate (Li(CH3COO)\u00b72H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate (Mn(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Magnesium acetate (Mg(CH3COO)2\u00b72H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Iron nitrate (Fe(NO3)2\u00b79H2O)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": "1.0 (metal ions to citric acid ratio)"
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "100\u2013120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": "Ammonium hydroxide solution (to adjust pH to 6\u20137)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "140\u00b0C",
+                        "pressure": null,
+                        "duration": "5\u20136 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "15 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb=1.54 \u00c5), scan range 10\u201390\u00b0 at 0.5\u00b0/min"
+                    },
+                    {
+                        "name": "FE-SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": "Bands at 514 and 617 cm\u207b\u00b9"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity fading upon cycling, which becomes severe at elevated temperatures (40\u00b0C).",
+                "type": "structural",
+                "impact": "Reduces the long-term performance and reliability of the material as a cathode in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Partial substitution of Mn in LiMn2O4 with other cations (e.g., Fe, Al, Ni, Cr, Zn, Mg) to reduce Mn3+ content and stabilize the cubic structure.",
+                "methodology": "Doping with trivalent and divalent cations to enhance structural stability.",
+                "effectiveness": "Improved cyclic performance and reduced capacity fading, but discharge capacity decreases due to reduced lithium content."
+            },
+            "evidence": {
+                "source": "Introduction section, page 649",
+                "data": "Capacity fading attributed to structural transformation from cubic to tetragonal due to Mn3+ (3d4)."
+            },
+            "context": {
+                "material_properties": "Cubic spinel structure with Mn3+ ions being Jahn-Teller active.",
+                "experimental_conditions": "Cycling at elevated temperatures (40\u00b0C).",
+                "application_relevance": "Critical for use as a cathode material in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li1.03Mn1.97O4",
+            "stage": "testing",
+            "challenge": {
+                "description": "Discharge capacity reduces upon doping with Fe and Mg.",
+                "type": "chemical",
+                "impact": "Limits the energy storage capacity of the material, which is a key performance metric for battery applications."
+            },
+            "solution": {
+                "description": "Doping increases cyclability and stabilizes the cubic spinel structure.",
+                "methodology": "Substitution of Mn3+ with Fe3+ and Mg2+ ions to stabilize the structure and reduce capacity fading.",
+                "effectiveness": "Cyclability improves, but discharge capacity decreases due to reduced extractable lithium content."
+            },
+            "evidence": {
+                "source": "Electrochemical properties section, page 653",
+                "data": "Initial discharge capacity of Li1.03Mn1.97O4 is 126 mAh/g, which reduces to 110 mAh/g for Fe-doped and 88 mAh/g for Mg-doped samples."
+            },
+            "context": {
+                "material_properties": "Cubic spinel structure with high lithium content.",
+                "experimental_conditions": "Charge-discharge cycling between 3.0 and 4.3 V at room temperature.",
+                "application_relevance": "Important for optimizing energy density and cycle life in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li1.03[MgxFeyMn1.97-x-y]O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Particles are slightly agglomerated, reducing open surface area and increasing surface energy.",
+                "type": "morphological",
+                "impact": "Agglomeration can lower packing density and bulk capacity, affecting battery performance."
+            },
+            "solution": {
+                "description": "Formation of truncated octahedral particles with lower surface energy.",
+                "methodology": "Controlled growth rate along {100} surfaces faster than {111} surfaces during synthesis.",
+                "effectiveness": "Improved particle shape and packing density, beneficial for higher bulk capacity."
+            },
+            "evidence": {
+                "source": "Morphological study section, page 651",
+                "data": "Particles in all samples are slightly agglomerated, but truncated octahedral shapes observed for Fe-Mg double-doped samples."
+            },
+            "context": {
+                "material_properties": "Truncated octahedral particle shape with reduced surface energy.",
+                "experimental_conditions": "Synthesis via sol-gel method using citric acid as a chelating agent.",
+                "application_relevance": "Enhances packing density and bulk capacity for battery electrodes."
+            }
+        }
+    ]
+}

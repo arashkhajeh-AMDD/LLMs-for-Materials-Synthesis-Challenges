@@ -1,0 +1,230 @@
+{
+    "file_name": "mukai-uyama-2017-toward-positive-electrode-materials-with-high-energy-density-electrochemical-and-structural-studies-on",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiCoxMn2\u2212xO4 (x = 0, 0.25, 0.375, 0.5, 0.75, 1)",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "x = 0, 0.25, 0.375, 0.5, 0.75, 1"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Co3O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "pestle and mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Pellet Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "pellet press (23 mm diameter, ~5 mm thickness)"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": "flowing oxygen",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Successive Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "700 \u00b0C for 24 h, 600 \u00b0C for 24 h, 500 \u00b0C for 48 h",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder XRD",
+                        "parameters": "2\u03b8 range: 15\u2013140\u00b0, step scan rate: 0.014\u00b0"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Raman Spectroscopy",
+                        "parameters": "Excitation wavelength: 532 nm, laser power: 1 mW, duration: 720 s"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": "flowing oxygen",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiCoxMn2\u2212xO4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Presence of Li2MnO3 impurities in samples with x \u2265 0.75.",
+                "type": "chemical",
+                "impact": "The impurities are electrochemically inactive, leading to a significant reduction in the rechargeable capacity (Qrech) and energy density (W)."
+            },
+            "solution": {
+                "description": "Optimization of the Co/Mn ratio to x = 0.5, which avoids the formation of Li2MnO3 impurities.",
+                "methodology": "Systematic variation of x in the LiCoxMn2\u2212xO4 composition and structural analysis using XRD and Raman spectroscopy.",
+                "effectiveness": "Highly effective, as the x = 0.5 composition achieved the maximum energy density (W = 627 mWh\u00b7g\u22121) and avoided impurity formation."
+            },
+            "evidence": {
+                "source": "Sections discussing structural analysis and electrochemical performance (Figures 3, 4, and 6).",
+                "data": "XRD patterns showed no Li2MnO3 phase for x = 0.5, and the energy density was maximized at this composition."
+            },
+            "context": {
+                "material_properties": "Spinel structure with high energy density and reduced lattice volume change during charge-discharge cycles.",
+                "experimental_conditions": "Samples synthesized using a two-step solid-state reaction technique with controlled heating and cooling rates.",
+                "application_relevance": "Critical for developing high-energy-density positive electrode materials for lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiCoxMn2\u2212xO4",
+            "stage": "testing",
+            "challenge": {
+                "description": "Decrease in discharge capacity (Qdis) at higher Co content (x = 1).",
+                "type": "electrochemical",
+                "impact": "The reduced capacity limits the material's effectiveness as a high-energy-density electrode."
+            },
+            "solution": {
+                "description": "Identification of x = 0.5 as the optimal composition to balance capacity and energy density.",
+                "methodology": "Electrochemical testing of various compositions (0 \u2264 x \u2264 1) to determine the relationship between Co content and performance.",
+                "effectiveness": "Effective, as x = 0.5 provided the highest energy density and a broad maximum in discharge capacity."
+            },
+            "evidence": {
+                "source": "Electrochemical performance data (Figure 3).",
+                "data": "Discharge capacity (Qdis) for x = 0.5 was 140 mAh\u00b7g\u22121, higher than that for x = 1 (108 mAh\u00b7g\u22121)."
+            },
+            "context": {
+                "material_properties": "Electrochemical performance depends on the balance between Co and Mn redox reactions.",
+                "experimental_conditions": "Cells operated at 25\u00b0C with a voltage range of 3.0\u20135.4 V and a current of 0.6 mA.",
+                "application_relevance": "Ensures the material's suitability for high-performance lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiCoxMn2\u2212xO4",
+            "stage": "post-processing",
+            "challenge": {
+                "description": "Increase in Li2MnO3 impurity content with higher sintering temperatures for x = 1.",
+                "type": "procedural",
+                "impact": "Higher impurity levels reduce the electrochemical activity and discharge capacity of the material."
+            },
+            "solution": {
+                "description": "Optimization of sintering temperature to 1000\u00b0C for x = 1 to minimize impurity formation.",
+                "methodology": "Comparison of samples sintered at 1000\u00b0C and 1100\u00b0C using XRD and electrochemical measurements.",
+                "effectiveness": "Partially effective, as the impurity content was reduced but not eliminated at 1000\u00b0C."
+            },
+            "evidence": {
+                "source": "Sections on synthesis and structural analysis (Figures 4 and S2).",
+                "data": "XRD patterns showed reduced Li2MnO3 content at 1000\u00b0C compared to 1100\u00b0C, with corresponding improvements in discharge capacity."
+            },
+            "context": {
+                "material_properties": "High-temperature stability and phase purity are critical for electrochemical performance.",
+                "experimental_conditions": "Sintering conducted under flowing oxygen with controlled heating and cooling rates.",
+                "application_relevance": "Ensures the material's viability for use in high-energy-density lithium-ion batteries."
+            }
+        }
+    ]
+}

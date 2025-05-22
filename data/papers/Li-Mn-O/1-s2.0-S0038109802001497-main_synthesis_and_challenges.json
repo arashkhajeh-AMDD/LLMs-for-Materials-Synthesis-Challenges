@@ -1,0 +1,158 @@
+{
+    "file_name": "1-s2.0-S0038109802001497-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(III) acetylacetonate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "boiling propionic acid",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": "vacuum",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination at 500\u00b0C",
+                    "details": {
+                        "temperature": "500\u00b0C",
+                        "duration": "18 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination at 900\u00b0C",
+                    "details": {
+                        "temperature": "900\u00b0C",
+                        "duration": "18 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Bragg\u2013Brentano geometry, graphite monochromator, Cu K\u03b1 radiation"
+                    },
+                    {
+                        "name": "TG",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Irreversible decomposition of the spinel phase occurs between 600\u00b0C and 800\u00b0C under N2 flow.",
+                "type": "chemical",
+                "impact": "This decomposition leads to the formation of Mn3O4 and orthorhombic LiMnO2 phases, which compromises the stability and integrity of the spinel structure."
+            },
+            "solution": {
+                "description": "The authors suggest controlling the oxygen partial pressure during synthesis to stabilize the spinel phase.",
+                "methodology": "Using air or O2 atmospheres instead of N2 during thermal treatments.",
+                "effectiveness": "The spinel phase was found to be stable up to 980\u00b0C in air or O2 atmospheres, demonstrating the effectiveness of this approach."
+            },
+            "evidence": {
+                "source": "Section 3.2, Figure 4",
+                "data": "XRD patterns show the spinel phase is stable up to 980\u00b0C in air or O2, while decomposition occurs under N2."
+            },
+            "context": {
+                "material_properties": "Spinel structure with reversible ionic distribution at high temperatures.",
+                "experimental_conditions": "Thermal treatments under different atmospheres (air, O2, N2) and temperatures up to 1050\u00b0C.",
+                "application_relevance": "Stability of the spinel phase is critical for its use in rechargeable lithium-ion batteries and catalytic applications."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Difficulty in achieving satisfactory fits using the inverse spinel model for quenched samples.",
+                "type": "structural",
+                "impact": "This issue complicates the accurate determination of cation distribution and structural properties of the material."
+            },
+            "solution": {
+                "description": "The authors used a modified cubic spinel model to account for cation displacement and lithium migration.",
+                "methodology": "Rietveld refinement with a modified cubic spinel model assuming partial occupancy of Mn at the 8a site and Li at the interstitial 16c site.",
+                "effectiveness": "Satisfactory refinement results were obtained with \u03c7\u00b2 values between 1.30 and 1.56, and Rwp values between 22.5% and 26.2%."
+            },
+            "evidence": {
+                "source": "Section 3.1, Figure 3",
+                "data": "Rietveld refinement results show improved fits with the modified cubic spinel model."
+            },
+            "context": {
+                "material_properties": "Cubic spinel structure with reversible cation distribution changes at high temperatures.",
+                "experimental_conditions": "High-temperature XRD measurements and Rietveld refinement analysis.",
+                "application_relevance": "Accurate structural characterization is essential for understanding the material's performance in electrochemical and catalytic applications."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Oxygen release during high-temperature treatments leads to changes in cation distribution and oxidation states.",
+                "type": "chemical",
+                "impact": "This affects the charge balance and stability of the spinel structure, potentially reducing its performance in applications like lithium-ion batteries."
+            },
+            "solution": {
+                "description": "The authors propose a reversible model where lithium ions occupy interstitial sites to maintain charge balance.",
+                "methodology": "Thermal cycling experiments under controlled oxygen partial pressures to study reversible cation distribution changes.",
+                "effectiveness": "The spinel phase was preserved with a 1:2 Li/Mn ratio after thermal cycling, confirming the reversibility of the process."
+            },
+            "evidence": {
+                "source": "Section 5, Figure 1",
+                "data": "TG measurements and XRD patterns confirm reversible oxygen uptake and cation redistribution upon cooling."
+            },
+            "context": {
+                "material_properties": "Spinel structure with reversible ionic distribution and oxygen release/uptake.",
+                "experimental_conditions": "Thermal cycling in air or O2 atmospheres with temperatures up to 980\u00b0C.",
+                "application_relevance": "Reversible cation distribution and oxygen uptake are critical for maintaining the material's electrochemical performance."
+            }
+        }
+    ]
+}

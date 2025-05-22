@@ -1,0 +1,80 @@
+{
+    "file_name": "1-s2.0-0022459679901610-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li[Mn2]O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn3O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn3O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "1073 K",
+                        "pressure": null,
+                        "duration": "24 hours",
+                        "atmosphere": "air",
+                        "equipment": "Guinier Simon high-temperature camera"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron Diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Infrared Spectroscopy",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

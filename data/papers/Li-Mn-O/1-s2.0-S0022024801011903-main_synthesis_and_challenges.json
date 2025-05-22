@@ -1,0 +1,136 @@
+{
+    "file_name": "1-s2.0-S0022024801011903-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": "cubic Fd%3m space group",
+                "dopants": [],
+                "morphology": "octahedral-shaped",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiCl",
+                                "stoichiometry": "1:8"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Firing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "1173 K",
+                        "pressure": null,
+                        "duration": "10 days",
+                        "atmosphere": null,
+                        "equipment": "gold crucible"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Separation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": "water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "several minutes",
+                        "atmosphere": null,
+                        "equipment": "gold tube"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM-EDX",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "MoKa radiation, 297 K"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Difficulty in synthesizing high-quality single crystals of LiMn2O4.",
+                "type": "procedural",
+                "impact": "Poor quality single crystals hinder accurate structural and physical property investigations."
+            },
+            "solution": {
+                "description": "Use of LiCl as a flux material with a controlled evaporation speed at high temperatures.",
+                "methodology": "Solvent evaporation flux method with a nominal weight ratio of LiMn2O4:LiCl = 1:8, heated at 1173 K for 10 days in a covered gold crucible.",
+                "effectiveness": "Successfully produced high-quality single crystals with ideal spinel structure and high crystallinity."
+            },
+            "evidence": {
+                "source": "Section 3 (Results and discussion), Figures 1 and 2",
+                "data": "SEM-EDX analysis confirmed absence of gold contamination; ICP spectroscopy confirmed stoichiometric composition; X-ray diffraction confirmed cubic spinel structure."
+            },
+            "context": {
+                "material_properties": "Cubic spinel structure with Fd%3m space group and lattice parameter of a = 8.2483 \u00c5.",
+                "experimental_conditions": "Heating at 1173 K for 10 days with controlled evaporation speed of LiCl flux.",
+                "application_relevance": "High-quality single crystals are essential for studying structural and physical properties relevant to lithium-ion battery electrodes."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Powder diffraction techniques do not fully resolve the true crystal symmetry and structural transition mechanism.",
+                "type": "structural",
+                "impact": "Incomplete understanding of the structural phase transition and physical properties of the material."
+            },
+            "solution": {
+                "description": "Use of single-crystal X-ray diffraction to clarify crystal symmetry and structural parameters.",
+                "methodology": "Single-crystal X-ray diffraction experiments conducted at various temperatures using a four-circle diffractometer and nitrogen gas flow cryostat.",
+                "effectiveness": "Successfully identified the orthorhombic structure at low temperatures and confirmed the structural phase transition around 285 K."
+            },
+            "evidence": {
+                "source": "Section 3 (Results and discussion), Figures 3 and 4",
+                "data": "Temperature-dependent X-ray diffraction peak profiles showed peak splitting and additional superlattice reflections below the transition temperature."
+            },
+            "context": {
+                "material_properties": "Orthorhombic structure with tripled periodicity along a- and b-axis directions at low temperatures.",
+                "experimental_conditions": "Temperature range of 230\u2013330 K with stable temperature control at 0.5 K.",
+                "application_relevance": "Understanding structural transitions is critical for optimizing the material's performance in lithium-ion battery applications."
+            }
+        }
+    ]
+}

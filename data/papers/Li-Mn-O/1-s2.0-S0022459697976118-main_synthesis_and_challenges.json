@@ -1,0 +1,224 @@
+{
+    "file_name": "1-s2.0-S0022459697976118-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1.05Mn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing and Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "c-MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "stainless steel plates"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "chemical analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li4/3Mn5/3O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing and Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "\u03b2-MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "400 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "chemical analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li4/3Mn5/3O4-\u03b4 (ammonia-treated)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Ammonia Treatment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li4/3Mn5/3O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "200 \u00b0C",
+                        "pressure": null,
+                        "duration": "3 h",
+                        "atmosphere": "flowing ammonia gas",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "chemical analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1.05Mn2O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Oxygen loss during high-temperature quenching at 800\u00b0C and 925\u00b0C.",
+                "type": "chemical",
+                "impact": "Oxygen loss alters the stoichiometry and structural integrity of the spinel phase, leading to the formation of an additional lithium-rich phase (Li2MnO3)."
+            },
+            "solution": {
+                "description": "Structural refinements were performed to understand the mechanism of oxygen loss and its impact on the spinel lattice.",
+                "methodology": "Neutron powder diffraction and Rietveld refinement techniques were used to analyze site occupancies and atomic displacement parameters.",
+                "effectiveness": "The solution provided detailed insights into the structural changes but did not prevent oxygen loss during quenching."
+            },
+            "evidence": {
+                "source": "Results section, Table 2, and Figure 1.",
+                "data": "Neutron diffraction patterns showed increased atomic displacement parameters for oxygen and the presence of Li2MnO3 impurity phase."
+            },
+            "context": {
+                "material_properties": "Spinel structure with mixed cation occupancy and oxygen vacancies.",
+                "experimental_conditions": "Quenching from high temperatures (800\u00b0C and 925\u00b0C).",
+                "application_relevance": "Understanding oxygen loss is critical for optimizing the material's performance as a cathode in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li1.33Mn1.67O4",
+            "stage": "post-processing",
+            "challenge": {
+                "description": "Oxygen vacancies induced by low-temperature ammonia treatment at 200\u00b0C.",
+                "type": "chemical",
+                "impact": "Oxygen vacancies lead to a decrease in manganese oxidation state and structural changes, including increased atomic displacement parameters and altered stoichiometry."
+            },
+            "solution": {
+                "description": "Refinement of structural models to account for oxygen vacancies and their effects on the spinel lattice.",
+                "methodology": "Neutron powder diffraction and Rietveld refinement were used to quantify oxygen vacancies and analyze structural changes.",
+                "effectiveness": "The solution confirmed the occurrence of oxygen vacancies but did not mitigate their formation during ammonia treatment."
+            },
+            "evidence": {
+                "source": "Results section, Table 3, and Figure 3.",
+                "data": "Refined atomic occupations showed decreased oxygen occupancy and a reduction in average manganese valence from 3.75 to 3.63."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cubic symmetry and oxygen vacancies.",
+                "experimental_conditions": "Ammonia gas treatment at 200\u00b0C for 3 hours.",
+                "application_relevance": "Oxygen vacancies impact the electrochemical performance of the material in battery applications."
+            }
+        },
+        {
+            "material": "Li1.05Mn2O4 quenched at 925\u00b0C",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Poor agreement in structural refinement due to elongated nuclear densities near oxygen atom sites.",
+                "type": "structural",
+                "impact": "Elongated nuclear densities suggest static disorder of oxygen atoms, complicating accurate structural modeling."
+            },
+            "solution": {
+                "description": "Introduction of anisotropic atomic displacement parameters for oxygen atoms in the structural model.",
+                "methodology": "Difference Fourier maps and refinement of anisotropic displacement parameters were used to improve the model.",
+                "effectiveness": "The solution reduced reliability factors (R81 decreased from 17.0 to 8.48), improving the structural model's accuracy."
+            },
+            "evidence": {
+                "source": "Results section, Table 2, and Figure 2.",
+                "data": "Fourier maps showed residual nuclear densities around oxygen positions, and refined anisotropic displacement parameters improved reliability factors."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Jahn-Teller distorted tetragonal symmetry.",
+                "experimental_conditions": "Quenching from 925\u00b0C and subsequent neutron diffraction analysis.",
+                "application_relevance": "Accurate structural modeling is essential for understanding material behavior and optimizing its use in energy storage applications."
+            }
+        }
+    ]
+}

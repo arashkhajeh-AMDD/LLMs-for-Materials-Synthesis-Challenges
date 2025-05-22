@@ -1,0 +1,89 @@
+{
+    "file_name": "1-s2.0-S092583889801007X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "(1-2x)LiMnO_xLiFeO",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Fe",
+                        "concentration": null
+                    },
+                    {
+                        "element": "Mn",
+                        "concentration": null
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "iron\u2013manganese oxide precursors",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiCO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "600\u2013750\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Precursor Coprecipitation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Fe(III)Mn(II)-hydroxides",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "(Fe,Mn)-nitrates",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "150\u00b0C",
+                        "pressure": "4.763 \u00d7 10^5 Pa",
+                        "duration": "4 days",
+                        "atmosphere": null,
+                        "equipment": "autoclave"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Infrared spectroscopy",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

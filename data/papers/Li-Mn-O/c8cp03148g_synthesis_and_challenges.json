@@ -1,0 +1,269 @@
+{
+    "file_name": "c8cp03148g",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": "monoclinic (C2/m)",
+                "dopants": [],
+                "morphology": "microspherical agglomerates with sizes of 5\u201315 \u03bcm",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "transition metal acetates",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "urea",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "mixed solution of ethanol and distilled water (2:1 volume ratio)",
+                        "precipitant": null,
+                        "temperature": "200 \u00b0C",
+                        "pressure": null,
+                        "duration": "36 h",
+                        "atmosphere": null,
+                        "equipment": "autoclave"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Washing and Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "80 \u00b0C",
+                        "pressure": null,
+                        "duration": "overnight",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Lithiation and Sintering",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "as-prepared carbonate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "stoichiometric lithium hydroxide",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder X-ray diffraction (XRD)",
+                        "parameters": "Cu K\u03b1 source (\u03bb = 1.54056 \u00c5, 2\u03bb = 1.54439 \u00c5)"
+                    },
+                    {
+                        "name": "Field Emission Scanning Electron Microscopy (FESEM)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Energy Dispersive X-ray (EDX)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray Photoelectron Spectroscopy (XPS)",
+                        "parameters": "non-monochromatic Al K\u03b1 radiation (1486.6 eV)"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.17Ni0.17Mn0.5Co0.17O2",
+                "phase": "two-phase model (monoclinic C2/m and rhombohedral R%3m)",
+                "dopants": [
+                    {
+                        "element": "Ni",
+                        "concentration": "0.17"
+                    },
+                    {
+                        "element": "Co",
+                        "concentration": "0.17"
+                    }
+                ],
+                "morphology": "microspherical agglomerates with sizes of 5\u201315 \u03bcm",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "transition metal acetates",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "urea",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "mixed solution of ethanol and distilled water (2:1 volume ratio)",
+                        "precipitant": null,
+                        "temperature": "200 \u00b0C",
+                        "pressure": null,
+                        "duration": "36 h",
+                        "atmosphere": null,
+                        "equipment": "autoclave"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Washing and Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": "80 \u00b0C",
+                        "pressure": null,
+                        "duration": "overnight",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Lithiation and Sintering",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "as-prepared carbonate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "stoichiometric lithium hydroxide",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder X-ray diffraction (XRD)",
+                        "parameters": "Cu K\u03b1 source (\u03bb = 1.54056 \u00c5, 2\u03bb = 1.54439 \u00c5)"
+                    },
+                    {
+                        "name": "Field Emission Scanning Electron Microscopy (FESEM)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Energy Dispersive X-ray (EDX)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray Photoelectron Spectroscopy (XPS)",
+                        "parameters": "non-monochromatic Al K\u03b1 radiation (1486.6 eV)"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1.17Ni0.17Mn0.5Co0.17O2",
+            "stage": "application",
+            "challenge": {
+                "description": "High irreversible capacity loss with oxygen removal during the first charge.",
+                "type": "chemical",
+                "impact": "This reduces the efficiency and energy density of the material, undermining its commercial viability for applications like electric vehicles."
+            },
+            "solution": {
+                "description": "Density Functional Theory (DFT) calculations were used to analyze the electronic structure and charge transfer mechanism to understand and mitigate oxygen removal.",
+                "methodology": "First-principles calculations combined with experimental analysis.",
+                "effectiveness": "The study provided insights into the electronic origin of oxygen removal, but further optimization is required for practical applications."
+            },
+            "evidence": {
+                "source": "Discussion in the text regarding DFT analysis and experimental findings.",
+                "data": "DFT calculations revealed the role of oxygen p-orbitals near the Fermi energy in facilitating oxygen removal."
+            },
+            "context": {
+                "material_properties": "High specific capacity (B250 mAh g\u22121) and layered structure.",
+                "experimental_conditions": "Initial activation during the first charge cycle.",
+                "application_relevance": "Critical for high-energy-density cathode materials in electric vehicles."
+            }
+        },
+        {
+            "material": "Li1.17Ni0.17Mn0.5Co0.17O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Low electronic conductivity.",
+                "type": "structural",
+                "impact": "Limits the rate capability and overall performance of the material in practical applications."
+            },
+            "solution": {
+                "description": "Incorporation of Co in the LiM2 layer to reduce the band gap and improve electronic conductivity.",
+                "methodology": "Substitution of transition metals and analysis of electronic structure using DFT.",
+                "effectiveness": "Co substitution reduced the band gap, facilitating better electronic conductivity, but further studies are needed to optimize the material."
+            },
+            "evidence": {
+                "source": "Discussion on Co substitution and its effect on electronic structure.",
+                "data": "DFT calculations showed reduced band gap with Co substitution."
+            },
+            "context": {
+                "material_properties": "Layered structure with transition metal substitution.",
+                "experimental_conditions": "Analysis of electronic structure during de-lithiation.",
+                "application_relevance": "Improved electronic conductivity is essential for high-rate performance in battery applications."
+            }
+        },
+        {
+            "material": "Li1.17Ni0.17Mn0.5Co0.17O2",
+            "stage": "cycling",
+            "challenge": {
+                "description": "Inevitable phase transformation from layered to spinel phase during cycling.",
+                "type": "structural",
+                "impact": "Degrades the structural stability and leads to capacity fade over cycles, reducing the lifespan of the material."
+            },
+            "solution": {
+                "description": "Convex hull plots were used to analyze stable phases and two-phase reactions during de-lithiation.",
+                "methodology": "DFT-based phase stability analysis and experimental validation.",
+                "effectiveness": "Identified stable phases and regions of two-phase reactions, but kinetic effects during cycling remain a challenge."
+            },
+            "evidence": {
+                "source": "Phase analysis using convex hull plots.",
+                "data": "Stable phases were identified at specific lithium concentrations (e.g., x = 0.5)."
+            },
+            "context": {
+                "material_properties": "Layered structure prone to phase transformation.",
+                "experimental_conditions": "Cycling-induced structural changes.",
+                "application_relevance": "Maintaining structural stability is crucial for long-term battery performance."
+            }
+        }
+    ]
+}

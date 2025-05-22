@@ -1,0 +1,148 @@
+{
+    "file_name": "akimoto-et-al-2000-single-crystal-x-ray-diffraction-study-of-the-spinel-type-limn2o4",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": "cubic spinel",
+                "dopants": [],
+                "morphology": "octahedral-shaped single crystals",
+                "purity": "free from gold contamination"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4 powder",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "lithium chloride powder",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Sealing and Heating",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4:LiCl",
+                                "stoichiometry": "1:8"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "1173 K",
+                        "pressure": null,
+                        "duration": "10 days",
+                        "atmosphere": null,
+                        "equipment": "gold tube"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Cooling",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "297 K",
+                        "pressure": null,
+                        "duration": "gradual cooling at 5 K/h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Crystal Separation",
+                    "details": {
+                        "temperature": null,
+                        "duration": "several minutes",
+                        "atmosphere": null,
+                        "equipment": "water rinsing of gold tube"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM-EDX",
+                        "parameters": "free from gold contamination"
+                    },
+                    {
+                        "name": "ICP spectroscopy",
+                        "parameters": "stoichiometric chemical composition"
+                    },
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "cubic spinel structure with Fd3hm space group"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Difficulty in synthesizing high-quality single crystals of spinel-type LiMn2O4.",
+                "type": "procedural",
+                "impact": "The lack of high-quality single crystals hinders precise structural investigations and understanding of the material's properties."
+            },
+            "solution": {
+                "description": "A flux growth method was employed using a mixture of LiMn2O4 powder and lithium chloride in a sealed gold tube, heated at 1173 K for 10 days and gradually cooled to 297 K.",
+                "methodology": "Flux growth method with controlled heating and cooling in a sealed gold tube.",
+                "effectiveness": "Successfully produced black, octahedral-shaped single crystals of about 0.05 \u00d7 0.05 \u00d7 0.05 mm\u00b3, free from gold contamination as confirmed by SEM-EDX analysis."
+            },
+            "evidence": {
+                "source": "Text and Figure 1",
+                "data": "SEM-EDX analysis confirmed the absence of gold contamination, and the crystals were characterized as stoichiometric LiMn2O4 by ICP spectroscopy."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cubic symmetry and stoichiometric composition.",
+                "experimental_conditions": "Heating at 1173 K for 10 days, followed by gradual cooling to 297 K at a rate of 5 K/h.",
+                "application_relevance": "High-quality single crystals are essential for precise structural studies and understanding the material's phase transitions and physical properties."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Presence of twinning in the orthorhombic phase at low temperatures.",
+                "type": "structural",
+                "impact": "Twinning complicates the determination of the crystal structure and lattice parameters, affecting the accuracy of structural analysis."
+            },
+            "solution": {
+                "description": "The twinning domain ratio was estimated using integrated intensity ratios, and the twin matrix was determined to account for the structural complexity.",
+                "methodology": "Single-crystal X-ray diffraction mapping and analysis of integrated intensity ratios.",
+                "effectiveness": "Enabled estimation of the twinning domain ratio (10:2:3) and determination of the twin matrix, facilitating further structural analysis."
+            },
+            "evidence": {
+                "source": "Text and Figure 2",
+                "data": "Reciprocal space mapping at 230 K showed three peaks corresponding to twinning components, with a domain ratio of 10:2:3."
+            },
+            "context": {
+                "material_properties": "Orthorhombic symmetry at low temperatures with twinning components.",
+                "experimental_conditions": "Characterization performed at 230 K using single-crystal X-ray diffraction.",
+                "application_relevance": "Understanding twinning is crucial for accurate modeling of the material's low-temperature structural properties."
+            }
+        }
+    ]
+}

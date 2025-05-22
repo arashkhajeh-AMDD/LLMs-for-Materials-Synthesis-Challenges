@@ -1,0 +1,159 @@
+{
+    "file_name": "1-s2.0-S0022459603001890-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": "Spinel",
+                "dopants": [],
+                "morphology": null,
+                "purity": "Phase-pure within the sensitivity of X-ray diffraction"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium carbonate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese carbonate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "Air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium carbonate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Ground \u03b2-MnO2 oxide",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800\u2013850\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "Air",
+                        "equipment": "Furnace"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "450\u2013470\u00b0C",
+                        "duration": "24 hours",
+                        "atmosphere": "1 atm oxygen",
+                        "equipment": "Tubular furnace"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "High-Pressure Annealing",
+                    "details": {
+                        "temperature": "470\u00b0C",
+                        "duration": "14\u201324 hours",
+                        "atmosphere": "Oxygen pressure >1 atm",
+                        "equipment": "Gold crucible in stainless steel autoclave"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "Cu K\u03b1 radiation"
+                    },
+                    {
+                        "name": "Thermogravimetry",
+                        "parameters": "Heating/cooling rate: 2\u00b0C/min"
+                    },
+                    {
+                        "name": "Neutron powder diffraction",
+                        "parameters": "Wavelength: 1.594 \u00c5"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Mn2O3",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Formation during Annealing",
+                    "details": {
+                        "temperature": "450\u2013470\u00b0C",
+                        "duration": "24 hours",
+                        "atmosphere": "Oxygen pressure >1 atm",
+                        "equipment": "Gold crucible in stainless steel autoclave"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron powder diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "annealing",
+            "challenge": {
+                "description": "Formation of Mn2O3 as a second phase during annealing under oxygen pressure.",
+                "type": "chemical",
+                "impact": "The presence of Mn2O3 changes the reaction scheme and introduces manganese vacancies in the spinel phase, potentially affecting the material's properties and performance."
+            },
+            "solution": {
+                "description": "The authors proposed a mechanism of disproportionation of stoichiometric LiMn2O4 into a manganese-deficient spinel phase and Mn2O3.",
+                "methodology": "Structural analysis using X-ray and neutron diffraction data to confirm the reaction mechanism and manganese valence changes.",
+                "effectiveness": "The solution successfully explained the observed phenomena and was supported by experimental data, but the accuracy of the methods was limited due to the small fraction of the second phase."
+            },
+            "evidence": {
+                "source": "Sections 3.3, 3.4, and 4; Figures 2 and 4; Tables 2 and 3.",
+                "data": "X-ray diffraction patterns showing extra lines corresponding to Mn2O3 and neutron diffraction refinement results confirming manganese vacancies in the spinel phase."
+            },
+            "context": {
+                "material_properties": "LiMn2O4 has an average manganese valence of +3.5 and undergoes oxidation during annealing.",
+                "experimental_conditions": "Annealing under oxygen pressures in the range of 1\u20135 atm at temperatures around 450\u00b0C.",
+                "application_relevance": "Understanding the reaction mechanism is critical for optimizing the material for applications such as lithium-ion batteries."
+            }
+        }
+    ]
+}

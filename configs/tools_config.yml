@@ -1,0 +1,53 @@
+primary_agent:
+  llm: gpt-4o-mini
+  llm_temperature: 0.0
+
+# table_definitions_rag:
+#   unstructured_docs: "data/table-definitions"
+#   vectordb: "data/table_definitions_vectordb"
+#   collection_name: table-definitions
+#   llm: gpt-4o-mini
+#   llm_temperature: 0.0
+#   embedding_model: text-embedding-3-small
+#   chunk_size: 500
+#   chunk_overlap: 100
+#   k: 2
+
+paper_rag_configs:
+  unstructured_docs: "data/papers"
+  vectordb: "data/papers_vectordb"
+  collection_name: synthetis-papers
+  llm: gpt-4o-mini
+  llm_temperature: 0.0
+  embedding_model: text-embedding-ada-002
+  chunk_size: 1000
+  chunk_overlap: 200
+  k: 3
+
+comments_rag:
+  unstructured_docs: "data/comments-energy.csv"
+  vectordb: "data/chroma"
+  collection_name: comments-energy
+  llm: gpt-4o-mini
+  llm_temperature: 0.0
+  embedding_model: text-embedding-ada-002
+  chunk_size: 500
+  chunk_overlap: 100
+  k: 2
+
+icdd_sqlagent_configs:
+  icdd_sqldb_dir: "data/ICDD-energy.db"
+  llm: "gpt-4"
+  llm_temperature: 0.0
+  
+
+langsmith:
+  tracing: "true"
+  project_name: "rag_sqlagent_project"
+
+tavily_search_api:
+  tavily_search_max_results: 3
+
+graph_configs:
+  thread_id: 1 # This can be adjusted to assign a unique value for each user session, so it's easier to access data later on.
+  

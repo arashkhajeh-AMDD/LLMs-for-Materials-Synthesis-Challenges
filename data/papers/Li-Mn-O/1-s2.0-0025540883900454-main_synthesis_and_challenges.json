@@ -1,0 +1,142 @@
+{
+    "file_name": "1-s2.0-0025540883900454-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMnO2k",
+                "phase": "tetragonal",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Lithium Intercalation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "n-butyl lithium",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li0.02MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "hexane",
+                        "precipitant": null,
+                        "temperature": "ambient",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "electron diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "crystal structure refinement",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "LixMnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Acid Treatment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "acidic aqueous solutions",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "water",
+                        "precipitant": null,
+                        "temperature": "ambient",
+                        "pressure": null,
+                        "duration": "5 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Oxidizing Agent Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "oxidizing agents (Br2, H2O2, K2S2O8)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "water or acetonitrile",
+                        "precipitant": null,
+                        "temperature": "20\u00b0C",
+                        "pressure": null,
+                        "duration": "20 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Drying",
+                    "details": {
+                        "temperature": "100\u00b0C",
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "electron diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

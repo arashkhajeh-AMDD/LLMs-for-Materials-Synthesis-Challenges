@@ -1,0 +1,188 @@
+{
+    "file_name": "1-s2.0-S037877531500470X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "0.5Li2MnO3-0.5LiNi0.33Co0.33Mn0.33O2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "lithium acetate (Li(CH3COO)\u00b72H2O)",
+                                "stoichiometry": "0.05 mol"
+                            },
+                            {
+                                "name": "nickel acetate (Ni(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": "stoichiometric amount"
+                            },
+                            {
+                                "name": "cobalt nitrate (Co(NO3)2\u00b76H2O)",
+                                "stoichiometry": "stoichiometric amount"
+                            },
+                            {
+                                "name": "manganese acetate (Mn(CH3COO)2\u00b74H2O)",
+                                "stoichiometry": "stoichiometric amount"
+                            }
+                        ],
+                        "solvent": "190 ml distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Solution Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "nitric acid (HNO3)",
+                                "stoichiometry": "10 ml (60%)"
+                            },
+                            {
+                                "name": "citric acid (C6H8O7)",
+                                "stoichiometry": "15 ml"
+                            },
+                            {
+                                "name": "ethylene glycol (C2H6O2)",
+                                "stoichiometry": "15 ml"
+                            }
+                        ],
+                        "solvent": "aqueous solution",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "pH Adjustment and Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "ammonium hydroxide",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "950\u00b0C",
+                        "duration": "5 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "High-resolution synchrotron X-ray powder diffraction (HRPD)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "In situ XRD",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "0.5Li2MnO3-0.5LiNi0.33Co0.33Mn0.33O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Thermal decomposition of the material is accelerated in the presence of electrolyte.",
+                "type": "chemical",
+                "impact": "This acceleration leads to structural instability and formation of secondary phases, which can compromise the safety and performance of lithium-ion batteries."
+            },
+            "solution": {
+                "description": "In situ X-ray diffraction was used to monitor thermal behavior and phase transitions under simulated real-life battery conditions.",
+                "methodology": "Utilization of synchrotron-based in situ XRD to study structural changes during heating in the presence of electrolyte.",
+                "effectiveness": "The technique provided detailed insights into the thermal degradation mechanism, enabling better understanding of the material's behavior."
+            },
+            "evidence": {
+                "source": "Sections discussing thermal decomposition in the presence of electrolyte (e.g., Figures 3 and 4, and related text).",
+                "data": "Observed phase transitions to rock salt and metallic phases at ~422\u00b0C and ~600\u00b0C in the presence of electrolyte."
+            },
+            "context": {
+                "material_properties": "High discharge capacity (~250 mAh/g) and additional Mn4+ content contributing to thermal stability.",
+                "experimental_conditions": "Heating from 25\u00b0C to 600\u00b0C in the presence of electrolyte.",
+                "application_relevance": "Understanding thermal decomposition is critical for designing safer high-energy lithium-ion batteries."
+            }
+        },
+        {
+            "material": "0.5Li2MnO3-0.5LiNi0.33Co0.33Mn0.33O2",
+            "stage": "testing",
+            "challenge": {
+                "description": "Defect sites in the fully charged state act as nucleation sites for new phases during thermal decomposition in the presence of electrolyte.",
+                "type": "structural",
+                "impact": "These defect sites lead to the formation of undesirable secondary phases, reducing the material's stability and performance."
+            },
+            "solution": {
+                "description": "Detailed phase analysis using Pawley fitting of diffraction patterns at selected temperatures.",
+                "methodology": "Pawley fitting was chosen over Rietveld refinement due to the presence of imperfect crystalline phases during heating.",
+                "effectiveness": "The fitting successfully identified new phases such as metal carbonates and metal fluorides formed during thermal decomposition."
+            },
+            "evidence": {
+                "source": "Discussion on defect sites and phase evolution in the presence of electrolyte (e.g., Figure 4 and related text).",
+                "data": "Formation of metal carbonate (R-3c type hexagonal phase) and rutile-type metal fluoride phases at ~422\u00b0C and ~600\u00b0C."
+            },
+            "context": {
+                "material_properties": "Contains defect sites after activation of Li2MnO3 domain.",
+                "experimental_conditions": "Thermal testing in the presence of electrolyte at elevated temperatures.",
+                "application_relevance": "Defect-induced phase transitions impact the material's suitability for practical battery applications."
+            }
+        },
+        {
+            "material": "0.5Li2MnO3-0.5LiNi0.33Co0.33Mn0.33O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Thermal instability towards electrolyte in electrochemically delithiated state.",
+                "type": "chemical",
+                "impact": "This instability leads to oxygen release and formation of secondary phases, compromising battery safety and performance."
+            },
+            "solution": {
+                "description": "Study of thermal behavior using in situ XRD to understand phase transitions and structural changes.",
+                "methodology": "Synchrotron-based in situ XRD was employed to monitor phase evolution during heating in the presence of electrolyte.",
+                "effectiveness": "Provided crucial insights into the material's thermal decomposition mechanism, aiding in the design of safer batteries."
+            },
+            "evidence": {
+                "source": "Sections discussing oxygen release and defect sites in the delithiated state (e.g., Figure 5 and related text).",
+                "data": "Observed formation of rock salt and metallic phases at elevated temperatures in the presence of electrolyte."
+            },
+            "context": {
+                "material_properties": "Electrochemically delithiated state with defect sites after activation of Li2MnO3 domain.",
+                "experimental_conditions": "Heating in the presence of electrolyte to simulate real-life battery conditions.",
+                "application_relevance": "Thermal instability impacts the material's safety and reliability in commercial lithium-ion batteries."
+            }
+        }
+    ]
+}

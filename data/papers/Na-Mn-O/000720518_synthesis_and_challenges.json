@@ -1,0 +1,541 @@
+{
+    "file_name": "000720518",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Na0.67MnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": "99%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(CH3COO)2\u00b74H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "pH Adjustment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH3\u00b7H2O (28%)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sol Preparation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Gel Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "120\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Intermediate Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "450\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "15 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Cooling",
+                    "details": {
+                        "temperature": "room temperature",
+                        "duration": null,
+                        "atmosphere": "argon-filled glovebox",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.67M0.1Mn0.9O2 (M = Li+, Mg2+, Al3+)",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Li",
+                        "concentration": "0.1"
+                    },
+                    {
+                        "element": "Mg",
+                        "concentration": "0.1"
+                    },
+                    {
+                        "element": "Al",
+                        "concentration": "0.1"
+                    }
+                ],
+                "morphology": null,
+                "purity": "99%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(CH3COO)2\u00b74H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mg(NO3)2\u00b76H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Al(NO3)3\u00b79H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "pH Adjustment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH3\u00b7H2O (28%)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sol Preparation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Gel Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "120\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Intermediate Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "450\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "15 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Cooling",
+                    "details": {
+                        "temperature": "room temperature",
+                        "duration": null,
+                        "atmosphere": "argon-filled glovebox",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.67Al0.1Fe0.05Mn0.85O2",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Al",
+                        "concentration": "0.1"
+                    },
+                    {
+                        "element": "Fe",
+                        "concentration": "0.05"
+                    }
+                ],
+                "morphology": null,
+                "purity": "99%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(CH3COO)2\u00b74H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Al(NO3)3\u00b79H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Fe(NO3)3\u00b79H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "pH Adjustment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH3\u00b7H2O (28%)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sol Preparation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Gel Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "120\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Intermediate Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "450\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "15 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Cooling",
+                    "details": {
+                        "temperature": "room temperature",
+                        "duration": null,
+                        "atmosphere": "argon-filled glovebox",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Na0.67MnO2",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Formation of Mn vacancies during cooling process.",
+                "type": "structural",
+                "impact": "Mn vacancies lead to structural distortion and reduced electrochemical performance."
+            },
+            "solution": {
+                "description": "Liquid N2 quenching was employed to suppress Mn vacancies.",
+                "methodology": "Rapid cooling using liquid nitrogen to freeze the material immediately.",
+                "effectiveness": "Highly effective in eliminating Mn vacancies and improving atomic occupancy of Mn ions."
+            },
+            "evidence": {
+                "source": "Section 3.1, Figures 1 and 2, Table S2",
+                "data": "Atomic occupancy of Mn ions increased to 1.0, eliminating TM vacancies."
+            },
+            "context": {
+                "material_properties": "Layered structure with P2 phase; Mn ions are critical for redox activity.",
+                "experimental_conditions": "Cooling rate accelerated using liquid nitrogen at -196\u00b0C.",
+                "application_relevance": "Improved structural integrity and electrochemical performance for sodium-ion batteries."
+            }
+        },
+        {
+            "material": "Na0.67Al0.1Fe0.05Mn0.85O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Notorious Jahn-Teller effect caused by high Mn3+ content.",
+                "type": "chemical",
+                "impact": "Leads to multiphase transitions during cycling and poor long-term cycling stability."
+            },
+            "solution": {
+                "description": "Co-doping with Al and Fe to adjust Mn average valence and suppress Jahn-Teller distortions.",
+                "methodology": "Introduction of Al and Fe elements to stabilize the structure and moderate Mn oxidation states.",
+                "effectiveness": "Significantly enhanced cycling stability and suppressed phase transitions."
+            },
+            "evidence": {
+                "source": "Section 3.4, Figures 6 and 7, Table S5",
+                "data": "Cycling stability improved to 81% capacity retention after 600 cycles at 1200 mA g-1."
+            },
+            "context": {
+                "material_properties": "Layered structure with P2 phase; Al and Fe doping stabilize Mn oxidation states.",
+                "experimental_conditions": "Electrochemical testing under high current densities.",
+                "application_relevance": "Enhanced cycling stability and rate capability for high-performance sodium-ion batteries."
+            }
+        },
+        {
+            "material": "Na0.67MxMn1-xO2 (M = Li+, Mg2+, Al3+, Fe3+)",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Orthorhombic distortion in materials with low theoretical Mn valence.",
+                "type": "structural",
+                "impact": "Distortion reduces structural stability and negatively affects electrochemical performance."
+            },
+            "solution": {
+                "description": "Faster cooling treatments, including liquid N2 quenching, to suppress orthorhombic distortion.",
+                "methodology": "Rapid cooling to maintain high-temperature structure and suppress TM vacancies.",
+                "effectiveness": "Effective in reducing distortion and improving uniformity of local environment."
+            },
+            "evidence": {
+                "source": "Section 3.4, Figures 6 and 7, Table S4",
+                "data": "Degree of distortion reduced to 2.91% for Na0.67Al0.1Fe0.05Mn0.85O2."
+            },
+            "context": {
+                "material_properties": "Layered structure with P2 phase; Mn valence critical for stability.",
+                "experimental_conditions": "Cooling rates varied from natural cooling to liquid N2 quenching.",
+                "application_relevance": "Improved structural stability and electrochemical performance for sodium-ion batteries."
+            }
+        }
+    ]
+}

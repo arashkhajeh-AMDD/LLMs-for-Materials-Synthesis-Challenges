@@ -1,0 +1,67 @@
+{
+    "file_name": "Zeitschrift anorg allge chemie - September 1969 - Dittrich - Zur Kristallstruktur von LiMnO2",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMnO",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn2O3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Sealing and Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750\u00b0C",
+                        "pressure": null,
+                        "duration": "3 days",
+                        "atmosphere": "Argon",
+                        "equipment": "Silver bomb"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Powder diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

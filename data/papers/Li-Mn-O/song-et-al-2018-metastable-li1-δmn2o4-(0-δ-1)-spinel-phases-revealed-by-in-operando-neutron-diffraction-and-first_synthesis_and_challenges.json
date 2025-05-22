@@ -1,0 +1,198 @@
+{
+    "file_name": "song-et-al-2018-metastable-li1-\u03b4mn2o4-(0-\u03b4-1)-spinel-phases-revealed-by-in-operando-neutron-diffraction-and-first",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": "cubic",
+                "dopants": [],
+                "morphology": "powder",
+                "purity": "99.5%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "graphite",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "carbon black",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "polyvinylidene fluoride (PVDF)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "N-methyl-2-pyrrolidone (NMP)",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Slurry Coating",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4 slurry",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "hot plate"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Electrode Punching",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Template Removal",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaOH solution (1.0 M)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "1.5 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Drying",
+                    "details": {
+                        "temperature": null,
+                        "duration": "overnight",
+                        "atmosphere": "vacuum",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Scanning Electron Microscopy (SEM)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Energy-Dispersive X-ray Spectroscopy (EDX)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron Powder Diffraction (NPD)",
+                        "parameters": "center wavelength = 1.33 \u00c5"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1+\u03b4Mn2O4 (0 \u2264 \u03b4 \u2264 1)",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Preparation of an extremely thick electrode with high active material loading for neutron diffraction studies.",
+                "type": "procedural",
+                "impact": "High loading density is required to ensure sufficient material for neutron diffraction, but achieving this without compromising electrode performance is challenging."
+            },
+            "solution": {
+                "description": "A novel methodology was developed using aluminum foam as a sacrificial template to produce a highly porous, thick electrode with a 3-dimensional conducting pathway.",
+                "methodology": "Utilized aluminum foam to create a porous structure while maintaining high active material loading (\u223c378 mg\u00b7cm\u22122).",
+                "effectiveness": "The electrode achieved \u223c40 mAh\u00b7cm\u22122 areal capacity, which is almost an order of magnitude larger than commercial LIBs, demonstrating the success of the approach."
+            },
+            "evidence": {
+                "source": "Experimental Section 2.1 and Results Section 3.1",
+                "data": "The electrode contained 0.33 g of LiMn2O4 powder with a loading density of \u223c378 mg\u00b7cm\u22122, as shown in Figure 2."
+            },
+            "context": {
+                "material_properties": "High porosity and 3-dimensional conducting pathways for electron transport.",
+                "experimental_conditions": "Electrode thickness of \u223c6.5 mm and use of aluminum foam as a template.",
+                "application_relevance": "Critical for in operando neutron diffraction studies to monitor phase transitions during cycling."
+            }
+        },
+        {
+            "material": "Li1+\u03b4Mn2O4 (0 \u2264 \u03b4 \u2264 1)",
+            "stage": "testing",
+            "challenge": {
+                "description": "Minimizing background noise in neutron diffraction data caused by hydrogen-rich components in the electrochemical cell.",
+                "type": "procedural",
+                "impact": "High background noise can obscure critical structural information about the material under study."
+            },
+            "solution": {
+                "description": "Designed a neutron-compatible electrochemical cell using deuterated electrolytes and glass fiber separators to reduce hydrogen scattering.",
+                "methodology": "Replaced conventional components with deuterated EC/DMC electrolyte and glass fiber separators to minimize hydrogen content.",
+                "effectiveness": "The approach successfully reduced background noise, enabling clear observation of diffraction peaks from the active material."
+            },
+            "evidence": {
+                "source": "Experimental Section 2.3 and Results Section 3.2",
+                "data": "Neutron diffraction patterns showed minimized unwanted peaks from the sample environment, as highlighted in Figure 3d, e."
+            },
+            "context": {
+                "material_properties": "Sensitivity of neutron diffraction to light elements like lithium and oxygen.",
+                "experimental_conditions": "Use of deuterated electrolyte (1.10 M LiPF6 in 31 wt% d-EC and 69 wt% d-DMC) and glass fiber separators.",
+                "application_relevance": "Essential for accurate in operando neutron diffraction studies of lithium-ion battery materials."
+            }
+        },
+        {
+            "material": "Li1+\u03b4Mn2O4 (0 \u2264 \u03b4 \u2264 1)",
+            "stage": "application",
+            "challenge": {
+                "description": "Irreversible phase transition at the 2.7 V plateau due to Jahn-Teller distortion of Mn3+ in the tetragonal phase.",
+                "type": "structural",
+                "impact": "The distortion causes anisotropic strain, leading to particle fracture and internal contact loss upon cycling, which degrades battery performance."
+            },
+            "solution": {
+                "description": "Proposed a comprehensive understanding of reaction mechanisms involving solid-solution regions within both cubic and tetragonal phases.",
+                "methodology": "Used in operando neutron diffraction and first-principles calculations to identify intermediate metastable phases and their structural evolution.",
+                "effectiveness": "The findings redefined the conventional understanding of two-phase reactions and provided insights into mitigating structural degradation."
+            },
+            "evidence": {
+                "source": "Results Section 3.2 and 3.3",
+                "data": "Observed continuous variation in Mn-O bond lengths during cycling, indicating the presence of solid-solution regions, as shown in Figures 5 and S8."
+            },
+            "context": {
+                "material_properties": "Jahn-Teller distortion in Mn3+ leads to significant changes in axial ratio (c/a) from 1.0 to 1.6.",
+                "experimental_conditions": "Cycling between 4.4 and 2.0 V with in operando neutron diffraction monitoring.",
+                "application_relevance": "Understanding and mitigating phase transitions is critical for improving the cycling stability of lithium-ion batteries."
+            }
+        }
+    ]
+}

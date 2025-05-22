@@ -1,0 +1,142 @@
+{
+    "file_name": "1-s2.0-S016727380600703X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "HT-LiMnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(NO3)2\u00b74H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heat Treatment",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "400\u00b0C",
+                        "pressure": null,
+                        "duration": "5 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Pellet Formation and Heat Treatment",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "500\u00b0C",
+                        "pressure": null,
+                        "duration": "3 h",
+                        "atmosphere": "Ar",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Sintering",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Synchrotron Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "HT-LiMnO2",
+            "stage": "testing",
+            "challenge": {
+                "description": "Irreversible structural change during the first charge process, transforming orthorhombic HT-LiMnO2 into a new phase (Phase II).",
+                "type": "structural",
+                "impact": "This structural change affects the electrochemical properties and limits the material's initial discharge capacity."
+            },
+            "solution": {
+                "description": "The authors identified Phase II as a metastable transition phase that easily converts to spinel LiMn2O4 in subsequent cycles.",
+                "methodology": "In situ synchrotron diffraction was used to monitor the structural evolution and confirm the transformation process.",
+                "effectiveness": "The solution was effective in explaining the capacity increase in subsequent cycles, but the exact crystal structure of Phase II remains unresolved."
+            },
+            "evidence": {
+                "source": "Figures 4 and 5, and discussion in the Results section.",
+                "data": "Diffraction patterns showing the appearance of new peaks corresponding to Phase II during the first charge and its gradual transformation to spinel LiMn2O4 in later cycles."
+            },
+            "context": {
+                "material_properties": "Orthorhombic structure with large cationic disorder on lithium and manganese sites.",
+                "experimental_conditions": "Charge-discharge cycling in the potential region 4.3\u20132.0 V with current density 40 mA g\u22121.",
+                "application_relevance": "Understanding the structural transitions is critical for optimizing the cycling performance and capacity retention of lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LT-LiMnO2",
+            "stage": "application",
+            "challenge": {
+                "description": "Complete conversion to spinel LiMn2O4 after the first charge without the intermediate transition to Phase II.",
+                "type": "structural",
+                "impact": "This rapid conversion limits the ability to study intermediate phases and their contributions to electrochemical performance."
+            },
+            "solution": {
+                "description": "The authors attributed the behavior to the presence of stacking faults in LT-LiMnO2, which facilitate the direct structural conversion.",
+                "methodology": "Comparison of microstructural differences between LT-LiMnO2 and HT-LiMnO2 using in situ X-ray diffraction and structural analysis.",
+                "effectiveness": "The explanation was effective in correlating stacking faults with the structural behavior, but no direct method to control or optimize this conversion was proposed."
+            },
+            "evidence": {
+                "source": "Discussion in the Results and Conclusions sections.",
+                "data": "Observation that LT-LiMnO2 directly converts to spinel LiMn2O4 after the first charge, supported by diffraction patterns and cycling performance data."
+            },
+            "context": {
+                "material_properties": "Orthorhombic structure with significant stacking faults.",
+                "experimental_conditions": "Charge-discharge cycling under similar conditions as HT-LiMnO2.",
+                "application_relevance": "The rapid conversion to spinel phase impacts the material's suitability for long-term cycling and intermediate phase studies in battery applications."
+            }
+        }
+    ]
+}

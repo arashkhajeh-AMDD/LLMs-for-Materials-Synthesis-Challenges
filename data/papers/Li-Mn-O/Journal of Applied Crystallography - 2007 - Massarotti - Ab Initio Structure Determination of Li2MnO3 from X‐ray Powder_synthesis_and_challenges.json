@@ -1,0 +1,142 @@
+{
+    "file_name": "Journal of Applied Crystallography - 2007 - Massarotti - Ab Initio Structure Determination of Li2MnO3 from X\u2010ray Powder",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "MnO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "1173 K",
+                        "pressure": null,
+                        "duration": "20 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Cooling",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "room temperature",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2MnO3",
+            "stage": "structure determination",
+            "challenge": {
+                "description": "Ambiguity in determining the correct monoclinic space group for Li2MnO3.",
+                "type": "structural",
+                "impact": "Incorrect space group assignment could lead to inaccurate structural models and misinterpretation of the material's properties."
+            },
+            "solution": {
+                "description": "Comparison of figures of merit and systematic absences allowed rejection of the incorrect space group (C2/c) in favor of the correct one (C2/m).",
+                "methodology": "Use of indexing programs (ITO and TREOR) and evaluation of systematic absences and figures of merit.",
+                "effectiveness": "The solution successfully clarified the ambiguity and aligned with literature results."
+            },
+            "evidence": {
+                "source": "Section 3.1 (Indexing) and Table 1",
+                "data": "Figures of merit and systematic absences consistent with space group C2/m."
+            },
+            "context": {
+                "material_properties": "Monoclinic structure with low symmetry.",
+                "experimental_conditions": "X-ray powder diffraction data collected using a Philips PW1710 diffractometer.",
+                "application_relevance": "Accurate structural determination is critical for understanding the material's electrochemical behavior."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "structure refinement",
+            "challenge": {
+                "description": "Presence of microstructural effects causing underestimation of calculated intensities for certain reflections.",
+                "type": "microstructural",
+                "impact": "Leads to discrepancies between observed and calculated diffraction patterns, reducing the accuracy of the refinement."
+            },
+            "solution": {
+                "description": "Acknowledged the issue and proposed further studies to analyze the influence of crystallite size and microstrain on peak shapes.",
+                "methodology": "Identification of the issue during Rietveld refinement and suggestion for future investigation.",
+                "effectiveness": "The refinement results were still considered in good agreement with literature, but the issue remains unresolved."
+            },
+            "evidence": {
+                "source": "Section 4 (Discussion) and Figure 2",
+                "data": "Observed underestimation of calculated intensities for certain reflections attributed to microstructural effects."
+            },
+            "context": {
+                "material_properties": "Crystallite size and microstrain effects influencing diffraction peak shapes.",
+                "experimental_conditions": "Rietveld refinement performed on X-ray powder diffraction data.",
+                "application_relevance": "Understanding microstructural effects is important for accurate modeling of material properties."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "structure refinement",
+            "challenge": {
+                "description": "Negative isotropic thermal factor (Biso) value for the Li1 site.",
+                "type": "thermal/structural",
+                "impact": "Anomalous thermal factor values can indicate issues with the structural model or data quality, potentially affecting the reliability of the refinement."
+            },
+            "solution": {
+                "description": "Increased electron density at the Li1 site by considering variable occupation factors for Li and Mn.",
+                "methodology": "Adjustment of site occupation factors during refinement.",
+                "effectiveness": "The refined values were deemed reliable despite the negative thermal factor persisting."
+            },
+            "evidence": {
+                "source": "Section 4 (Discussion) and Table 4",
+                "data": "Negative Biso value for Li1 site and refined occupation factors for Li and Mn."
+            },
+            "context": {
+                "material_properties": "Li1 site exhibiting anomalous thermal behavior.",
+                "experimental_conditions": "Rietveld refinement using X-ray powder diffraction data.",
+                "application_relevance": "Accurate thermal parameters are essential for understanding atomic vibrations and stability."
+            }
+        }
+    ]
+}

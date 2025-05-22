@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "glob": "^11.0.2",
+    "ink-divider": "^4.1.1",
+    "rimraf": "^6.0.1"
+  }
+}

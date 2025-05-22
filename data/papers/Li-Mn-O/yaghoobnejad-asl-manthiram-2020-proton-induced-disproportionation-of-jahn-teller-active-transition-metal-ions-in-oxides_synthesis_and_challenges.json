@@ -1,0 +1,169 @@
+{
+    "file_name": "yaghoobnejad-asl-manthiram-2020-proton-induced-disproportionation-of-jahn-teller-active-transition-metal-ions-in-oxides",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "CaFeO3",
+                "phase": "perovskite",
+                "dopants": [],
+                "morphology": null,
+                "purity": "40% Fe4+ in the obtained mixture"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Soft Chemical Oxidation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "CaFeO2.5",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Sodium hypochlorite",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Iodometric redox titration",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "\u03bb-MnO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Acid Treatment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMn2O4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "2 N H2SO4 solution prepared with 18O-enriched water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "overnight",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Time-of-flight secondary-ion mass spectrometry (ToF-SIMS)",
+                        "parameters": "18O and 16O ions"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "CaFeO3",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Incomplete oxidation of CaFeO2.5 to CaFeO3 due to limited concentration of sodium hypochlorite solution (6%).",
+                "type": "chemical",
+                "impact": "Resulted in a mixture with only ~40% Fe4+ content, limiting the purity and effectiveness of the synthesized material."
+            },
+            "solution": {
+                "description": "Used iodometric redox titration to quantify Fe4+ content and proceeded with further characterization.",
+                "methodology": "Chemical titration and analysis techniques.",
+                "effectiveness": "Partially effective; the synthesized material still contained impurities and incomplete oxidation."
+            },
+            "evidence": {
+                "source": "Experimental Section",
+                "data": "Iodometric redox titration results indicated ~40% Fe4+ in the obtained mixture."
+            },
+            "context": {
+                "material_properties": "CaFeO3 is a perovskite oxide with Fe4+ ions critical for its electronic and catalytic properties.",
+                "experimental_conditions": "Oxidation performed using 6% sodium hypochlorite solution.",
+                "application_relevance": "Incomplete oxidation impacts the material's performance in applications requiring high-purity Fe4+ phases."
+            }
+        },
+        {
+            "material": "LiNiO2",
+            "stage": "application",
+            "challenge": {
+                "description": "Severe oxidative delithiation during acid treatment, leading to structural changes and reduction in layer spacing.",
+                "type": "structural",
+                "impact": "Adverse crystal structure changes and reduced interlayer spacing from 4.73 \u00c5 to 4.32 \u00c5, affecting material stability and performance."
+            },
+            "solution": {
+                "description": "Characterized the resultant NiO2 phase using XRD and magnetic susceptibility measurements.",
+                "methodology": "Structural and magnetic characterization techniques.",
+                "effectiveness": "Effective in identifying the extent of structural changes but did not mitigate the degradation."
+            },
+            "evidence": {
+                "source": "Results and Discussion",
+                "data": "XRD patterns showed distorted layered lattice, and magnetic susceptibility measurements indicated disrupted interlayer magnetic interactions."
+            },
+            "context": {
+                "material_properties": "LiNiO2 is a layered oxide with Jahn-Teller active Ni3+ ions, critical for its electrochemical properties.",
+                "experimental_conditions": "Acid treatment induced oxidative delithiation.",
+                "application_relevance": "Structural degradation impacts its use in lithium-ion batteries and other electrochemical systems."
+            }
+        },
+        {
+            "material": "Sr1.286NiO3",
+            "stage": "application",
+            "challenge": {
+                "description": "Rapid dissolution and O2 evolution during acid treatment due to high redox potential of Ni4+ ions.",
+                "type": "chemical",
+                "impact": "Complete dissolution of the solid within minutes, preventing isolation of the material for further use."
+            },
+            "solution": {
+                "description": "Confirmed O2 evolution using a home-built O2 detector and characterized dissolution behavior.",
+                "methodology": "Gas detection and dissolution analysis techniques.",
+                "effectiveness": "Effective in understanding the dissolution mechanism but did not prevent material loss."
+            },
+            "evidence": {
+                "source": "Results and Discussion",
+                "data": "O2 evolution confirmed by gas detector; rapid dissolution observed in acid treatment experiments."
+            },
+            "context": {
+                "material_properties": "Sr1.286NiO3 contains Jahn-Teller active Ni3+ ions and exhibits high redox potential.",
+                "experimental_conditions": "Acid treatment in aqueous solution.",
+                "application_relevance": "Material instability limits its use in electrochemical applications requiring solid-phase stability."
+            }
+        }
+    ]
+}

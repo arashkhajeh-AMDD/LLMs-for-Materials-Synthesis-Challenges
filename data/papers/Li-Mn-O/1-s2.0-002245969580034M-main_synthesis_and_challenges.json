@@ -1,0 +1,183 @@
+{
+    "file_name": "1-s2.0-002245969580034M-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4 (Sample A)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "manganese dioxide (International Common Sample, No. 12, Sedema, Belgium)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "470\u00b0C",
+                        "pressure": null,
+                        "duration": "12 hr",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "700\u00b0C",
+                        "pressure": null,
+                        "duration": "24 hr",
+                        "atmosphere": "N2",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Chemical analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Atomic adsorption spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray diffraction (XRD)",
+                        "parameters": "Fe K\u03b1 radiation, monochromated by a graphite crystal"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1+xMn2O4 (Sample B)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "CMD",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "470\u00b0C",
+                        "pressure": null,
+                        "duration": "12 hr",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "700\u00b0C",
+                        "pressure": null,
+                        "duration": "24 hr",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Chemical analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Atomic adsorption spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray diffraction (XRD)",
+                        "parameters": "Fe K\u03b1 radiation, monochromated by a graphite crystal"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4 (Sample A)",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity fading during cycling occurs in the higher charge voltage range (x < 0.45).",
+                "type": "structural",
+                "impact": "This problem limits the material's long-term performance and reliability as a cathode in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Use of nonstoichiometric spinel Li1+xMn2O4 (Sample B) synthesized via the melt-impregnation method.",
+                "methodology": "Modification of stoichiometry to introduce manganese vacancies in the spinel structure.",
+                "effectiveness": "Highly effective, as Sample B preserved about 98% of its initial capacity for the first 100 cycles compared to Sample A, which lost about 12%."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 2 and 3.",
+                "data": "Cycling tests showed Sample B's superior capacity retention and stable voltage profile compared to Sample A."
+            },
+            "context": {
+                "material_properties": "Spinel structure with lithium insertion/extraction capability.",
+                "experimental_conditions": "Cycling tests conducted at a current rate of C/3 between 3.5 and 4.5 V.",
+                "application_relevance": "Improved cycling stability is critical for the use of these materials as cathodes in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiMn2O4 (Sample A)",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Structural instability during lithium extraction leads to peak splitting in XRD patterns at higher charge depths (x = 0.25).",
+                "type": "structural",
+                "impact": "This instability indicates a transition from a two-phase to a one-phase structure, which contributes to capacity fading."
+            },
+            "solution": {
+                "description": "Adoption of nonstoichiometric spinel Li1+xMn2O4 (Sample B) with a homogeneous phase reaction over the entire intercalated range.",
+                "methodology": "Introduction of manganese vacancies to stabilize the structure during lithium extraction.",
+                "effectiveness": "Effective, as Sample B exhibited no peak splitting in XRD patterns over the examined region, indicating structural stability."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 3 and 4.",
+                "data": "XRD patterns showed peak splitting for Sample A but not for Sample B during lithium extraction."
+            },
+            "context": {
+                "material_properties": "Spinel structure with lithium intercalation/extraction capability.",
+                "experimental_conditions": "XRD analysis conducted at various charge depths after equilibration for 10 days.",
+                "application_relevance": "Structural stability is essential for maintaining capacity and performance in battery applications."
+            }
+        }
+    ]
+}

@@ -1,0 +1,538 @@
+{
+    "file_name": "1-s2.0-S0921510715001890-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": "monoclinic",
+                "dopants": [],
+                "morphology": "agglomerates",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium nitrate (LiNO3)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese nitrate (Mn(NO3)2)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Citric acid (H3C6H5O7)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "10 min",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Ethylene glycol (C2H6O2)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "heating mantle"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": "oven"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb = 1.54056 \u00c5)"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "BET",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XPS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.5Al0.17MnO3",
+                "phase": "mixed monoclinic/spinel",
+                "dopants": [
+                    {
+                        "element": "Al",
+                        "concentration": "0.17"
+                    }
+                ],
+                "morphology": "agglomerates",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium nitrate (LiNO3)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese nitrate (Mn(NO3)2)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Aluminum nitrate nonahydrate (Al(NO3)3\u00b79H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Citric acid (H3C6H5O7)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "10 min",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Ethylene glycol (C2H6O2)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "heating mantle"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": "oven"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb = 1.54056 \u00c5)"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "BET",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XPS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.0Al0.33MnO3",
+                "phase": "mixed monoclinic/spinel",
+                "dopants": [
+                    {
+                        "element": "Al",
+                        "concentration": "0.33"
+                    }
+                ],
+                "morphology": "agglomerates",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium nitrate (LiNO3)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese nitrate (Mn(NO3)2)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Aluminum nitrate nonahydrate (Al(NO3)3\u00b79H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Citric acid (H3C6H5O7)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "10 min",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Ethylene glycol (C2H6O2)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "heating mantle"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": "oven"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb = 1.54056 \u00c5)"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "BET",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XPS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li0.5Al0.5MnO3",
+                "phase": "mixed monoclinic/spinel",
+                "dopants": [
+                    {
+                        "element": "Al",
+                        "concentration": "0.5"
+                    }
+                ],
+                "morphology": "agglomerates",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium nitrate (LiNO3)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese nitrate (Mn(NO3)2)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Aluminum nitrate nonahydrate (Al(NO3)3\u00b79H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Citric acid (H3C6H5O7)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "10 min",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Ethylene glycol (C2H6O2)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "heating mantle"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "130\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": "oven"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "750\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb = 1.54056 \u00c5)"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "BET",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XPS",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2MnO3",
+            "stage": "application",
+            "challenge": {
+                "description": "Electrochemical inactivity due to Mn in tetravalent oxidation state.",
+                "type": "chemical",
+                "impact": "Limits the material's ability to function effectively as a cathode in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Activation achieved by extracting lithium and oxygen simultaneously from the structure using chemical or electrochemical means.",
+                "methodology": "Chemical treatments with HNO3 and H2SO4 or exposure to potentials higher than 4.5 V vs. Li0/Li+.",
+                "effectiveness": "Improved electrochemical activity, but phase transformation to spinel structure was observed, which may affect long-term stability."
+            },
+            "evidence": {
+                "source": "Sections discussing chemical treatments and electrochemical activation (e.g., page 16, references [8], [9], [10]).",
+                "data": "Activation led to rearrangement of ions and vacancies in the host structure, enabling reversible lithium intercalation."
+            },
+            "context": {
+                "material_properties": "Monoclinic structure with C2/m space group symmetry; theoretical capacity of 460 mAh g\u22121.",
+                "experimental_conditions": "Chemical treatments with acids or electrochemical activation at high potentials.",
+                "application_relevance": "Critical for improving the material's performance as a cathode in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "testing",
+            "challenge": {
+                "description": "Structural changes after cycling due to the presence of Jahn\u2013Teller active Mn3+ ions.",
+                "type": "structural",
+                "impact": "Leads to battery failure and reduced cycling stability."
+            },
+            "solution": {
+                "description": "Partial substitution of Mn with other transition metals (e.g., Al, Ru) to stabilize the structure.",
+                "methodology": "Doping with Al, Cr, Zn, Fe, or Ru to reduce Jahn\u2013Teller distortion and improve cycling stability.",
+                "effectiveness": "Improved cycling stability and discharge capacity, but the extent of improvement depends on the doping element and concentration."
+            },
+            "evidence": {
+                "source": "Sections discussing doping effects (e.g., page 17, references [11], [12], [13]).",
+                "data": "Discharge capacity increased to 210 mAh g\u22121 with 40% Ru substitution; Al substitution improved cycle stability."
+            },
+            "context": {
+                "material_properties": "Jahn\u2013Teller distortion caused by Mn3+ ions; monoclinic structure prone to phase transformation.",
+                "experimental_conditions": "Doping with transition metals during synthesis.",
+                "application_relevance": "Enhances the material's suitability for long-term use in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Formation of spinel phase during synthesis with increased aluminum substitution.",
+                "type": "structural",
+                "impact": "Spinel phase formation alters the intended monoclinic structure, potentially affecting electrochemical performance."
+            },
+            "solution": {
+                "description": "Controlled aluminum substitution to balance charge and minimize spinel phase formation.",
+                "methodology": "Optimization of stoichiometric ratios and synthesis conditions using the sol\u2013gel Pechini method.",
+                "effectiveness": "Spinel phase formation was reduced but not entirely eliminated; higher Al substitution still led to mixed phases."
+            },
+            "evidence": {
+                "source": "XRD and Raman analysis sections (e.g., page 15, Figure 1).",
+                "data": "XRD patterns showed mixed monoclinic/spinel phases for Al-substituted compounds; spinel phase became more prominent with increased Al substitution."
+            },
+            "context": {
+                "material_properties": "Monoclinic structure with C2/m symmetry; aluminum substitution affects lattice parameters.",
+                "experimental_conditions": "Synthesis using sol\u2013gel Pechini method with varying Al concentrations.",
+                "application_relevance": "Maintaining the monoclinic structure is crucial for achieving desired electrochemical properties."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "testing",
+            "challenge": {
+                "description": "Side reactions involving Mn3+ ions leading to Mn2+ dissolution in non-aqueous electrolytes.",
+                "type": "chemical",
+                "impact": "Causes battery failure and reduces cycling stability due to loss of active material."
+            },
+            "solution": {
+                "description": "Surface coating with FePO4 to mitigate Mn dissolution and improve cycling stability.",
+                "methodology": "Application of FePO4 coating on pristine material.",
+                "effectiveness": "Improved capacity and cycle stability, but long-term effects of coating need further investigation."
+            },
+            "evidence": {
+                "source": "Sections discussing surface coating (e.g., page 17, reference [15]).",
+                "data": "Coated material showed enhanced capacity and cycle stability compared to uncoated Li2MnO3."
+            },
+            "context": {
+                "material_properties": "Prone to Mn dissolution due to side reactions; monoclinic structure with C2/m symmetry.",
+                "experimental_conditions": "Surface coating applied during post-synthesis processing.",
+                "application_relevance": "Critical for improving the material's durability in lithium-ion battery applications."
+            }
+        }
+    ]
+}

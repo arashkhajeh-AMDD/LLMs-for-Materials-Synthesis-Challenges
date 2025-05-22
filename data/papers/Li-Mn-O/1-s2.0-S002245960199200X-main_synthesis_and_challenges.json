@@ -1,0 +1,256 @@
+{
+    "file_name": "1-s2.0-S002245960199200X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2Mn4O9",
+                "phase": "Spinel",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "\u03b2-MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "400-500\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction (XRD)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li0.92HMn4O9",
+                "phase": "Spinel",
+                "dopants": [
+                    {
+                        "element": "H",
+                        "concentration": null
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Chemical Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li1.22Mn1.78O4 powder",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Hydrochloric acid (0.1 M)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "room temperature",
+                        "pressure": null,
+                        "duration": "20 hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Drying",
+                    "details": {
+                        "temperature": "80\u00b0C",
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Thermogravimetry (TG)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray diffraction (XRD)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li0.88Mn1.78O4",
+                "phase": "Spinel",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Electrochemical Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li1.22Mn1.78O4 powder",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "Lithium cell"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction (XRD)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2Mn4O9",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Low-temperature solid-state reaction consistently yielded products containing traces of unreacted lithium carbonate and/or manganese dioxide, broad X-ray reflections, and a manganese oxidation state much lower than the theoretical value of 4.0.",
+                "type": "chemical and structural",
+                "impact": "The presence of unreacted reagents and broad reflections indicates incomplete reaction and poor crystallinity, which negatively affects the material's properties and performance."
+            },
+            "solution": {
+                "description": "Increasing the reaction temperature reduced the content of unreacted reagents and improved the crystallinity of the spinel phase.",
+                "methodology": "Higher synthesis temperatures were applied systematically to improve reaction completion and reduce line broadening.",
+                "effectiveness": "While the process improved crystallinity, it also decreased the manganese valence, moving the composition further from the ideal formula."
+            },
+            "evidence": {
+                "source": "Figure 2 and Table 1",
+                "data": "X-ray diffraction data showed reduced line broadening and unreacted reagent content at higher temperatures, but the manganese valence decreased significantly."
+            },
+            "context": {
+                "material_properties": "Spinel structure with theoretical manganese oxidation state of 4.0 and high crystallinity.",
+                "experimental_conditions": "Low-temperature solid-state reaction initially performed at 400\u00b0C, later increased systematically.",
+                "application_relevance": "Improved crystallinity and stoichiometry are critical for lithium intercalation applications in batteries."
+            }
+        },
+        {
+            "material": "Li0.92HMn4O9",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Acid treatment introduced significant amounts of protons, resulting in partial replacement of lithium by hydrogen and altering the stoichiometry.",
+                "type": "chemical",
+                "impact": "The proton exchange affects the material's composition and structural stability, potentially impacting its electrochemical performance."
+            },
+            "solution": {
+                "description": "Thermogravimetric analysis confirmed the presence of protons and their bonding nature, allowing characterization of the altered stoichiometry.",
+                "methodology": "Thermogravimetric analysis in oxygen was used to quantify proton content and understand its impact on the material's structure.",
+                "effectiveness": "The analysis provided insights into the structural changes but did not prevent the proton exchange during synthesis."
+            },
+            "evidence": {
+                "source": "Figure 4 and Section 3.2",
+                "data": "Mass loss at 350\u00b0C corresponded to proton departure as water, confirming strong bonding of protons in the spinel lattice."
+            },
+            "context": {
+                "material_properties": "Spinel structure with partial replacement of lithium by hydrogen, resulting in altered stoichiometry.",
+                "experimental_conditions": "Chemical delithiation performed using 0.1 M hydrochloric acid at room temperature.",
+                "application_relevance": "Understanding proton exchange is important for optimizing the material's electrochemical stability in lithium batteries."
+            }
+        },
+        {
+            "material": "Li0.41H3Mn4O9",
+            "stage": "application",
+            "challenge": {
+                "description": "Thermal decomposition of the proton-containing spinel occurred at 350\u00b0C in oxygen, leading to phase changes and loss of structural integrity.",
+                "type": "thermal stability",
+                "impact": "The decomposition limits the material's operational temperature range and affects its long-term stability in applications."
+            },
+            "solution": {
+                "description": "Thermogravimetric analysis in oxygen was used to delay reductive decomposition reactions and study the thermal behavior.",
+                "methodology": "Controlled heating in oxygen atmosphere was applied to investigate decomposition mechanisms and improve understanding of stability limits.",
+                "effectiveness": "The analysis identified decomposition steps but did not prevent the thermal instability of the material."
+            },
+            "evidence": {
+                "source": "Figure 4 and Section 3.2",
+                "data": "Continuous mass loss starting at 120\u00b0C and decomposition to \u03b2-MnO2 and a spinel phase with higher lithium content at 350\u00b0C."
+            },
+            "context": {
+                "material_properties": "Proton-containing spinel with altered stoichiometry and reduced thermal stability.",
+                "experimental_conditions": "Thermogravimetric analysis performed in oxygen at heating rates of 0.5\u00b0C/min.",
+                "application_relevance": "Thermal stability is critical for high-temperature applications and long-term performance in lithium batteries."
+            }
+        },
+        {
+            "material": "Li0.23H0.30Mn1.78O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Presence of protons introduced incoherent hydrogen scattering, complicating neutron diffraction refinement.",
+                "type": "procedural",
+                "impact": "The incoherent scattering increased background noise, reducing the accuracy of structural refinement and site occupancy determination."
+            },
+            "solution": {
+                "description": "Proton positions were refined using Fourier difference maps and fixed occupancy values based on analytical stoichiometry.",
+                "methodology": "Two-step refinement process: (1) refining proton position with fixed occupancy, and (2) refining lithium and hydrogen occupancies with fixed proton position.",
+                "effectiveness": "The refinement achieved reasonable agreement with chemical formula but could not independently determine all variables due to strong correlations."
+            },
+            "evidence": {
+                "source": "Table 2 and Section 3.3",
+                "data": "Refinement results showed good agreement with chemical stoichiometry despite high background noise from hydrogen scattering."
+            },
+            "context": {
+                "material_properties": "Spinel structure with partial replacement of lithium by hydrogen and significant proton content.",
+                "experimental_conditions": "Neutron diffraction performed on proton-containing spinel samples.",
+                "application_relevance": "Accurate structural characterization is essential for understanding material behavior in lithium intercalation applications."
+            }
+        }
+    ]
+}

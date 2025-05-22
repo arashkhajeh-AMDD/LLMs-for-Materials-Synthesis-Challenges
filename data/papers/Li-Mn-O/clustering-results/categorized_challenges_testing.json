@@ -1,0 +1,34 @@
+{
+    "Impurities and Composition Effects": [
+        "Degradation of electrochemical performance due to Mn3O4 impurity. Lower specific capacity and rate capability in battery applications.",
+        "Discharge capacity reduces upon doping with Fe and Mg. Limits the energy storage capacity of the material, which is a key performance metric for battery applications.",
+        "Decrease in discharge capacity (Qdis) at higher Co content (x = 1). The reduced capacity limits the material's effectiveness as a high-energy-density electrode.",
+        "Decreased electrical conductivity with increasing titanium content. Lower electrical conductivity can reduce the efficiency of the electrode material in battery applications."
+    ],
+    "Structural Instability and Phase Transitions": [
+        "Irreversible structural change during the first charge process, transforming orthorhombic HT-LiMnO2 into a new phase (Phase II). This structural change affects the electrochemical properties and limits the material's initial discharge capacity.",
+        "Irreversible oxygen evolution reaction during charging beyond 4.5 V. Results in structural decomposition of Li2MnO3 to MnO2-like phase, contributing to initial capacity loss and poor cycling performance.",
+        "Two-phase reaction of LiMO2 phase during charging leads to significant lattice mismatch and stress. Induces particle cracking and contributes to capacity fade over extended cycling.",
+        "Phase transition near ambient temperature in undoped LiMn2O4. Phase transition leads to structural instability and capacity fading during cycling."
+    ],
+    "Cycling Performance and Stability": [
+        "High capacity loss (~95 mAh/g) was observed during the first cycling of o-LiMnO2 electrodes. The significant capacity loss reduces the initial performance and long-term reliability of the material as a cathode in Li-ion batteries.",
+        "Cycling efficiency and lithium-ion diffusion rate are inferior compared to other electrodes when discharged at the same current density. Reduced cycling efficiency and diffusion rate can limit the practical application of the material in lithium-ion batteries.",
+        "Structural changes after cycling due to the presence of Jahn\u2013Teller active Mn3+ ions. Leads to battery failure and reduced cycling stability.",
+        "Side reactions involving Mn3+ ions leading to Mn2+ dissolution in non-aqueous electrolytes. Causes battery failure and reduces cycling stability due to loss of active material."
+    ],
+    "Magnetic and Cation Distribution Effects": [
+        "Expected increase in saturation magnetization (MS) with increasing x is not observed. Deviation from expected behavior complicates the correlation between cation distribution and magnetic properties."
+    ],
+    "Nanometric vs Micrometric Behavior": [
+        "Nanometric samples exhibit different behavior compared to micrometric samples, with Jahn-Teller distortion absent in nanometric samples. Complicates the interpretation of results and the design of materials for specific applications."
+    ],
+    "Surface and Interface Effects": [
+        "Formation of a solid layer on the cathode surface during charging. This layer could consume charge and affect the accuracy of lithium extraction measurements, potentially impacting battery performance.",
+        "Defect sites in the fully charged state act as nucleation sites for new phases during thermal decomposition in the presence of electrolyte. These defect sites lead to the formation of undesirable secondary phases, reducing the material's stability and performance.",
+        "Amorphization of the catalyst surface during long-term stability testing. Amorphization may reduce the crystallinity of the surface, potentially affecting the long-term catalytic performance."
+    ],
+    "Testing and Measurement Challenges": [
+        "Minimizing background noise in neutron diffraction data caused by hydrogen-rich components in the electrochemical cell. High background noise can obscure critical structural information about the material under study."
+    ]
+}

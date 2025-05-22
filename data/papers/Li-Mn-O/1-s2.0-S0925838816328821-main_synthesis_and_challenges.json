@@ -1,0 +1,266 @@
+{
+    "file_name": "1-s2.0-S0925838816328821-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiNi0.03Mn1.97O4",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Ni",
+                        "concentration": "0.03"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "lithium hydroxide monohydrate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "citric acid",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "nickel (II) acetate tetrahydrate",
+                                "stoichiometry": "0.03"
+                            },
+                            {
+                                "name": "manganese (II) acetate tetrahydrate",
+                                "stoichiometry": "1.97"
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": "ammonium hydroxide",
+                        "temperature": "50 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Pre-annealing",
+                    "details": {
+                        "temperature": "350 \u00b0C",
+                        "duration": "4 h",
+                        "atmosphere": "air",
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "750 \u00b0C",
+                        "duration": "12 h",
+                        "atmosphere": "air",
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Co3O4-coated LiNi0.03Mn1.97O4",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Ni",
+                        "concentration": "0.03"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Coating Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "pristine LiNi0.03Mn1.97O4 powders",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "cobalt (II) acetate tetrahydrate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "ethanol",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Ultrasonic Agitation and Stirring",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "20 min (ultrasonic), 60 min (stirring)",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Drying",
+                    "details": {
+                        "temperature": "80 \u00b0C",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "400 \u00b0C",
+                        "duration": "3 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Severe capacity fading during long-term charge-discharge cycles.",
+                "type": "structural",
+                "impact": "Capacity fading reduces the effectiveness and lifespan of the cathode material in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Nickel doping and cobalt oxide (Co3O4) surface coating were applied to stabilize the structure and inhibit manganese dissolution.",
+                "methodology": "Nickel doping was introduced to reduce Jahn-Teller distortions by decreasing Mn3+ content, while Co3O4 coating created a protective layer to prevent direct contact between HF acid and manganese.",
+                "effectiveness": "The combined approach significantly improved cycling stability and reduced capacity fading, with the 2.0 wt% Co3O4-coated sample showing superior performance."
+            },
+            "evidence": {
+                "source": "Introduction, Results and Discussion sections; Figures 7, 9, and 10.",
+                "data": "Capacity retention improved from 72.7% (pristine LiMn2O4) to 92.4% (LiNi0.03Mn1.97O4 with 2.0 wt% Co3O4 coating) after 100 cycles at elevated temperatures."
+            },
+            "context": {
+                "material_properties": "Spinel structure prone to Jahn-Teller distortions and Mn dissolution under cycling conditions.",
+                "experimental_conditions": "Cycling tests conducted at room temperature (25\u00b0C) and elevated temperature (55\u00b0C) with charge-discharge current densities of 1C.",
+                "application_relevance": "Enhancing the cycling stability and capacity retention of LiMn2O4 is critical for its use in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiNi0.03Mn1.97O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity decay at high temperatures due to aggravated Jahn-Teller distortions and HF acid attack.",
+                "type": "chemical",
+                "impact": "High-temperature cycling leads to faster degradation of the cathode material, limiting its performance in practical applications."
+            },
+            "solution": {
+                "description": "Nickel doping and Co3O4 coating were employed to stabilize the crystal structure and reduce Mn dissolution.",
+                "methodology": "Nickel doping reduced Jahn-Teller distortions by decreasing Mn3+ content, while Co3O4 coating minimized HF acid erosion by forming a compact protective layer.",
+                "effectiveness": "The 2.0 wt% Co3O4-coated sample demonstrated improved capacity retention and cycling stability at elevated temperatures."
+            },
+            "evidence": {
+                "source": "Results and Discussion sections; Figures 10 and 11.",
+                "data": "Capacity retention at 55\u00b0C improved from 66.3% (pristine LiMn2O4) to 81.8% (LiNi0.03Mn1.97O4 with 2.0 wt% Co3O4 coating) after 100 cycles."
+            },
+            "context": {
+                "material_properties": "Spinel structure with reduced Mn3+ content and protective Co3O4 coating.",
+                "experimental_conditions": "Cycling tests conducted at elevated temperature (55\u00b0C) with charge-discharge current densities of 1C.",
+                "application_relevance": "Improving high-temperature performance is essential for lithium-ion batteries used in demanding environments."
+            }
+        },
+        {
+            "material": "Co3O4-coated LiNi0.03Mn1.97O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Determining the optimal Co3O4 coating amount for enhanced electrochemical performance.",
+                "type": "procedural",
+                "impact": "Excessive Co3O4 coating adversely affects electrochemical performance, while insufficient coating fails to provide adequate protection."
+            },
+            "solution": {
+                "description": "Various Co3O4 coating amounts (1.0 wt%, 2.0 wt%, and 4.0 wt%) were tested to identify the optimal ratio.",
+                "methodology": "Electrochemical tests were conducted to evaluate the cycling stability and capacity retention of samples with different coating amounts.",
+                "effectiveness": "The 2.0 wt% Co3O4 coating was found to be optimal, providing the best balance between protection and performance."
+            },
+            "evidence": {
+                "source": "Results and Discussion sections; Figures 7, 9, and 10.",
+                "data": "The 2.0 wt% Co3O4-coated sample exhibited the highest capacity retention (92.4%) and superior cycling stability compared to other coating amounts."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Co3O4 coating forming a protective layer.",
+                "experimental_conditions": "Coating amounts varied during synthesis, followed by electrochemical testing under cycling conditions.",
+                "application_relevance": "Optimizing the coating amount is crucial for achieving maximum performance in lithium-ion battery cathodes."
+            }
+        }
+    ]
+}

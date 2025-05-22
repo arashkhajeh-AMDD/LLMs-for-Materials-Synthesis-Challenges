@@ -1,0 +1,51 @@
+{
+    "Impurity minimization and synthesis optimization": [
+        "Minimizing Mn3O4 impurity through optimized synthesis conditions. Reducing reaction time and controlling precursor concentrations to limit Mn3O4 formation."
+    ],
+    "Magnetic property analysis and spin behavior": [
+        "Attributed to decreasing cooperative coupling effects due to reduced iron content and increasing influence of spin canting. Analysis of magnetic measurements and comparison with calculated MS values."
+    ],
+    "Electrochemical performance testing and composition optimization": [
+        "Identification of x = 0.5 as the optimal composition to balance capacity and energy density. Electrochemical testing of various compositions (0 \u2264 x \u2264 1) to determine the relationship between Co content and performance."
+    ],
+    "Neutron-compatible cell design and hydrogen scattering reduction": [
+        "Designed a neutron-compatible electrochemical cell using deuterated electrolytes and glass fiber separators to reduce hydrogen scattering. Replaced conventional components with deuterated EC/DMC electrolyte and glass fiber separators to minimize hydrogen content."
+    ],
+    "Phase transformation and structural evolution monitoring": [
+        "The authors identified Phase II as a metastable transition phase that easily converts to spinel LiMn2O4 in subsequent cycles. In situ synchrotron diffraction was used to monitor the structural evolution and confirm the transformation process."
+    ],
+    "Operando techniques for phase and structural analysis": [
+        "Operando techniques were used to monitor phase transformations and identify the mechanisms responsible for oxygen evolution. Operando neutron powder diffraction and TXM imaging correlated structural changes with electrochemical behavior.",
+        "Operando techniques were used to study the two-phase reaction and its impact on particle morphology. Operando neutron powder diffraction and TXM imaging tracked lattice changes and particle cracking during cycling."
+    ],
+    "Structural stability and electrical conductivity optimization": [
+        "Optimization of titanium content to balance structural stability and electrical conductivity. Impedance spectroscopy to analyze contributions from grain, grain boundary, and electrode effects."
+    ],
+    "Cycle-induced phase formation and capacity retention": [
+        "Cycle-induced spinel phase formation was observed to stabilize the material and improve capacity retention over subsequent cycles. Electrochemical cycling to induce structural reordering toward spinel-like phases."
+    ],
+    "Particle size and defect influence on structural behavior": [
+        "Investigated the influence of particle size and defect accumulation on Jahn-Teller distortion using DSC and XRD. Differential scanning calorimetry and X-ray diffraction were used to study the structural and thermal behavior of nanometric and micrometric samples."
+    ],
+    "Electrode surface area and particle size optimization": [
+        "Utilization of high surface area and small average particle size electrodes to enhance electrochemical activity. Electrodes synthesized using controlled methods to achieve 78 m\u00b2/g surface area and ~3 \u00b5m particle size."
+    ],
+    "Doping and substitution for structural stabilization": [
+        "Doping increases cyclability and stabilizes the cubic spinel structure. Substitution of Mn3+ with Fe3+ and Mg2+ ions to stabilize the structure and reduce capacity fading.",
+        "Partial substitution of Mn with other transition metals (e.g., Al, Ru) to stabilize the structure. Doping with Al, Cr, Zn, Fe, or Ru to reduce Jahn\u2013Teller distortion and improve cycling stability.",
+        "Cobalt substitution to suppress the Jahn-Teller distortion and stabilize the spinel structure. Substitution of Mn3+ ions with Co3+ ions to increase the average Mn valency and reduce distortion."
+    ],
+    "Diffraction pattern analysis and phase identification": [
+        "Detailed phase analysis using Pawley fitting of diffraction patterns at selected temperatures. Pawley fitting was chosen over Rietveld refinement due to the presence of imperfect crystalline phases during heating."
+    ],
+    "Surface layer formation and analysis techniques": [
+        "The authors hypothesized that some charge is consumed during the formation of this layer and accounted for this in their analysis. Surface analysis techniques such as XPS were used to identify the formation of the solid layer."
+    ],
+    "Catalyst characterization before and after stability testing": [
+        "Characterization of the catalyst before and after stability testing to monitor changes. XPS and TEM analyses conducted after 12 hours of stability testing."
+    ],
+    "Surface coating for dissolution mitigation and stability improvement": [
+        "Surface coating with FePO4 to mitigate Mn dissolution and improve cycling stability. Application of FePO4 coating on pristine material."
+    ],
+    "Transition metal substitution to reduce distortion and improve stability": []
+}

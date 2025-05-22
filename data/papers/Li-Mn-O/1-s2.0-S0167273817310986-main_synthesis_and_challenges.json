@@ -1,0 +1,244 @@
+{
+    "file_name": "1-s2.0-S0167273817310986-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Micrometric LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "micrometric",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "manganese III citrate precursor",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "lithium",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Thermal Decomposition",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750 \u00b0C",
+                        "pressure": null,
+                        "duration": "30 min",
+                        "atmosphere": "air",
+                        "equipment": "platinum crucible"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Gamma Irradiation",
+                    "details": {
+                        "temperature": null,
+                        "duration": "12 h periods until a cumulative dose of 630 kGy",
+                        "atmosphere": null,
+                        "equipment": "ISO-GAMMA LLCO irradiator"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "HRTEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "7Li MAS NMR",
+                        "parameters": null
+                    },
+                    {
+                        "name": "DSC",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Nanometric LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "nanometric",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "manganese III citrate precursor",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "lithium",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Thermal Decomposition",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "350 \u00b0C",
+                        "pressure": null,
+                        "duration": "40 min",
+                        "atmosphere": "air flux",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Gamma Irradiation",
+                    "details": {
+                        "temperature": null,
+                        "duration": "at doses of 100, 630, and 1000 kGy",
+                        "atmosphere": null,
+                        "equipment": "ISO-GAMMA LLCO irradiator"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "HRTEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "7Li MAS NMR",
+                        "parameters": null
+                    },
+                    {
+                        "name": "DSC",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Presence of Jahn-Teller distortion significantly affects the reversibility of lithium insertion/deinsertion processes and creates high cell polarization even at low cycling currents.",
+                "type": "structural",
+                "impact": "Reduces the efficiency and stability of the material when used as a cathode in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Defects were introduced via 60Co gamma irradiation to reduce the magnitude of Jahn-Teller distortion.",
+                "methodology": "Gamma irradiation was applied to induce structural and microstructural modifications, such as edge dislocations and ionic shifts.",
+                "effectiveness": "The solution reduced the Jahn-Teller distortion enthalpy by 24% in the first cycle and 28% in subsequent cycles, improving the material's performance."
+            },
+            "evidence": {
+                "source": "Sections 3.1.1, 3.2, and Table 1",
+                "data": "DSC measurements showed reduced Jahn-Teller distortion enthalpy and improved cycling stability."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cubic symmetry; moderate stability and low theoretical energy density.",
+                "experimental_conditions": "Gamma irradiation at doses of 100, 630, and 1000 kGy.",
+                "application_relevance": "Improved cycling stability and reduced stress between particles enhance battery performance."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Small concentration of defects formed by gamma irradiation is difficult to detect in bulk samples using conventional XRD techniques.",
+                "type": "procedural",
+                "impact": "Limits the ability to characterize and understand the influence of defects on the material's properties."
+            },
+            "solution": {
+                "description": "Advanced characterization techniques such as HRTEM and 7Li MAS NMR were employed to detect and analyze defects.",
+                "methodology": "High-resolution transmission electron microscopy and nuclear magnetic resonance spectroscopy were used to study local structural changes and defect formation.",
+                "effectiveness": "Successfully identified edge dislocations, ionic shifts, and changes in atomic positions, providing insights into defect formation mechanisms."
+            },
+            "evidence": {
+                "source": "Sections 3.1.1 and 3.1.2",
+                "data": "HRTEM images showed edge dislocations and increased interlayer distances; 7Li MAS NMR spectra revealed changes in lithium ion distribution."
+            },
+            "context": {
+                "material_properties": "Spinel structure with defects induced by gamma irradiation.",
+                "experimental_conditions": "Characterization performed at room temperature using advanced microscopy and spectroscopy techniques.",
+                "application_relevance": "Understanding defect formation is critical for optimizing material performance in batteries."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "testing",
+            "challenge": {
+                "description": "Nanometric samples exhibit different behavior compared to micrometric samples, with Jahn-Teller distortion absent in nanometric samples.",
+                "type": "structural",
+                "impact": "Complicates the interpretation of results and the design of materials for specific applications."
+            },
+            "solution": {
+                "description": "Investigated the influence of particle size and defect accumulation on Jahn-Teller distortion using DSC and XRD.",
+                "methodology": "Differential scanning calorimetry and X-ray diffraction were used to study the structural and thermal behavior of nanometric and micrometric samples.",
+                "effectiveness": "Revealed that smaller particle size prevents long-range cooperative Jahn-Teller effects, providing insights into material design."
+            },
+            "evidence": {
+                "source": "Sections 3.1.2 and 3.2",
+                "data": "DSC analysis showed no Jahn-Teller distortion in nanometric samples; XRD patterns indicated changes in lattice parameters with irradiation dose."
+            },
+            "context": {
+                "material_properties": "Nanometric samples with smaller particle size and higher defect concentration.",
+                "experimental_conditions": "Irradiation at doses of 100, 630, and 1000 kGy; testing performed at low temperatures.",
+                "application_relevance": "Nanometric materials may offer improved stability and performance in battery applications."
+            }
+        }
+    ]
+}

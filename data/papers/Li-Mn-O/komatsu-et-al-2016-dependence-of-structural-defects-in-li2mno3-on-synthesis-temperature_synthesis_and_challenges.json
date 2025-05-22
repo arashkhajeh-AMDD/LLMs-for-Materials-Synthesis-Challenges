@@ -1,0 +1,194 @@
+{
+    "file_name": "komatsu-et-al-2016-dependence-of-structural-defects-in-li2mno3-on-synthesis-temperature",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": "C2/m",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": "1.05"
+                            },
+                            {
+                                "name": "MnCO3",
+                                "stoichiometry": "1"
+                            }
+                        ],
+                        "solvent": "acetone",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "2 h",
+                        "atmosphere": null,
+                        "equipment": "milling"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "100 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Pelletization",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": "5 MPa",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "450 \u00b0C",
+                        "pressure": null,
+                        "duration": "48 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Annealing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "500-1000 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Heating and Cooling",
+                    "details": {
+                        "temperature": "300 \u00b0C/h",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP",
+                        "parameters": "for metals"
+                    },
+                    {
+                        "name": "Redox titration",
+                        "parameters": "for oxygen"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2MnO3",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Structural defects such as stacking faults and Li/Mn atomic mixing are prevalent in the synthesized material.",
+                "type": "structural",
+                "impact": "These defects hinder precise structural analysis and affect the electrochemical behavior of the material."
+            },
+            "solution": {
+                "description": "The authors analyzed the structural defects using the FAULTS program, which allows simultaneous refinement of experimental patterns and quantification of stacking faults.",
+                "methodology": "FAULTS program for Rietveld refinement and structural analysis.",
+                "effectiveness": "Successfully determined the structure with defects, including atomic mixing and stacking faults, providing insights into their impact on electrochemical performance."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Table 1, Figures 4 and 6.",
+                "data": "Refined structural parameters and diffraction patterns showing stacking faults and atomic mixing."
+            },
+            "context": {
+                "material_properties": "Li2MnO3 has a layered structure with high specific capacity potential.",
+                "experimental_conditions": "Synthesized at temperatures ranging from 450\u00b0C to 1000\u00b0C.",
+                "application_relevance": "Understanding structural defects is critical for optimizing Li-ion battery cathode performance."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "At low synthesis temperatures, disordered domains dominate, containing a large number of stacking faults and significant Li/Mn atomic mixing.",
+                "type": "structural",
+                "impact": "Disordered domains promote smooth Li percolation paths but lead to decreased structural order, affecting capacity and performance."
+            },
+            "solution": {
+                "description": "Increasing synthesis temperature above 770\u00b0C reduces disordered domains and promotes the formation of ordered crystalline domains.",
+                "methodology": "Heat treatment at higher temperatures to transition from disordered to ordered domains.",
+                "effectiveness": "Ordered domains grow with increasing temperature, but high temperatures hinder the formation of smooth Li percolation paths, leading to reduced capacity."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 6 and 7.",
+                "data": "Volume fraction of disordered domains decreases as synthesis temperature increases."
+            },
+            "context": {
+                "material_properties": "Disordered domains favor smooth Li percolation paths, while ordered domains exhibit reduced defects.",
+                "experimental_conditions": "Synthesis temperatures ranging from 450\u00b0C to 1000\u00b0C.",
+                "application_relevance": "Balancing disordered and ordered domains is crucial for optimizing battery performance."
+            }
+        },
+        {
+            "material": "Li2MnO3",
+            "stage": "application",
+            "challenge": {
+                "description": "High synthesis temperatures lead to ordered crystalline domains, which hinder the formation of smooth Li percolation paths.",
+                "type": "structural",
+                "impact": "Reduced smooth Li percolation paths negatively affect Li utilization and battery capacity."
+            },
+            "solution": {
+                "description": "Utilizing low-temperature synthesis to maintain disordered domains that favor smooth Li percolation paths.",
+                "methodology": "Synthesis at lower temperatures (~600\u00b0C) to preserve structural defects that enhance Li diffusion.",
+                "effectiveness": "Low-temperature synthesis results in high charge-discharge capacities due to smooth Li percolation paths."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 2 and 9.",
+                "data": "Electrochemical measurements showing higher capacities for low-temperature synthesized materials."
+            },
+            "context": {
+                "material_properties": "Disordered domains with stacking faults and atomic mixing enhance Li diffusion.",
+                "experimental_conditions": "Electrochemical testing between 2.0 and 4.8 V at 10 mA/g.",
+                "application_relevance": "Improved Li-ion battery performance through optimized structural features."
+            }
+        }
+    ]
+}

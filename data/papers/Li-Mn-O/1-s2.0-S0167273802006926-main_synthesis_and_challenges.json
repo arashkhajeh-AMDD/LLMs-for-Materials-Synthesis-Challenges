@@ -1,0 +1,166 @@
+{
+    "file_name": "1-s2.0-S0167273802006926-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1.02Mn1.98O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing and Pre-firing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "673 K",
+                        "pressure": null,
+                        "duration": "48 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Final Firing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "973 K",
+                        "pressure": null,
+                        "duration": "48 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "Li-deficient spinels",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Chemical Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li1.02Mn1.98O4",
+                                "stoichiometry": "7.333 g"
+                            },
+                            {
+                                "name": "H2SO4",
+                                "stoichiometry": "0.072\u20130.576 N"
+                            }
+                        ],
+                        "solvent": "200 mL H2SO4 solution",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "9 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1.02\u2212xMn1.98O4",
+            "stage": "storage",
+            "challenge": {
+                "description": "Significant capacity failure observed after high-temperature storage, particularly for shallow de-lithiated phases.",
+                "type": "structural",
+                "impact": "The capacity failure reduces the effectiveness of the material as a cathode in lithium-ion batteries, limiting its practical application."
+            },
+            "solution": {
+                "description": "Magnetic measurements and XANES were used to detect subtle structural changes and valence state shifts in Mn ions.",
+                "methodology": "Advanced characterization techniques such as SQUID magnetometry and Mn K-edge XANES spectroscopy were employed.",
+                "effectiveness": "The techniques successfully identified the structural and compositional changes, but the instability of the shallow de-lithiated phase remains a challenge."
+            },
+            "evidence": {
+                "source": "Sections 3.2 and 3.4, Figures 3 and 5, Table 4",
+                "data": "Capacity decreased from 111 mAh/g to 40 mAh/g for sample 'Bb' after storage at 80\u00b0C, corresponding to phase transitions and Mn valence state changes."
+            },
+            "context": {
+                "material_properties": "Shallow de-lithiated phase with composition Li0.84Mn1.98O4, prone to structural instability.",
+                "experimental_conditions": "Stored in 1 M LiPF6 in EC:DEC (1:1) electrolyte solution at 80\u00b0C for 6 days.",
+                "application_relevance": "The instability of the material under high-temperature storage conditions affects its viability as a cathode material in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li0.84Mn1.98O4",
+            "stage": "storage",
+            "challenge": {
+                "description": "The shallow de-lithiated phase is highly unstable and undergoes significant decomposition during high-temperature storage.",
+                "type": "chemical",
+                "impact": "Decomposition leads to phase transitions and Mn dissolution, which degrade the material's electrochemical performance."
+            },
+            "solution": {
+                "description": "Characterization of the phase composition and structural changes using XRD, XANES, and ICP spectroscopy.",
+                "methodology": "Detailed analysis of lattice parameters, Mn valence states, and Li/Mn ratios before and after storage.",
+                "effectiveness": "The analysis clarified the instability mechanisms but did not provide a direct method to stabilize the phase."
+            },
+            "evidence": {
+                "source": "Sections 3.2 and 3.5, Figures 3 and 7, Table 4",
+                "data": "XRD patterns showed multi-phase behavior and peak shifts; Mn dissolution was confirmed by ICP results."
+            },
+            "context": {
+                "material_properties": "Shallow de-lithiated phase with a lattice parameter of 8.22 \u00c5, prone to Mn dissolution.",
+                "experimental_conditions": "Stored in 1 M LiPF6 in EC:DEC (1:1) electrolyte solution at 80\u00b0C for 6 days.",
+                "application_relevance": "The instability limits the material's use in high-temperature applications for lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li0.08Mn1.98O4",
+            "stage": "storage",
+            "challenge": {
+                "description": "Fully charged state exhibits Mn dissolution and structural instability during high-temperature storage.",
+                "type": "chemical",
+                "impact": "Mn dissolution reduces the material's capacity and leads to the formation of secondary phases, degrading battery performance."
+            },
+            "solution": {
+                "description": "Analysis of Mn valence states and structural changes using XANES and magnetic susceptibility measurements.",
+                "methodology": "Characterization of Mn valence state shifts and ferromagnetic properties to understand the degradation mechanisms.",
+                "effectiveness": "The techniques identified the formation of secondary phases but did not prevent Mn dissolution or improve stability."
+            },
+            "evidence": {
+                "source": "Sections 3.3 and 3.5, Figures 5 and 7, Table 4",
+                "data": "Capacity decreased from 121 mAh/g to 79 mAh/g for sample 'Fb'; XANES showed Mn valence state changes."
+            },
+            "context": {
+                "material_properties": "Fully charged state with Mn valence close to 4+, prone to dissolution and secondary phase formation.",
+                "experimental_conditions": "Stored in 1 M LiPF6 in EC:DEC (1:1) electrolyte solution at 80\u00b0C for 6 days.",
+                "application_relevance": "The instability in the fully charged state affects the material's long-term performance in lithium-ion batteries."
+            }
+        }
+    ]
+}

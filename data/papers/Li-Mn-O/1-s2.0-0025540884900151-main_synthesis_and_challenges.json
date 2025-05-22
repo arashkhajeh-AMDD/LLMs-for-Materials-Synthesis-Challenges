@@ -1,0 +1,64 @@
+{
+    "file_name": "1-s2.0-0025540884900151-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1\u00b10.1MnO2",
+                "phase": "tetragonal",
+                "dopants": [],
+                "morphology": "fine powder",
+                "purity": "99.95%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Lithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "n-butyl lithium",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "hexane",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "hexane",
+                        "precipitant": null,
+                        "temperature": "50-60\u00b0C",
+                        "pressure": null,
+                        "duration": "170 hours",
+                        "atmosphere": "dry nitrogen",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Washing and Drying",
+                    "details": {
+                        "temperature": null,
+                        "duration": "several hours",
+                        "atmosphere": "vacuum",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Atomic absorption spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Powder X-ray diffraction",
+                        "parameters": "Cu K\u03b1 radiation with quartz analyzing monochromator"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

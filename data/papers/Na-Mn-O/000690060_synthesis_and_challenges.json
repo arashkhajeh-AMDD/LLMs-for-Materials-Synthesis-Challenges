@@ -1,0 +1,447 @@
+{
+    "file_name": "000690060",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Na0.6MnO2+z",
+                "phase": "P2",
+                "dopants": [],
+                "morphology": "flake",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(CH3COO)2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Combustion",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "HNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "gelatin",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "800\u00b0C",
+                        "duration": "4 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": "610\u00b0C",
+                        "duration": "9 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.6Co0.1Mn0.9O2+z",
+                "phase": "P2",
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "10%"
+                    }
+                ],
+                "morphology": "flake",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NaNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn(CH3COO)2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Co(NO3)2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Combustion",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "HNO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "gelatin",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "800\u00b0C",
+                        "duration": "4 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": "610\u00b0C",
+                        "duration": "9 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.7MnO2+z",
+                "phase": "P2",
+                "dopants": [],
+                "morphology": "spherical",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH4HCO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnSO4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "400\u00b0C",
+                        "duration": "5 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": "610\u00b0C",
+                        "duration": "9 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.6Co0.1Mn0.9O2+z",
+                "phase": "P2",
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "10%"
+                    }
+                ],
+                "morphology": "spherical",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH4HCO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnSO4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "CoSO4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Annealing",
+                    "details": {
+                        "temperature": "400\u00b0C",
+                        "duration": "5 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": "610\u00b0C",
+                        "duration": "9 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "ICP-OES",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "P2\u2212NaxMnO2 flakes",
+            "stage": "application",
+            "challenge": {
+                "description": "Partial phase transition to an orthorhombic crystal system upon Na+ insertion.",
+                "type": "structural",
+                "impact": "Repeated phase transitions lead to structural inhomogeneity, reducing cycling stability."
+            },
+            "solution": {
+                "description": "Co-doping on the order of 10% suppresses structural transformations.",
+                "methodology": "Incorporation of cobalt into the material structure.",
+                "effectiveness": "Successfully suppresses phase transitions and improves cycling stability."
+            },
+            "evidence": {
+                "source": "Results and Discussion section",
+                "data": "Structural studies show suppression of phase transitions in Co-doped materials."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with hexagonal unit cell.",
+                "experimental_conditions": "Cycling between 3.8\u22121.5 V vs Na|Na+.",
+                "application_relevance": "Improved cycling stability for sodium-ion battery cathodes."
+            }
+        },
+        {
+            "material": "P2\u2212NaxMnO2 spheres",
+            "stage": "application",
+            "challenge": {
+                "description": "Higher strain within the structure due to reduced volume expansion and contraction.",
+                "type": "structural",
+                "impact": "Strain accumulation may lead to structural fatigue during cycling."
+            },
+            "solution": {
+                "description": "Optimized spherical morphology reduces stress on the crystal structure.",
+                "methodology": "Synthesis of hollow spherical morphology.",
+                "effectiveness": "Improved cycling stability and preservation of morphology over cycling."
+            },
+            "evidence": {
+                "source": "Results and Discussion section",
+                "data": "Volume expansion of spheres (~2.3%) is half that of flakes (~4.8%)."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with hexagonal unit cell.",
+                "experimental_conditions": "Cycling between 3.8\u22121.5 V vs Na|Na+.",
+                "application_relevance": "Enhanced cycling stability for sodium-ion battery cathodes."
+            }
+        },
+        {
+            "material": "P2\u2212NaxCo0.1Mn0.9O2 flakes",
+            "stage": "application",
+            "challenge": {
+                "description": "Structural heterogeneity due to repeated phase transformations.",
+                "type": "structural",
+                "impact": "Structural inhomogeneity reduces cycling stability."
+            },
+            "solution": {
+                "description": "Co-doping suppresses Na+ ordering processes and phase transitions.",
+                "methodology": "Incorporation of cobalt into the material structure.",
+                "effectiveness": "Improved cycling stability and reduced structural stress."
+            },
+            "evidence": {
+                "source": "Results and Discussion section",
+                "data": "Cycling stability improved from 59% to 71% over 100 cycles."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with hexagonal unit cell.",
+                "experimental_conditions": "Cycling at 50 mA g\u22121.",
+                "application_relevance": "Enhanced cycling stability for sodium-ion battery cathodes."
+            }
+        },
+        {
+            "material": "P2\u2212NaxCo0.1Mn0.9O2 spheres",
+            "stage": "application",
+            "challenge": {
+                "description": "Potential inhomogeneities in Na+ distribution throughout the material.",
+                "type": "chemical",
+                "impact": "Inhomogeneities may affect cycling stability and capacity retention."
+            },
+            "solution": {
+                "description": "Spherical morphology reduces stress and facilitates strain accommodation.",
+                "methodology": "Synthesis of hollow spherical morphology combined with Co-doping.",
+                "effectiveness": "Improved cycling stability and capacity retention compared to flakes."
+            },
+            "evidence": {
+                "source": "Results and Discussion section",
+                "data": "Cycling stability improved from 67% to 75% over 100 cycles."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with hexagonal unit cell.",
+                "experimental_conditions": "Cycling at 50 mA g\u22121.",
+                "application_relevance": "Enhanced cycling stability and capacity retention for sodium-ion battery cathodes."
+            }
+        }
+    ]
+}

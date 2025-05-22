@@ -1,0 +1,42 @@
+[
+    {
+        "material": "<exact formula or name as presented in the paper>",
+        "stage": "<eg. synthesis, characterization, testing, post-processing, application>",
+        "challenge": "<description of the specific problem the authors encountered in a concise way.>",
+        "impact": "<explanation of why this problem matters \u2014 what negative effect it has.>",
+        "solution": "<a summary of how the authors addressed or solved this challenge>",
+        "evidence": "<Quote where in the paper this information is discussed (e.g., page numbers, figures, tables, or sections).>"
+    },
+    {
+        "optimized_schema": {
+            "material": "<exact formula or name as presented in the paper>",
+            "stage": "<e.g., synthesis, characterization, testing, post-processing, application>",
+            "challenge": {
+                "description": "<concise description of the specific problem encountered>",
+                "type": "<categorization of the challenge, e.g., structural, chemical, procedural, etc.>",
+                "impact": "<explanation of why this problem matters \u2014 what negative effect it has>"
+            },
+            "solution": {
+                "description": "<summary of how the authors addressed or solved this challenge>",
+                "methodology": "<specific techniques, tools, or approaches used>",
+                "effectiveness": "<evaluation of the solution's success or limitations>"
+            },
+            "evidence": {
+                "source": "<where in the paper this information is discussed (e.g., page numbers, figures, tables, or sections)>",
+                "data": "<specific data or observations supporting the challenge and solution>"
+            },
+            "context": {
+                "material_properties": "<key properties of the material relevant to the challenge>",
+                "experimental_conditions": "<conditions under which the challenge occurred or solution was applied>",
+                "application_relevance": "<how the challenge and solution relate to the material's intended application>"
+            }
+        },
+        "improvements": [
+            "1. Added categorization for challenges to improve generalizability and enable better filtering of data.",
+            "2. Expanded the solution section to include methodology and effectiveness, providing a more comprehensive understanding of the resolution process.",
+            "3. Introduced a context section to capture material properties, experimental conditions, and application relevance, ensuring adaptability across various materials and research domains.",
+            "4. Enhanced evidence section to include both source and specific data, improving traceability and validation of extracted information."
+        ],
+        "improvement_score": 35
+    }
+]

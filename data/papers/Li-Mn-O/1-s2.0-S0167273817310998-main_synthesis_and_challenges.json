@@ -1,0 +1,128 @@
+{
+    "file_name": "1-s2.0-S0167273817310998-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "black powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Mn3O4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "alcohol",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "500 \u00b0C",
+                        "duration": "5 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "750 \u00b0C",
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation, tube voltage 30 kV, tube current 100 mA, step size 0.02\u00b0 from 10\u00b0 to 120\u00b0"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XPS",
+                        "parameters": "Al K\u03b1 (1350.08 eV) anode, 250 W, 10 kV, 30 mA"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity fading due to structural instability induced by Jahn-Teller distortion and manganese dissolution via Mn3+ disproportionation reaction.",
+                "type": "structural",
+                "impact": "Reduces the long-term electrochemical performance and stability of the cathode material in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Increased lithium content in the spinel structure to suppress Mn dissolution and improve stability.",
+                "methodology": "Gradual adjustment of lithium content (x = 1.0, 1.02, 1.04, 1.06) in the synthesis process.",
+                "effectiveness": "Effective in reducing Mn dissolution and enhancing rate capability, as evidenced by improved electrochemical performance."
+            },
+            "evidence": {
+                "source": "Discussion section and Figures 5, 7, and 10.",
+                "data": "Rate capability and resistance values (Rsf and Rct) improved with increased lithium content, indicating reduced Mn dissolution and better stability."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Mn ions in octahedral sites and Li ions in tetrahedral sites.",
+                "experimental_conditions": "Solid-state synthesis method with varying Li/Mn ratios and electrochemical testing at different C-rates.",
+                "application_relevance": "Enhances the performance and stability of LiMn2O4 as a cathode material for high-power lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Existence of a second phase with different lattice parameters, leading to spot splitting on the (400) plane.",
+                "type": "structural",
+                "impact": "Complicates the crystallographic analysis and affects the prediction of battery performance."
+            },
+            "solution": {
+                "description": "Refinement of the structure using XRD and TEM to identify the dominant phase and secondary phases.",
+                "methodology": "Rietveld refinement and TEM imaging to characterize the second phase and its transformation with varying lithium content.",
+                "effectiveness": "Successfully identified the second phase and its gradual transformation, enabling better understanding of its impact on electrochemical performance."
+            },
+            "evidence": {
+                "source": "Results and Discussion sections, Figures 1, 11, and Table 1.",
+                "data": "Spot splitting observed in TEM images and changes in lattice constants with increasing lithium content."
+            },
+            "context": {
+                "material_properties": "Spinel structure with secondary phases dominated by Mn4+ ions.",
+                "experimental_conditions": "Characterization performed using XRD, TEM, and XPS under controlled synthesis conditions.",
+                "application_relevance": "Understanding the second phase helps optimize the material for better electrochemical performance in lithium-ion batteries."
+            }
+        }
+    ]
+}

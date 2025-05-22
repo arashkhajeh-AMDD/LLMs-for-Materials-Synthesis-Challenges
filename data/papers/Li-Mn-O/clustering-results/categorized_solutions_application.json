@@ -1,0 +1,63 @@
+{
+    "Doping and Substitution for Performance Enhancement": [
+        "Doping with 2% Cr improved cycle performance by \u223c13%. Cationic substitution at the R3\u0305m metal (3a) site.",
+        "Cr doping suppressed voltage decay. Cationic substitution at the R3\u0305m metal (3a) site.",
+        "F doping enhanced capacity and rate performance but worsened cycle stability. Anionic substitution at the R3\u0305m oxygen (6c) site.",
+        "Doping Ru+4 at Mn+4 sites to reduce impedance and increase capacitance. Substitution of Ru+4 ions and measurement of frequency-dependent impedance and capacitance.",
+        "Substitution of Cr for Mn in the material stabilizes the structure and improves cycle performance by reducing capacity fading. Selective doping of Cr into the 16d octahedral positions to stabilize the Mn-Cr-O network.",
+        "Partial substitution of Mn in LiMn2O4 with other cations (e.g., Fe, Al, Ni, Cr, Zn, Mg) to reduce Mn3+ content and stabilize the cubic structure. Doping with trivalent and divalent cations to enhance structural stability.",
+        "Replacement of high-valence Mn4+ ions with low-valence cations such as Li+ or Ni2+. Doping with Ni to increase the number of low-valence cations and facilitate smoother lithium-ion percolation paths.",
+        "Substitution of trivalent Co3+ and Cr3+ ions for Mn3+ ions to suppress the ordered Li/vacancy arrangement. Doping with Co3+ and Cr3+ ions to disrupt the ordered structure and promote a solid-solution reaction instead of a two-phase coexistence reaction.",
+        "Doping LiMn2O4 with various metals (e.g., Co, Fe, Cr, Ni, Li) to suppress the room-temperature phase transition. Incorporation of dopants to stabilize the cubic phase and reduce phase transition temperature."
+    ],
+    "Synthesis and Structural Modification": [
+        "Use of nonstoichiometric spinel Li1+xMn2O4 (Sample B) synthesized via the melt-impregnation method. Modification of stoichiometry to introduce manganese vacancies in the spinel structure.",
+        "Optimization of synthesis conditions to minimize stoichiometry deviations and achieve pure stoichiometric spinel phase. Controlled annealing at 1073 K to ensure complete solid-state reaction and stoichiometric composition.",
+        "A new high-temperature synthesis procedure was implemented, resulting in improved specific capacities (~140 mAh/g). Modified synthesis involving firing a mixture of \u03b2-MnO2 and Li2CO3 at controlled temperatures and under argon flux.",
+        "Utilizing low-temperature synthesis to maintain disordered domains that favor smooth Li percolation paths. Synthesis at lower temperatures (~600\u00b0C) to preserve structural defects that enhance Li diffusion.",
+        "Activation achieved by extracting lithium and oxygen simultaneously from the structure using chemical or electrochemical means. Chemical treatments with HNO3 and H2SO4 or exposure to potentials higher than 4.5 V vs. Li0/Li+."
+    ],
+    "Structural Stability and Jahn-Teller Distortion Suppression": [
+        "Use of Li-rich compositions to suppress structural distortions and improve cyclability. Substitution of excess Li ions on the Mn site, increasing the average ionic valence of Mn and reducing Jahn-Teller distortions.",
+        "Introducing a small amount of lithium ions into the 16d sites to maintain the average manganese oxidation state slightly above 3.5. Chemical modification of the material's composition during synthesis to suppress Jahn-Teller distortion.",
+        "Nickel doping and cobalt oxide (Co3O4) surface coating were applied to stabilize the structure and inhibit manganese dissolution. Nickel doping was introduced to reduce Jahn-Teller distortions by decreasing Mn3+ content, while Co3O4 coating created a protective layer to prevent direct contact between HF acid and manganese.",
+        "Nickel doping and Co3O4 coating were employed to stabilize the crystal structure and reduce Mn dissolution. Nickel doping reduced Jahn-Teller distortions by decreasing Mn3+ content, while Co3O4 coating minimized HF acid erosion by forming a compact protective layer.",
+        "Defects were introduced via 60Co gamma irradiation to reduce the magnitude of Jahn-Teller distortion. Gamma irradiation was applied to induce structural and microstructural modifications, such as edge dislocations and ionic shifts."
+    ],
+    "Characterization and Analysis Techniques": [
+        "Studied the temperature and magnetic field dependencies of magnetization to understand the impact of Ti substitution. Measured Field Cooled (FC) and Zero Field Cooled (ZFC) magnetization curves and fitted data using Curie\u2013Weiss law.",
+        "Investigated local and long-range cation arrangements above the phase transition temperature to understand the behavior. Neutron PDF data collection and refinement of charge-ordered phase structure.",
+        "Detailed investigation of lithium-deficient samples and planned neutron diffraction measurements. Characterization using advanced techniques like Rietveld refinement and neutron diffraction to understand phase behavior.",
+        "Further structural analysis was conducted to investigate lithium-ion ordering and its role in the phase transition. Neutron diffraction and structural refinement techniques.",
+        "Structural studies and Rietveld refinements were conducted to understand defect accumulation and its impact on capacity fading. Rietveld refinement, electron energy loss spectroscopy (EELS), and structural analysis to identify and quantify defects such as Td and 16c defects.",
+        "Investigated defect formation mechanisms and their reversibility through structural studies and EELS. Rietveld refinement and EELS to analyze defect accumulation and its impact on lithium-ion accessibility.",
+        "Characterized the resultant NiO2 phase using XRD and magnetic susceptibility measurements. Structural and magnetic characterization techniques.",
+        "Confirmed O2 evolution using a home-built O2 detector and characterized dissolution behavior. Gas detection and dissolution analysis techniques."
+    ],
+    "Thermal Behavior and Phase Transition Studies": [
+        "Characterization of thermal behavior to understand stability limits and phase transitions. Differential scanning calorimetry (DSC) and X-ray powder diffraction analysis at various temperatures.",
+        "In situ X-ray diffraction was used to monitor thermal behavior and phase transitions under simulated real-life battery conditions. Utilization of synchrotron-based in situ XRD to study structural changes during heating in the presence of electrolyte.",
+        "Study of thermal behavior using in situ XRD to understand phase transitions and structural changes. Synchrotron-based in situ XRD was employed to monitor phase evolution during heating in the presence of electrolyte.",
+        "Thermogravimetric analysis in oxygen was used to delay reductive decomposition reactions and study the thermal behavior. Controlled heating in oxygen atmosphere was applied to investigate decomposition mechanisms and improve understanding of stability limits."
+    ],
+    "Electrochemical and Voltage Optimization": [
+        "Careful rinsing and handling of the delithiated crystals to preserve their integrity during characterization and application. Use of controlled electrochemical delithiation and chemical analysis techniques.",
+        "The authors noted that the voltage range had not been optimized and suggested that confining cycling to one voltage plateau could mitigate capacity fade. Preliminary cycling data were collected to evaluate performance, and the authors proposed further optimization of the voltage range.",
+        "Electrochemical lithiation process carefully monitored to maintain cubic symmetry. Lithiation performed under controlled electrochemical conditions to achieve desired composition without structural degradation."
+    ],
+    "First-Principles and Computational Studies": [
+        "Proposed a comprehensive understanding of reaction mechanisms involving solid-solution regions within both cubic and tetragonal phases. Used in operando neutron diffraction and first-principles calculations to identify intermediate metastable phases and their structural evolution.",
+        "First-principles calculations to investigate the origin of weak ferromagnetism and its relation to structural defects. Hypothetical modeling of defective structures (e.g., (Li15Mn)Mn16O32) and calculation of exchange interaction parameters.",
+        "Density Functional Theory (DFT) calculations were used to analyze the electronic structure and charge transfer mechanism to understand and mitigate oxygen removal. First-principles calculations combined with experimental analysis.",
+        "Incorporation of Co in the LiM2 layer to reduce the band gap and improve electronic conductivity. Substitution of transition metals and analysis of electronic structure using DFT."
+    ],
+    "Other": [
+        "Investigated the bond-length fluctuation of the Mn4O4 heterocubane and its migration as a polaron in the high-temperature phase to understand its role in opening the bottleneck of the oxygen triangle. Analysis of bond-length fluctuation and its effect on oxygen ion positions forming the bottleneck.",
+        "The authors attributed the behavior to the presence of stacking faults in LT-LiMnO2, which facilitate the direct structural conversion. Comparison of microstructural differences between LT-LiMnO2 and HT-LiMnO2 using in situ X-ray diffraction and structural analysis.",
+        "Minimization of phase separation and behaviors leading to phase lattice changes, such as two-phase reactions and oxygen evolution. Operando neutron powder diffraction and transmission X-ray microscopy were used to understand and correlate structural and morphological changes to electrochemical function.",
+        "Utilization of delithiated \u03bb-MnO2 with structural flexibility. Delithiation of LiMn2O4 to form \u03bb-MnO2, enhancing structural flexibility and catalytic performance.",
+        "Increased lithium content in the spinel structure to suppress Mn dissolution and improve stability. Gradual adjustment of lithium content (x = 1.0, 1.02, 1.04, 1.06) in the synthesis process.",
+        "The authors propose a reversible model where lithium ions occupy interstitial sites to maintain charge balance. Thermal cycling experiments under controlled oxygen partial pressures to study reversible cation distribution changes.",
+        "Optimization of cobalt substitution level to balance capacity retention and stability. Electrochemical testing of various compositions (0 \u2264 y \u2264 1) to identify optimal cobalt content."
+    ]
+}

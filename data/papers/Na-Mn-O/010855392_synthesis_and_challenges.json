@@ -1,0 +1,191 @@
+{
+    "file_name": "010855392",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3",
+                "phase": "monoclinic",
+                "dopants": [],
+                "morphology": "mixture of spherical and hexagonal particles of \u223c300 nm diameter",
+                "purity": "98% for Li2CO3, 99.9% for Mn2O3"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": "2"
+                            },
+                            {
+                                "name": "Mn2O3",
+                                "stoichiometry": "1"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": "ball-milling"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "800\u00b0C",
+                        "duration": "10 hours",
+                        "atmosphere": "air",
+                        "equipment": "gold crucible"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li2\u2212xMnO3",
+                "phase": "spinel",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Electrochemical Lithium Extraction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2MnO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "electrochemical cell"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Rinsing",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SR-XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "TEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XAS",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2-xMnO3",
+            "stage": "application",
+            "challenge": {
+                "description": "Significant degradation upon cycling in the Li-system due to structural phase transitions.",
+                "type": "structural",
+                "impact": "Poor cycle stability, limiting the material's effectiveness as an electrode in lithium-ion batteries."
+            },
+            "solution": {
+                "description": "Using the material in the Na-system instead of the Li-system to suppress structural phase transitions.",
+                "methodology": "Electrochemical testing in Na-system to retain the spinel structure and prevent Mn migration.",
+                "effectiveness": "Successful in achieving superior cycle stability, retaining more than 80% of the second cycle capacity after 50 cycles."
+            },
+            "evidence": {
+                "source": "Section 3.7, Figures 3 and 4",
+                "data": "Cycle stability trends showing capacity retention of 160 mAh\u00b7g\u22121 after 50 cycles in the Na-system compared to significant decay in the Li-system."
+            },
+            "context": {
+                "material_properties": "Spinel structure with reversible Na insertion/extraction.",
+                "experimental_conditions": "Electrochemical cycling in Na-system with potential range of 1.5-4.2 V vs. Na+/Na.",
+                "application_relevance": "Improved cycle stability makes the material suitable for use as a positive electrode in sodium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2-xMnO3",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Residual Li-containing phase detected after delithiation.",
+                "type": "chemical",
+                "impact": "Inconsistent delithiation capacity and potential side reactions during cycling."
+            },
+            "solution": {
+                "description": "Electrochemical extraction of lithium followed by rinsing with dimethyl carbonate.",
+                "methodology": "Galvanostatic and potentiostatic charging to 4.95 V vs. Li+/Li, followed by rinsing to remove residual lithium.",
+                "effectiveness": "Partially effective; residual Li was still detected in the delithiated sample."
+            },
+            "evidence": {
+                "source": "Section 3.2, TEM and ICP measurements",
+                "data": "ICP analysis detected 0.2-0.4 mol eq of Li remaining in the delithiated sample."
+            },
+            "context": {
+                "material_properties": "Layered oxide precursor transitioning to spinel structure upon delithiation.",
+                "experimental_conditions": "Electrochemical delithiation at high voltage (4.95 V vs. Li+/Li).",
+                "application_relevance": "Residual lithium may affect the material's performance as an electrode in sodium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2-xMnO3",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Loss of crystallographic regularity during Na insertion.",
+                "type": "structural",
+                "impact": "Reduced crystallinity may negatively affect the material's electrochemical performance and long-term stability."
+            },
+            "solution": {
+                "description": "Characterization to confirm retention of spinel structure despite loss of periodicity.",
+                "methodology": "Ex-situ synchrotron XRD and TEM analyses to investigate structural changes.",
+                "effectiveness": "Confirmed retention of spinel structure, but crystallinity was significantly reduced."
+            },
+            "evidence": {
+                "source": "Section 3.5, Figures 5 and 7",
+                "data": "Broad humps in XRD patterns and TEM diffraction spots indicating loss of periodicity while retaining spinel structure."
+            },
+            "context": {
+                "material_properties": "Spinel structure with reversible Na insertion/extraction.",
+                "experimental_conditions": "Sodiation process during electrochemical cycling.",
+                "application_relevance": "Retention of spinel structure is critical for maintaining cycle stability in sodium-ion batteries."
+            }
+        }
+    ]
+}

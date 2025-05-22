@@ -1,0 +1,664 @@
+{
+    "file_name": "liu-et-al-2019-unified-view-of-the-local-cation-ordered-state-in-inverse-spinel-oxides",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiNiVO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "dark yellow powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "NiO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "V2O5",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "800 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "MTI box furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "800 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "MTI box furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LiCoVO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "maroon colored powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "CoO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "V2O5",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "temperature": "700 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "MTI box furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "Zn2TiO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "white powder",
+                "purity": "phase pure"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "ZnO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "TiO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "Zn2SnO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "white powder",
+                "purity": "about 1-2% residual SnO2"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Zn(Ac)2\u00b72H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "SnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "400 \u00b0C",
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "NiAl2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NiO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Al2O3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "MgIn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "white powder",
+                "purity": "phase pure"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Mg(Ac)2\u00b74H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "In2O3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "400 \u00b0C",
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LiCrTiO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "dark yellow powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Cr2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "TiO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "temperature": "850 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "800 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "800 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LiZnNbO4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": "phase pure"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Zn(Ac)2\u00b72H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Nb2O5",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "45 min",
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Initial Heating",
+                    "details": {
+                        "temperature": "400 \u00b0C",
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "mortar and pestle"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Second Heating",
+                    "details": {
+                        "temperature": "1100 \u00b0C",
+                        "duration": "20 h",
+                        "atmosphere": null,
+                        "equipment": "furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiNiVO4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Difficulty in achieving long-range cation ordering due to weak electrostatic repulsion between Li+ and Ni2+.",
+                "type": "chemical",
+                "impact": "Limits the ability to synthesize a long-range ordered phase, which may affect material properties and performance."
+            },
+            "solution": {
+                "description": "Proposed annealing at lower temperatures for very long durations or using low-temperature soft synthetic methods.",
+                "methodology": "Extended annealing and alternative synthesis routes.",
+                "effectiveness": "Partially effective; local to intermediate-range cation ordering can be increased, but long-range ordering remains challenging."
+            },
+            "evidence": {
+                "source": "Discussion in synthesis section and refinement results (Figures 4 and S3).",
+                "data": "Observed partial ordering and diffuse scattering signals in neutron diffraction data."
+            },
+            "context": {
+                "material_properties": "Weak electrostatic repulsion between Li+ and Ni2+ ions.",
+                "experimental_conditions": "High-temperature solid-state synthesis versus low-temperature sol-gel routes.",
+                "application_relevance": "Improved cation ordering could enhance electrochemical performance in energy storage applications."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Phase transition observed around 280\u2013290 K with hysteresis, leading to a dramatic drop in conductivity.",
+                "type": "structural",
+                "impact": "Limits the material's performance as a cathode in rechargeable Li-ion batteries, particularly at lower temperatures."
+            },
+            "solution": {
+                "description": "Investigated local and long-range cation arrangements above the phase transition temperature to understand the behavior.",
+                "methodology": "Neutron PDF data collection and refinement of charge-ordered phase structure.",
+                "effectiveness": "Provided insights into short-range charge ordering persisting above the transition temperature, but further theoretical work is needed."
+            },
+            "evidence": {
+                "source": "Results section discussing phase transition behavior (Figure 12 and neutron PDF data).",
+                "data": "Improved fit quality with charge-ordered phase model; discrepancies in bond distances indicating local distortions."
+            },
+            "context": {
+                "material_properties": "Charge ordering and Jahn-Teller distortion of Mn3+ ions.",
+                "experimental_conditions": "Temperature-dependent neutron PDF measurements above 290 K.",
+                "application_relevance": "Understanding phase transition behavior is critical for optimizing battery performance."
+            }
+        },
+        {
+            "material": "Zn2SnO4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "No long-range cation-ordered phase observed despite similar valence states of Sn4+ and Ti4+.",
+                "type": "chemical",
+                "impact": "Limits the ability to achieve desired structural properties for specific applications."
+            },
+            "solution": {
+                "description": "Refined short-range structure to confirm full cation ordering within one-unit cell length.",
+                "methodology": "Local structure refinement using neutron PDF data.",
+                "effectiveness": "Successfully identified short-range ordering but unable to achieve long-range ordering."
+            },
+            "evidence": {
+                "source": "Synthesis section and refinement results (Figures 10 and S14).",
+                "data": "Observed full cation ordering within short-range scale; no evidence of long-range ordering."
+            },
+            "context": {
+                "material_properties": "Similar ionic radii and valence states of Zn2+ and Sn4+.",
+                "experimental_conditions": "High-temperature annealing and local structure refinement.",
+                "application_relevance": "Short-range ordering may still influence material properties in applications requiring localized structural control."
+            }
+        }
+    ]
+}

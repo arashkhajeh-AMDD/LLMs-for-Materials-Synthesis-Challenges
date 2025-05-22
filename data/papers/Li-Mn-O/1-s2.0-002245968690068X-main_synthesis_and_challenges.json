@@ -1,0 +1,162 @@
+{
+    "file_name": "1-s2.0-002245968690068X-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Fe[Li0.5Fe1.5]O4 (or LiFe5O8)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Fe2O3",
+                                "stoichiometry": "5"
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": "1"
+                            },
+                            {
+                                "name": "Li2SO4",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Na2SO4",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800\u00b0C",
+                        "pressure": null,
+                        "duration": "1 hr",
+                        "atmosphere": "air",
+                        "equipment": "platinum crucible"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Salt Removal",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder X-ray Diffraction",
+                        "parameters": "Ni-filtered copper radiation"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li0.5Zn0.5[Li0.5Mn1.5]O4 (or Li2ZnMn3O8)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "ZnO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnCO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder X-ray Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li[Fe0.5Mn1.5]O4 (or Li2FeMn3O8)",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Fe2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnCO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Powder X-ray Diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}

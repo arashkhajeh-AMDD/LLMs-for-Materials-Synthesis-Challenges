@@ -1,0 +1,278 @@
+{
+    "file_name": "1-s2.0-S0167273806002165-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2\u2212xTixO4 (0 \u2264 x \u2264 1)",
+                "phase": "Spinel (S.G. Fd3\u0304m)",
+                "dopants": [
+                    {
+                        "element": "Ti",
+                        "concentration": "0 \u2264 x \u2264 1"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium carbonate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Titanium hydroxide",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "Petroleum ether",
+                        "precipitant": null,
+                        "temperature": "623 K",
+                        "pressure": null,
+                        "duration": "1 h",
+                        "atmosphere": null,
+                        "equipment": "Agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Pellet Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": "2100 bar",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "Isostatic press"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "1073 K (x = 0, 0.25) or 1223 K (x = 0.5, 0.75, 1)",
+                        "duration": "24 h",
+                        "atmosphere": "Air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction (XRD)",
+                        "parameters": "Fe K\u03b1 radiation (\u03bb = 1.9373 \u00c5), 2\u03b8 = 20\u00b0 to 150\u00b0, step size = 0.020\u00b0, counting time = 8 s/step"
+                    },
+                    {
+                        "name": "Scanning electron microscopy (SEM)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Energy Dispersive X-ray analysis (EDX)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Atomic absorption spectrometry",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "LiMnTiO4",
+                "phase": "Spinel (S.G. Fd3\u0304m)",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Dissolution",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Titanium isopropoxide",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Lithium carbonate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "Ethylene glycol",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Gel Formation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "493 K",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "623 K",
+                        "duration": "8 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "1223 K",
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction (XRD)",
+                        "parameters": "Fe K\u03b1 radiation (\u03bb = 1.9373 \u00c5), 2\u03b8 = 20\u00b0 to 150\u00b0, step size = 0.020\u00b0, counting time = 8 s/step"
+                    },
+                    {
+                        "name": "Scanning electron microscopy (SEM)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Energy Dispersive X-ray analysis (EDX)",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Atomic absorption spectrometry",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2\u2212xTixO4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "The ordered structural model with lithium in tetrahedral 8a site and manganese and titanium in octahedral 16d site did not give satisfactory results for x \u2265 0.5.",
+                "type": "structural",
+                "impact": "The inability to accurately model the cationic distribution affects the understanding of the material's structural properties and its potential applications."
+            },
+            "solution": {
+                "description": "Introduced disorder in the cationic distribution to account for the observed electron density in the 8a and 16d sites.",
+                "methodology": "Refined structural models considering partial occupancy of Mn2+ in the 8a site alongside Li and Ti4+.",
+                "effectiveness": "The new model (Model 2) provided better agreement with bond valence sums and experimental data, though it contradicted previous XPS results."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Table 1 and Table 3",
+                "data": "Comparison of calculated bond valence sums (CBV) and expected bond valence sums (EBV) for Model 1 and Model 2."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cationic distribution affecting unit-cell parameters and magnetic properties.",
+                "experimental_conditions": "Structural refinement using X-ray diffraction and neutron diffraction data.",
+                "application_relevance": "Accurate structural modeling is critical for understanding the material's behavior in battery applications."
+            }
+        },
+        {
+            "material": "LiMn2\u2212xTixO4",
+            "stage": "application",
+            "challenge": {
+                "description": "Substitution by non-magnetic d0 Ti4+ ions weakens the magnetic interactions between manganese ions.",
+                "type": "magnetic",
+                "impact": "Weakening of magnetic interactions reduces the material's magnetic moment and affects its performance in applications requiring strong magnetic properties."
+            },
+            "solution": {
+                "description": "Studied the temperature and magnetic field dependencies of magnetization to understand the impact of Ti substitution.",
+                "methodology": "Measured Field Cooled (FC) and Zero Field Cooled (ZFC) magnetization curves and fitted data using Curie\u2013Weiss law.",
+                "effectiveness": "Confirmed the weakening of local antiferromagnetic interactions due to dilution of the Mn\u2013O network by Ti4+ cations."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figure 3",
+                "data": "Curie constant (C) and Weiss constant (\u03b8) values decrease with increasing Ti content."
+            },
+            "context": {
+                "material_properties": "Spinel structure with magnetic properties influenced by cationic substitution.",
+                "experimental_conditions": "Magnetization measurements performed between 5 and 350 K under \u03bc0HDC = 0.1 T.",
+                "application_relevance": "Understanding magnetic behavior is essential for optimizing the material for specific applications, such as solid-state batteries."
+            }
+        },
+        {
+            "material": "LiMnTiO4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Solid-state synthesis resulted in high porosity and poor connectivity between well-sintered agglomerates.",
+                "type": "procedural",
+                "impact": "High porosity and poor connectivity negatively affect the material's electrical conductivity and overall performance."
+            },
+            "solution": {
+                "description": "Used the Pechini method to prepare denser samples with better connectivity.",
+                "methodology": "Synthesized samples using a precursor gel method involving citric acid and ethylene glycol, followed by calcination and sintering.",
+                "effectiveness": "Pechini samples displayed lower porosity (18% vs. 30%) and better electrical conductivity compared to solid-state samples."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figure 5 and Figure 6",
+                "data": "Electron micrographs and porosity measurements confirmed improved microstructure for Pechini samples."
+            },
+            "context": {
+                "material_properties": "Spinel structure with electrical properties influenced by microstructure.",
+                "experimental_conditions": "Comparison of samples prepared by solid-state reaction and Pechini method.",
+                "application_relevance": "Improved microstructure enhances electrical conductivity, which is critical for battery applications."
+            }
+        }
+    ]
+}

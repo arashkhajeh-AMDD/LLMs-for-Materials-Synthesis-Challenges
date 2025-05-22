@@ -1,0 +1,345 @@
+{
+    "file_name": "chen-et-al-2016-the-origin-of-capacity-fade-in-the-li2mno3-limo2-(m-li-ni-co-mn)-microsphere-positive-electrode-an",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2MnO3\u00b7LiMO2",
+                "phase": null,
+                "dopants": [],
+                "morphology": "spherical morphology featuring pinholes on the surface",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Solution Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "MnSO4\u00b7H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "NiSO4\u00b76H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "CoSO4\u00b77H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Carbonate Solution Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Na2CO3",
+                                "stoichiometry": "1 M"
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "round-bottom flask"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "pH Adjustment",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH4OH",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": "CO2 gas purging",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "precursor solution",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Na2CO3 solution",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": "CO2 gas purging",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Filtration and Drying",
+                    "details": {
+                        "reagents": [],
+                        "solvent": "deionized water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Quenching",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "copper plate"
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XRD",
+                        "parameters": "Cu K\u03b1 radiation (\u03bb = 1.54178 \u00c5)"
+                    },
+                    {
+                        "name": "Rietveld analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP-MS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li4Ti5O12 (LTO)",
+                "phase": "Fd3\u0305m",
+                "dopants": [],
+                "morphology": "spherical morphology composed of primary particles with diameter 20\u201330 nm",
+                "purity": "phase pure"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Hydrous Titanium Oxide Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Titanium tetraisopropoxide (TTIP)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "KCl",
+                                "stoichiometry": "0.1 M"
+                            }
+                        ],
+                        "solvent": "DI water and ethanol",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "LTO Precursor Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH",
+                                "stoichiometry": "3 mmol"
+                            },
+                            {
+                                "name": "hydrous titanium oxide",
+                                "stoichiometry": "1.2 g"
+                            }
+                        ],
+                        "solvent": "ethanol and DI water (1:1 volume ratio)",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "15 min",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Hydrothermal Treatment",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "180 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": null,
+                        "equipment": "Teflon-lined stainless steel autoclave"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Drying",
+                    "details": {
+                        "temperature": "180 \u00b0C",
+                        "duration": "3 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heat Treatment",
+                    "details": {
+                        "temperature": "500 \u00b0C",
+                        "duration": "1 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2MnO3\u00b7LiMO2 (M = Li, Ni, Co, Mn)",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity fade due to particle cracking and pulverization during extended cycling.",
+                "type": "structural",
+                "impact": "Leads to reduced cycle life and diminished electrochemical performance of the electrode."
+            },
+            "solution": {
+                "description": "Minimization of phase separation and behaviors leading to phase lattice changes, such as two-phase reactions and oxygen evolution.",
+                "methodology": "Operando neutron powder diffraction and transmission X-ray microscopy were used to understand and correlate structural and morphological changes to electrochemical function.",
+                "effectiveness": "The study suggests that minimizing phase separation is key to reducing capacity fade, but does not fully eliminate the issue."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 6 and 7, Table 3.",
+                "data": "Operando TXM images showed particle cracking at 4.5 V and further development at 4.7 V, with partial healing during discharge to 2.0 V. Volume changes quantified in Table 3."
+            },
+            "context": {
+                "material_properties": "Composite electrode with \u223c27 wt% Li2MnO3 (C2/m space group) and \u223c73 wt% LiMO2 (R3\u0305m space group).",
+                "experimental_conditions": "Cycling between 2.0\u20134.8 V vs Li+/Li in coin cells and pouch-type batteries.",
+                "application_relevance": "Electrode material for lithium-ion batteries, aiming to improve cycle life and energy density."
+            }
+        },
+        {
+            "material": "Li2MnO3\u00b7LiMO2 (M = Li, Ni, Co, Mn)",
+            "stage": "testing",
+            "challenge": {
+                "description": "Irreversible oxygen evolution reaction during charging beyond 4.5 V.",
+                "type": "chemical",
+                "impact": "Results in structural decomposition of Li2MnO3 to MnO2-like phase, contributing to initial capacity loss and poor cycling performance."
+            },
+            "solution": {
+                "description": "Operando techniques were used to monitor phase transformations and identify the mechanisms responsible for oxygen evolution.",
+                "methodology": "Operando neutron powder diffraction and TXM imaging correlated structural changes with electrochemical behavior.",
+                "effectiveness": "Provided insights into the mechanisms but did not prevent oxygen evolution; further strategies are needed to mitigate this issue."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 4 and 6.",
+                "data": "TXM images showed particle cracking and oxygen evolution at high voltages, with irreversible structural changes observed in NPD data."
+            },
+            "context": {
+                "material_properties": "Li2MnO3 phase acts as a buffer to prevent structural decomposition of LiMO2 during lithium extraction.",
+                "experimental_conditions": "Charging to 4.7 V vs Li+/Li in coin cells and pouch-type batteries.",
+                "application_relevance": "Critical for maintaining electrode integrity and reducing capacity loss in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2MnO3\u00b7LiMO2 (M = Li, Ni, Co, Mn)",
+            "stage": "testing",
+            "challenge": {
+                "description": "Two-phase reaction of LiMO2 phase during charging leads to significant lattice mismatch and stress.",
+                "type": "structural",
+                "impact": "Induces particle cracking and contributes to capacity fade over extended cycling."
+            },
+            "solution": {
+                "description": "Operando techniques were used to study the two-phase reaction and its impact on particle morphology.",
+                "methodology": "Operando neutron powder diffraction and TXM imaging tracked lattice changes and particle cracking during cycling.",
+                "effectiveness": "Identified the underlying mechanisms but did not eliminate the lattice mismatch; further optimization is required."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 5 and 7.",
+                "data": "NPD data showed \u223c4.4% phase volume change during the two-phase reaction, correlating with intensified particle cracking observed in TXM images."
+            },
+            "context": {
+                "material_properties": "LiMO2 phase undergoes substantial lattice changes during the two-phase reaction.",
+                "experimental_conditions": "Cycling between 2.0\u20134.8 V vs Li+/Li in coin cells and pouch-type batteries.",
+                "application_relevance": "Understanding lattice mismatch is crucial for improving electrode durability in lithium-ion batteries."
+            }
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "file_name": "1-s2.0-S0167273898003658-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li(MnTi)O",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Ti",
+                        "concentration": null
+                    }
+                ],
+                "morphology": null,
+                "purity": "99.9%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiCO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "TiO",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "ball mill"
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "800\u00b0C",
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Firing",
+                    "details": {
+                        "temperature": "850\u00b0C",
+                        "duration": null,
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Impedance Analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Charge\u2013Discharge Test",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li(MnTi)O",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Presence of MnO second phase in all samples.",
+                "type": "chemical",
+                "impact": "The MnO second phase can negatively affect the purity and performance of the electrode material."
+            },
+            "solution": {
+                "description": "Substitutionally doping manganese with titanium.",
+                "methodology": "Solid-state reaction with controlled firing temperature and substitution of manganese with titanium.",
+                "effectiveness": "Successfully reduced the MnO second phase, as confirmed by structural analysis and Rietveld refinement results."
+            },
+            "evidence": {
+                "source": "Results and discussion section, Table 1, and Figures 1-3.",
+                "data": "Rietveld refinement results showed lower R values when titanium was located in the 16d-site, indicating improved structural agreement."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cubic unit cell; titanium substitution increases lattice constants.",
+                "experimental_conditions": "Firing temperatures of 850\u00b0C and 1100\u00b0C in air.",
+                "application_relevance": "Improved structural and chemical stability for use in lithium secondary battery cathodes."
+            }
+        },
+        {
+            "material": "Li(MnTi)O",
+            "stage": "testing",
+            "challenge": {
+                "description": "Decreased electrical conductivity with increasing titanium content.",
+                "type": "electrical",
+                "impact": "Lower electrical conductivity can reduce the efficiency of the electrode material in battery applications."
+            },
+            "solution": {
+                "description": "Optimization of titanium content to balance structural stability and electrical conductivity.",
+                "methodology": "Impedance spectroscopy to analyze contributions from grain, grain boundary, and electrode effects.",
+                "effectiveness": "Identified optimal titanium content that minimizes resistance while maintaining structural integrity."
+            },
+            "evidence": {
+                "source": "Impedance analysis section, Figures 5-6.",
+                "data": "Impedance spectra showed increased grain boundary resistance with higher titanium content, but grain resistance remained relatively stable."
+            },
+            "context": {
+                "material_properties": "Spinel structure with interconnected interstitial spaces; titanium substitution affects ionic radii and lattice parameters.",
+                "experimental_conditions": "Room temperature impedance measurements in air.",
+                "application_relevance": "Critical for achieving high-performance cathode materials in lithium secondary batteries."
+            }
+        }
+    ]
+}

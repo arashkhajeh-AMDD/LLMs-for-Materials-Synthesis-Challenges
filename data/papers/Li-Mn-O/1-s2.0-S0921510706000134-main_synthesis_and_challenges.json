@@ -1,0 +1,278 @@
+{
+    "file_name": "1-s2.0-S0921510706000134-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": "spinel",
+                "dopants": [],
+                "morphology": "submicron-sized particles",
+                "purity": "impurity-free"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate hydrate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate hydrate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "triple distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "aqueous solution",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "700\u00b0C",
+                        "duration": "48 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Raman spectroscopy",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "LiMn2-yCoyO4 (0 \u2264 y \u2264 1)",
+                "phase": "spinel",
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "variable (0 \u2264 y \u2264 1)"
+                    }
+                ],
+                "morphology": "submicron-sized particles",
+                "purity": "impurity-free"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Lithium acetate hydrate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Manganese acetate hydrate",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Cobalt acetate hydrate",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "triple distilled water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chelation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Citric acid",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "aqueous solution",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "700\u00b0C",
+                        "duration": "48 hours",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "FTIR",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Raman spectroscopy",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2\u2212yCoyO4",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Formation of impurities during synthesis at low temperatures.",
+                "type": "chemical",
+                "impact": "Impurities can negatively affect the structural and electrochemical properties of the material."
+            },
+            "solution": {
+                "description": "Use of carboxylic acids (citric and succinic acid) as fuels to assist in decomposition of metal complexes at low temperatures.",
+                "methodology": "Carboxylic acid-assisted wet-chemical synthesis with heating above 400\u00b0C.",
+                "effectiveness": "Successfully yielded impurity-free LiMn2\u2212yCoyO4 powders when heated above 400\u00b0C."
+            },
+            "evidence": {
+                "source": "Section 3.1, Figure 2",
+                "data": "Thermogravimetric analysis (TGA) curves showed decomposition of precursors and formation of single-phase materials above 400\u00b0C."
+            },
+            "context": {
+                "material_properties": "Spinel structure with high purity required for electrochemical stability.",
+                "experimental_conditions": "Heating in air at 400\u2013700\u00b0C for 48 hours.",
+                "application_relevance": "High-purity materials are critical for stable lithium-ion battery performance."
+            }
+        },
+        {
+            "material": "LiMn2\u2212yCoyO4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Broadening of XRD diffraction peaks with increasing cobalt content.",
+                "type": "structural",
+                "impact": "Broadening indicates microstrain and smaller crystallite sizes, which can affect material performance."
+            },
+            "solution": {
+                "description": "Analysis of peak broadening using Scherrer\u2019s equation and strain calculations to quantify crystallite size and microstrain.",
+                "methodology": "X-ray diffraction (XRD) analysis combined with least-squares refinement.",
+                "effectiveness": "Provided detailed insights into the structural changes and confirmed the relationship between cobalt substitution and microstrain."
+            },
+            "evidence": {
+                "source": "Section 3.2, Figures 3 and 4",
+                "data": "XRD patterns showed systematic peak broadening with increasing cobalt content, and calculated crystallite sizes ranged from 200 to 380 nm."
+            },
+            "context": {
+                "material_properties": "Spinel structure with cobalt substitution affecting lattice parameters.",
+                "experimental_conditions": "XRD measurements performed on powders synthesized at 700\u00b0C.",
+                "application_relevance": "Understanding structural changes is essential for optimizing battery performance."
+            }
+        },
+        {
+            "material": "LiMn2\u2212yCoyO4",
+            "stage": "application",
+            "challenge": {
+                "description": "Reduction in initial charge capacity with increasing cobalt content.",
+                "type": "electrochemical",
+                "impact": "Lower initial capacity reduces the energy density of the battery."
+            },
+            "solution": {
+                "description": "Optimization of cobalt substitution level to balance capacity retention and stability.",
+                "methodology": "Electrochemical testing of various compositions (0 \u2264 y \u2264 1) to identify optimal cobalt content.",
+                "effectiveness": "LiMn1.8Co0.2O4 showed improved cycling stability with minimal capacity fading (<5% at 35 cycles) while maintaining reasonable capacity."
+            },
+            "evidence": {
+                "source": "Section 3.6, Table 3, Figure 16",
+                "data": "LiMn1.8Co0.2O4 achieved 101 mAh/g with excellent cycling stability compared to native LiMn2O4."
+            },
+            "context": {
+                "material_properties": "Cobalt substitution suppresses Jahn-Teller distortion and enhances cycling stability.",
+                "experimental_conditions": "Electrodes cycled in the voltage range of 2.8\u20134.4 V at 22\u00b0C.",
+                "application_relevance": "Improved cycling stability is critical for long-lasting lithium-ion batteries."
+            }
+        },
+        {
+            "material": "LiMn2\u2212yCoyO4",
+            "stage": "testing",
+            "challenge": {
+                "description": "Phase transition near ambient temperature in undoped LiMn2O4.",
+                "type": "structural",
+                "impact": "Phase transition leads to structural instability and capacity fading during cycling."
+            },
+            "solution": {
+                "description": "Cobalt substitution to suppress the Jahn-Teller distortion and stabilize the spinel structure.",
+                "methodology": "Substitution of Mn3+ ions with Co3+ ions to increase the average Mn valency and reduce distortion.",
+                "effectiveness": "Phase transition was suppressed, and cycling stability was significantly improved for Co-substituted materials."
+            },
+            "evidence": {
+                "source": "Section 3.6, Figure 16",
+                "data": "LiMn1.8Co0.2O4 showed no phase transition near ambient temperature and exhibited stable cycling performance."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Jahn-Teller distortion in Mn3+ ions.",
+                "experimental_conditions": "Electrochemical cycling in the voltage range of 2.8\u20134.4 V.",
+                "application_relevance": "Structural stability is essential for reliable battery operation over extended cycles."
+            }
+        }
+    ]
+}

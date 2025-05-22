@@ -1,0 +1,193 @@
+{
+    "file_name": "matsunaga-et-al-2016-structural-understanding-of-superior-battery-properties-of-partially-ni-doped-li2mno3-as-cathode",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2(NixMn1\u2212x)O3(\u2212\u03b4)",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Ni",
+                        "concentration": "x (0, 1/20, 1/10, 1/6, and 1/4)"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": "2.1"
+                            },
+                            {
+                                "name": "NiCO3",
+                                "stoichiometry": "x"
+                            },
+                            {
+                                "name": "MnCO3",
+                                "stoichiometry": "1\u2212x"
+                            }
+                        ],
+                        "solvent": "acetone",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "2 h",
+                        "atmosphere": null,
+                        "equipment": "milling equipment"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Drying",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "100 \u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Pelletization and Calcination",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "450 \u00b0C",
+                        "pressure": "5 MPa",
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Powdering and Annealing",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900 \u00b0C",
+                        "pressure": null,
+                        "duration": "12 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Heating and Cooling",
+                    "details": {
+                        "temperature": "300 \u00b0C h\u22121",
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Synchrotron diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron powder diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Inductively coupled plasma atomic emission spectroscopy",
+                        "parameters": "for metals"
+                    },
+                    {
+                        "name": "Iodometric redox titration",
+                        "parameters": "for oxygen"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2(NixMn1\u2212x)O3(\u2212\u03b4)",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Formation of materials away from the Li2MnO3\u2212Li2NiO3 pseudobinary line during synthesis.",
+                "type": "procedural",
+                "impact": "Deviation from the intended composition could affect the structural and electrochemical properties of the material."
+            },
+            "solution": {
+                "description": "Careful control of precursor ratios and synthesis conditions, including milling, drying, pelletizing, and annealing steps.",
+                "methodology": "Solid-state reaction with precise molar ratios, controlled heating and cooling rates, and repeated pelletizing and annealing.",
+                "effectiveness": "The synthesized samples showed good agreement with calculated diffraction patterns, indicating successful formation of the desired phase."
+            },
+            "evidence": {
+                "source": "Table S-I and Figure S-1",
+                "data": "Quantitative analysis of synthesized materials and diffraction patterns confirming phase formation."
+            },
+            "context": {
+                "material_properties": "Layered structure with significant stacking faults and cation mixing.",
+                "experimental_conditions": "Solid-state reaction at 900\u00b0C for 12 hours with controlled heating and cooling rates.",
+                "application_relevance": "Ensuring proper phase formation is critical for achieving desired electrochemical performance in lithium-ion batteries."
+            }
+        },
+        {
+            "material": "Li2(NixMn1\u2212x)O3(\u2212\u03b4)",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Significant stacking faults and cation mixing in the transition-metal layers.",
+                "type": "structural",
+                "impact": "Structural defects can hinder lithium-ion migration and reduce electrochemical performance."
+            },
+            "solution": {
+                "description": "Use of advanced characterization techniques to analyze structural defects and cation mixing.",
+                "methodology": "Combined neutron and synchrotron X-ray diffraction analyses, FAULTS program for stacking fault analysis, and HAADF-STEM observations.",
+                "effectiveness": "The analyses provided detailed insights into the structural defects and their impact on lithium-ion migration paths."
+            },
+            "evidence": {
+                "source": "Figures S-4, S-6, and Table 1",
+                "data": "Diffraction patterns and site occupancy data showing cation mixing and stacking fault probabilities."
+            },
+            "context": {
+                "material_properties": "Layered structure with mixed cation sites and stacking faults.",
+                "experimental_conditions": "Characterization performed using synchrotron and neutron diffraction techniques.",
+                "application_relevance": "Understanding structural defects is essential for optimizing lithium-ion migration and improving battery performance."
+            }
+        },
+        {
+            "material": "Li2(NixMn1\u2212x)O3(\u2212\u03b4)",
+            "stage": "application",
+            "challenge": {
+                "description": "High Coulomb potential barriers caused by Mn4+ ions obstructing lithium-ion migration paths.",
+                "type": "chemical",
+                "impact": "Reduced lithium-ion mobility negatively impacts charge-discharge capacity and overall battery performance."
+            },
+            "solution": {
+                "description": "Replacement of high-valence Mn4+ ions with low-valence cations such as Li+ or Ni2+.",
+                "methodology": "Doping with Ni to increase the number of low-valence cations and facilitate smoother lithium-ion percolation paths.",
+                "effectiveness": "Improved lithium-ion migration and increased charge-discharge capacity were observed, confirming the effectiveness of the approach."
+            },
+            "evidence": {
+                "source": "Figures 1, 4, and S-8",
+                "data": "Electrochemical measurements showing higher charge-discharge capacities and structural analysis confirming smoother lithium-ion paths."
+            },
+            "context": {
+                "material_properties": "Layered structure with lithium-ion percolation paths influenced by cation valence states.",
+                "experimental_conditions": "Electrochemical testing performed at room temperature.",
+                "application_relevance": "Enhanced lithium-ion mobility is critical for achieving superior electrochemical performance in lithium-ion batteries."
+            }
+        }
+    ]
+}

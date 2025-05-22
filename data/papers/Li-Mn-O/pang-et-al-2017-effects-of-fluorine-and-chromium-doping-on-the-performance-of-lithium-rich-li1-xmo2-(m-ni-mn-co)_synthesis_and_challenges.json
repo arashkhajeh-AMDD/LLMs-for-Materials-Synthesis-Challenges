@@ -1,0 +1,307 @@
+{
+    "file_name": "pang-et-al-2017-effects-of-fluorine-and-chromium-doping-on-the-performance-of-lithium-rich-li1-xmo2-(m-ni-mn-co)",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li1.2Ni0.23Co0.12Mn0.5O2",
+                "phase": null,
+                "dopants": [],
+                "morphology": "spherical carbonate precursor powders",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "manganese sulfate (MnSO4\u00b7H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "nickel sulfate (NiSO4\u00b77H2O)",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "cobalt sulfate (CoSO4\u00b77H2O)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": "Na2CO3",
+                        "temperature": "60\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "continuously stirred reactor tank"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Precursor Formation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "120\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "lithium hydroxide (LiOH)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "16 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction (XRPD)",
+                        "parameters": "2\u03b8 range 10\u201380\u00b0 with a step size of 0.02\u00b0"
+                    },
+                    {
+                        "name": "Neutron powder diffraction (NPD)",
+                        "parameters": "2\u03b8 range 6.5\u2013164\u00b0 with a step size of 0.05\u00b0"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Cr-doped Li1.2Ni0.23Co0.12Mn0.5O2",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Cr",
+                        "concentration": "2%"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Dopant Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Cr(NO3)3\u00b7H2O",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "600\u00b0C",
+                        "pressure": null,
+                        "duration": "4 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction (XRPD)",
+                        "parameters": "2\u03b8 range 10\u201380\u00b0 with a step size of 0.02\u00b0"
+                    },
+                    {
+                        "name": "Neutron powder diffraction (NPD)",
+                        "parameters": "2\u03b8 range 6.5\u2013164\u00b0 with a step size of 0.05\u00b0"
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "F-doped Li1.2Ni0.23Co0.12Mn0.5O2",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "F",
+                        "concentration": "5%"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Dopant Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "NH4F",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "600\u00b0C",
+                        "pressure": null,
+                        "duration": "4 h",
+                        "atmosphere": "air",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction (XRPD)",
+                        "parameters": "2\u03b8 range 10\u201380\u00b0 with a step size of 0.02\u00b0"
+                    },
+                    {
+                        "name": "Neutron powder diffraction (NPD)",
+                        "parameters": "2\u03b8 range 6.5\u2013164\u00b0 with a step size of 0.05\u00b0"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li1.2Ni0.23Co0.12Mn0.5O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Severe capacity fade during cycling.",
+                "type": "performance",
+                "impact": "Reduces the long-term energy storage capability of lithium-ion batteries, limiting their practical application."
+            },
+            "solution": {
+                "description": "Doping with 2% Cr improved cycle performance by \u223c13%.",
+                "methodology": "Cationic substitution at the R3\u0305m metal (3a) site.",
+                "effectiveness": "Effective in enhancing cycle performance but resulted in a small reduction in capacity."
+            },
+            "evidence": {
+                "source": "Abstract and Results sections",
+                "data": "Cycle performance improved by \u223c13% with Cr doping, as shown in electrochemical testing results."
+            },
+            "context": {
+                "material_properties": "High capacity of \u223c270 mAh\u00b7g\u22121 with layered structure (R3\u0305m space group).",
+                "experimental_conditions": "Cycling tests performed at various rates (0.1C, 0.2C, etc.) and voltage windows (2.0\u20134.8 V).",
+                "application_relevance": "Improved cycle performance is critical for extending battery life in energy storage applications."
+            }
+        },
+        {
+            "material": "Li1.2Ni0.23Co0.12Mn0.5O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Voltage decay during cycling, thought to originate from a transformation to a spinel-like phase at 3V.",
+                "type": "structural",
+                "impact": "Voltage decay reduces the energy density and efficiency of the battery over time."
+            },
+            "solution": {
+                "description": "Cr doping suppressed voltage decay.",
+                "methodology": "Cationic substitution at the R3\u0305m metal (3a) site.",
+                "effectiveness": "Effective in reducing voltage decay, particularly during discharge, but did not enhance capacity."
+            },
+            "evidence": {
+                "source": "Results section",
+                "data": "Voltage decay suppressed by Cr doping, as shown in in operando neutron powder diffraction data."
+            },
+            "context": {
+                "material_properties": "Layered structure with R3\u0305m space group symmetry.",
+                "experimental_conditions": "Cycling tests performed up to 200 cycles under various charge/discharge rates.",
+                "application_relevance": "Voltage stability is essential for maintaining consistent energy output in battery applications."
+            }
+        },
+        {
+            "material": "Li1.2Ni0.23Co0.12Mn0.5O2",
+            "stage": "application",
+            "challenge": {
+                "description": "Poor cycle performance of F-doped material, retaining only \u223c70% capacity after 200 cycles.",
+                "type": "performance",
+                "impact": "Limits the long-term usability of the material in practical battery applications."
+            },
+            "solution": {
+                "description": "F doping enhanced capacity and rate performance but worsened cycle stability.",
+                "methodology": "Anionic substitution at the R3\u0305m oxygen (6c) site.",
+                "effectiveness": "Improved initial capacity and rate performance but led to structural instability during cycling."
+            },
+            "evidence": {
+                "source": "Results section",
+                "data": "Capacity retention of \u223c70% after 200 cycles, compared to \u223c90% for Cr-doped material."
+            },
+            "context": {
+                "material_properties": "Layered structure with increased lattice parameter due to F doping.",
+                "experimental_conditions": "Cycling tests performed under asymmetric charge-discharge profiles (0.2C/0.5D).",
+                "application_relevance": "Structural stability is critical for maintaining performance in long-term battery use."
+            }
+        },
+        {
+            "material": "Li1.2Ni0.23Co0.12Mn0.5O2",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Difficulty in determining the crystallographic position of low-level dopants (F and Cr).",
+                "type": "procedural",
+                "impact": "Complicates the understanding of the relationship between doping and electrochemical performance."
+            },
+            "solution": {
+                "description": "Used neutron powder diffraction (NPD) combined with Rietveld refinement to model dopant positions.",
+                "methodology": "High-resolution NPD data and structural modeling techniques.",
+                "effectiveness": "Provided insights into dopant positions but could not rule out the presence of minute amounts of dopants in secondary phases."
+            },
+            "evidence": {
+                "source": "Experimental and Results sections",
+                "data": "NPD data revealed Cr at the 3a site and F at the 6c site within the R3\u0305m phase."
+            },
+            "context": {
+                "material_properties": "Layered structure with mixed transition-metal occupancy.",
+                "experimental_conditions": "Neutron diffraction performed at OPAL reactor using ECHIDNA instrument.",
+                "application_relevance": "Accurate structural characterization is essential for optimizing doping strategies to improve battery performance."
+            }
+        }
+    ]
+}

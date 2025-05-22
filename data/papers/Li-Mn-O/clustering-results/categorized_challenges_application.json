@@ -1,0 +1,73 @@
+{
+    "Capacity Fading and Cycle Stability": [
+        "Severe capacity fade during cycling. Reduces the long-term energy storage capability of lithium-ion batteries, limiting their practical application.",
+        "Poor cycle performance of F-doped material, retaining only \u223c70% capacity after 200 cycles. Limits the long-term usability of the material in practical battery applications.",
+        "Capacity fading during cycling occurs in the higher charge voltage range (x < 0.45). This problem limits the material's long-term performance and reliability as a cathode in lithium-ion batteries.",
+        "Poor cyclability of the charge-discharge process in the 4-V region. Limits commercial applications of LiMn2O4 as a cathode material for rechargeable lithium batteries.",
+        "Capacity decline observed during cycling, particularly when cycling over both voltage plateaus. Capacity fade reduces the practical utility of the material as a rechargeable battery cathode.",
+        "Capacity fade due to particle cracking and pulverization during extended cycling. Leads to reduced cycle life and diminished electrochemical performance of the electrode.",
+        "Capacity fading in batteries using LiMn2O4 as an anode material due to phase transitions. Phase transitions lead to structural instability, reducing battery performance and lifespan.",
+        "Severe capacity fading during long-term charge-discharge cycles. Capacity fading reduces the effectiveness and lifespan of the cathode material in lithium-ion batteries.",
+        "Capacity fading upon cycling, which becomes severe at elevated temperatures (40\u00b0C). Reduces the long-term performance and reliability of the material as a cathode in lithium-ion batteries.",
+        "Capacity fading due to structural instability induced by Jahn-Teller distortion and manganese dissolution via Mn3+ disproportionation reaction. Reduces the long-term electrochemical performance and stability of the cathode material in lithium-ion batteries.",
+        "Capacity fading becomes very fast for high Cr content (y=0.75). Rapid capacity fading limits the material's effectiveness as a positive electrode in lithium batteries."
+    ],
+    "Voltage Decay and Energy Density": [
+        "Voltage decay during cycling, thought to originate from a transformation to a spinel-like phase at 3V. Voltage decay reduces the energy density and efficiency of the battery over time."
+    ],
+    "Magnetic Properties and Interactions": [
+        "Substitution by non-magnetic d0 Ti4+ ions weakens the magnetic interactions between manganese ions. Weakening of magnetic interactions reduces the material's magnetic moment and affects its performance in applications requiring strong magnetic properties.",
+        "Weak ferromagnetism observed in the antiferromagnetic phase at low temperatures. The weak ferromagnetic component could interfere with the material's magnetic stability and performance in applications requiring precise magnetic properties."
+    ],
+    "Phase Transitions and Structural Instability": [
+        "Phase transition observed around 280\u2013290 K with hysteresis, leading to a dramatic drop in conductivity. Limits the material's performance as a cathode in rechargeable Li-ion batteries, particularly at lower temperatures.",
+        "Sensitivity of phase transitions to lithium deficiency. Even a small lithium deficit (0.02 Li) can induce phase transitions, which may compromise the material's performance and reliability in battery applications.",
+        "Structural changes caused by Jahn-Teller distortion upon deep discharging could degrade cycling performance. Jahn-Teller distortion leads to structural instability, reducing the material's effectiveness as a cathode in rechargeable batteries.",
+        "Irreversible phase transition at the 2.7 V plateau due to Jahn-Teller distortion of Mn3+ in the tetragonal phase. The distortion causes anisotropic strain, leading to particle fracture and internal contact loss upon cycling, which degrades battery performance.",
+        "Phase transition observed near the composition Li0.5[Mn2]O4, with a sudden decrease in lattice parameter. Uncertainty in the nature of the phase transition affects the stability and performance of the material in battery applications.",
+        "Metastable nature of A-MnO2 leads to reversion to more stable phases upon heating. Limits the thermal stability and long-term usability of A-MnO2 in high-temperature applications.",
+        "Formation of ordered Li/vacancy arrangement at x \u2248 0.5, leading to a two-phase coexistence reaction. This ordered arrangement causes a flat voltage profile, which can limit the performance and stability of the material in lithium-ion batteries."
+    ],
+    "Thermal Stability and High-Temperature Effects": [
+        "Fast capacity fading during charge/discharge cycling at relatively high temperatures (e.g., 55\u00b0C). This problem significantly reduces the cycle stability and overall performance of the material as a cathode in lithium-ion batteries.",
+        "Capacity decay at high temperatures due to aggravated Jahn-Teller distortions and HF acid attack. High-temperature cycling leads to faster degradation of the cathode material, limiting its performance in practical applications.",
+        "Thermal decomposition of the material is accelerated in the presence of electrolyte. This acceleration leads to structural instability and formation of secondary phases, which can compromise the safety and performance of lithium-ion batteries.",
+        "Thermal instability towards electrolyte in electrochemically delithiated state. This instability leads to oxygen release and formation of secondary phases, compromising battery safety and performance.",
+        "Thermal decomposition of the proton-containing spinel occurred at 350\u00b0C in oxygen, leading to phase changes and loss of structural integrity. The decomposition limits the material's operational temperature range and affects its long-term stability in applications."
+    ],
+    "Conductivity and Transport Properties": [
+        "High impedance in parent composition (x = 0.0) limits transport properties. Reduced efficiency in applications requiring fast electron transport.",
+        "Poor transport property in the 3 \u00d7 3 \u00d7 1 superstructure due to the formation of a truncated square tessellation of Mn4+ ions, which immobilizes polarons via spin blockade. This immobilization seriously affects the performance of Li-ion conduction, limiting the material's effectiveness as a cathode in Li-ion batteries.",
+        "Low electronic conductivity. Limits the rate capability and overall performance of the material in practical applications."
+    ],
+    "Synthesis and Structural Defects": [
+        "High synthesis temperatures lead to ordered crystalline domains, which hinder the formation of smooth Li percolation paths. Reduced smooth Li percolation paths negatively affect Li utilization and battery capacity.",
+        "Structural defects such as Td and 16c defects accumulate upon cycling, especially at high Cr content. Defects reduce the number of accessible sites for lithium ions, leading to capacity loss and lower battery performance."
+    ],
+    "Jahn-Teller Distortion Effects": [
+        "Presence of Jahn-Teller distortion significantly affects the reversibility of lithium insertion/deinsertion processes and creates high cell polarization even at low cycling currents. Reduces the efficiency and stability of the material when used as a cathode in lithium-ion batteries.",
+        "Stoichiometry deviations in Li-rich spinel phase (Li1-yMn2-yO4) affecting conductivity and Jahn-Teller distortion behavior. Small deviations in stoichiometry can lead to variations in conductivity and structural transitions, impacting performance in electrochemical applications.",
+        "Electrochemical reduction of Li2Mn4O9 to Li5Mn4O9 reduces manganese-ion valency and may induce structural changes. Reduction in manganese valency can affect the cubic symmetry and stability of the electrode structure."
+    ],
+    "Mechanical Instability and Surface Changes": [
+        "Fragility and surface grooves observed in the delithiated crystals, along with a color change from black to brown. These changes indicate potential mechanical instability and altered material properties, which could affect performance in practical applications."
+    ],
+    "Oxygen Release and Cation Distribution": [
+        "Oxygen release during high-temperature treatments leads to changes in cation distribution and oxidation states. This affects the charge balance and stability of the spinel structure, potentially reducing its performance in applications like lithium-ion batteries."
+    ],
+    "Electrochemical Performance Limitations": [
+        "High-temperature-prepared LiMnO2 materials generally exhibit poor electrochemical reactivity, leading to low capacities (~70 mAh/g). Poor electrochemical performance limits the material's viability as a cathode in lithium rechargeable batteries.",
+        "Complete conversion to spinel LiMn2O4 after the first charge without the intermediate transition to Phase II. This rapid conversion limits the ability to study intermediate phases and their contributions to electrochemical performance.",
+        "Reduction in initial charge capacity with increasing cobalt content. Lower initial capacity reduces the energy density of the battery.",
+        "Electrochemical inactivity due to Mn in tetravalent oxidation state. Limits the material's ability to function effectively as a cathode in lithium-ion batteries."
+    ],
+    "Chemical Instability and Acid Treatment Effects": [
+        "Severe oxidative delithiation during acid treatment, leading to structural changes and reduction in layer spacing. Adverse crystal structure changes and reduced interlayer spacing from 4.73 \u00c5 to 4.32 \u00c5, affecting material stability and performance.",
+        "Rapid dissolution and O2 evolution during acid treatment due to high redox potential of Ni4+ ions. Complete dissolution of the solid within minutes, preventing isolation of the material for further use."
+    ],
+    "Other": [
+        "Lower surface area compared to LiMn2O4, potentially limiting catalytic activity. Reduced surface area may decrease the accessibility of electrolytes to catalytic sites, impacting water oxidation efficiency.",
+        "High Coulomb potential barriers caused by Mn4+ ions obstructing lithium-ion migration paths. Reduced lithium-ion mobility negatively impacts charge-discharge capacity and overall battery performance.",
+        "High irreversible capacity loss with oxygen removal during the first charge. This reduces the efficiency and energy density of the material, undermining its commercial viability for applications like electric vehicles."
+    ]
+}

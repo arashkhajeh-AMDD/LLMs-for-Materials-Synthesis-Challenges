@@ -1,0 +1,165 @@
+{
+    "file_name": "1-s2.0-S0022459697974764-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiCryMn2-yO4 (0 \u2264 y \u2264 1)",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Cr",
+                        "concentration": "variable (0 \u2264 y \u2264 1)"
+                    }
+                ],
+                "morphology": "cuboctahedra, approximately 1 \u03bcm in dimension",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Solid-State Reaction",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750\u00b0C",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "Flame Absorption Spectrometry",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Microprobe and Energy Dispersive X-ray Spectrometry",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray Powder Diffraction (XRPD)",
+                        "parameters": "Cu K\u03b1 radiation, 2\u03b8 range 5\u2013120\u00b0, step size 0.03\u00b0 (2\u03b8), step time 12 s"
+                    },
+                    {
+                        "name": "Scanning Electron Microscopy (SEM)",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "LixCryMn2-yO4 (x \u2264 1)",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Cr",
+                        "concentration": "variable (0 \u2264 y \u2264 1)"
+                    }
+                ],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Electrochemical Preparation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Mn",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "50 hours",
+                        "atmosphere": "inert gas",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray Powder Diffraction (XRPD)",
+                        "parameters": "Cu K\u03b1 radiation, 2\u03b8 range 5\u2013120\u00b0, step size 0.03\u00b0 (2\u03b8), step time 12 s"
+                    },
+                    {
+                        "name": "Electron Energy Loss Spectroscopy (EELS)",
+                        "parameters": "samples cooled to 120 K, radiation time 0.1 s"
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiCryMn2-yO4",
+            "stage": "application",
+            "challenge": {
+                "description": "Capacity fading becomes very fast for high Cr content (y=0.75).",
+                "type": "structural",
+                "impact": "Rapid capacity fading limits the material's effectiveness as a positive electrode in lithium batteries."
+            },
+            "solution": {
+                "description": "Structural studies and Rietveld refinements were conducted to understand defect accumulation and its impact on capacity fading.",
+                "methodology": "Rietveld refinement, electron energy loss spectroscopy (EELS), and structural analysis to identify and quantify defects such as Td and 16c defects.",
+                "effectiveness": "The studies provided insights into the defect mechanisms but did not fully resolve the capacity fading issue."
+            },
+            "evidence": {
+                "source": "Discussion and Figures 6-11 in the paper.",
+                "data": "Accumulation of Td and 16c defects correlates with capacity fading, especially at high Cr content."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Cr substitution; high Cr content leads to defect formation.",
+                "experimental_conditions": "Cycling between 3.5 and 5.1 V; high Cr content (y=0.75).",
+                "application_relevance": "Material intended for use as a positive electrode in lithium batteries."
+            }
+        },
+        {
+            "material": "LiCryMn2-yO4",
+            "stage": "application",
+            "challenge": {
+                "description": "Structural defects such as Td and 16c defects accumulate upon cycling, especially at high Cr content.",
+                "type": "structural",
+                "impact": "Defects reduce the number of accessible sites for lithium ions, leading to capacity loss and lower battery performance."
+            },
+            "solution": {
+                "description": "Investigated defect formation mechanisms and their reversibility through structural studies and EELS.",
+                "methodology": "Rietveld refinement and EELS to analyze defect accumulation and its impact on lithium-ion accessibility.",
+                "effectiveness": "Provided detailed understanding of defect mechanisms but did not eliminate defect formation or its impact on capacity."
+            },
+            "evidence": {
+                "source": "Discussion and Figures 6-11 in the paper.",
+                "data": "Defect accumulation increases with Cr content and cycling, correlating with capacity loss."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Cr substitution; defects form due to migration of transition metal cations.",
+                "experimental_conditions": "Cycling between 3.5 and 5.1 V; high Cr content (y=0.75).",
+                "application_relevance": "Defects impact the material's ability to function effectively as a positive electrode in lithium batteries."
+            }
+        }
+    ]
+}

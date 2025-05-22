@@ -1,0 +1,248 @@
+{
+    "file_name": "1-s2.0-S1293255806002779-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li0.97MnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Mn2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Grinding and Annealing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750\u00b0C",
+                        "pressure": null,
+                        "duration": "25 hours",
+                        "atmosphere": "helium",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "atomic absorption analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "permanganate back-titration",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.00MnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Mn2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Grinding and Annealing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750\u00b0C",
+                        "pressure": null,
+                        "duration": "25 hours",
+                        "atmosphere": "helium",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "atomic absorption analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "permanganate back-titration",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li1.02MnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Mn2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Grinding and Annealing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "750\u00b0C",
+                        "pressure": null,
+                        "duration": "25 hours",
+                        "atmosphere": "helium",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": null
+                    },
+                    {
+                        "name": "atomic absorption analysis",
+                        "parameters": null
+                    },
+                    {
+                        "name": "permanganate back-titration",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMnO2",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Structural disorder caused by the presence of manganese ions in lithium positions (MnLi) and lithium ions in manganese ones (LiMn).",
+                "type": "structural",
+                "impact": "This disorder affects the material's magnetic properties and contributes to the appearance of weak ferromagnetism, which may hinder its performance as a cathode material."
+            },
+            "solution": {
+                "description": "Detailed structural investigations using neutron and X-ray diffraction to characterize the disorder and its effects.",
+                "methodology": "Rietveld refinement of neutron and X-ray diffraction data, combined with first-principles calculations.",
+                "effectiveness": "The approach successfully identified the structural disorder and its impact on magnetic properties, but the disorder itself remains inherent to the material."
+            },
+            "evidence": {
+                "source": "Abstract, Sections 3.1 and 4",
+                "data": "Presence of MnLi and LiMn defects confirmed by neutron and X-ray diffraction data; structural parameters and magnetic measurements provided in Tables 1, 2, and 5."
+            },
+            "context": {
+                "material_properties": "Orthorhombic structure with Jahn-Teller distortions and antiferromagnetic interactions.",
+                "experimental_conditions": "Synthesis performed by annealing Mn2O3 and Li2CO3 at 750\u00b0C under helium atmosphere.",
+                "application_relevance": "The disorder impacts the material's suitability as a high-performance cathode for Li-ion batteries."
+            }
+        },
+        {
+            "material": "LiMnO2",
+            "stage": "application",
+            "challenge": {
+                "description": "Weak ferromagnetism observed in the antiferromagnetic phase at low temperatures.",
+                "type": "magnetic",
+                "impact": "The weak ferromagnetic component could interfere with the material's magnetic stability and performance in applications requiring precise magnetic properties."
+            },
+            "solution": {
+                "description": "First-principles calculations to investigate the origin of weak ferromagnetism and its relation to structural defects.",
+                "methodology": "Hypothetical modeling of defective structures (e.g., (Li15Mn)Mn16O32) and calculation of exchange interaction parameters.",
+                "effectiveness": "The calculations demonstrated that weak ferromagnetism may arise from MnLi-type defects, providing insights but not eliminating the issue."
+            },
+            "evidence": {
+                "source": "Sections 3.3 and 3.4",
+                "data": "Magnetic susceptibility and neutron diffraction data showing ferromagnetic components; exchange interaction parameters calculated for defective structures."
+            },
+            "context": {
+                "material_properties": "Antiferromagnetic chains with exchange-coupled interactions; Jahn-Teller distortions reduced at lower temperatures.",
+                "experimental_conditions": "Magnetic measurements performed in the temperature range of 1.5\u2013300 K.",
+                "application_relevance": "Understanding weak ferromagnetism is critical for optimizing the material's performance in magnetic and electrochemical applications."
+            }
+        }
+    ]
+}

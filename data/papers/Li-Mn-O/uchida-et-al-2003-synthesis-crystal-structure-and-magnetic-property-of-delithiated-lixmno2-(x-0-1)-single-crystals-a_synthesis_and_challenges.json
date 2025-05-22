@@ -1,0 +1,258 @@
+{
+    "file_name": "uchida-et-al-2003-synthesis-crystal-structure-and-magnetic-property-of-delithiated-lixmno2-(x-0-1)-single-crystals-a",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": "needle-like",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMnO2 powder",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiCl",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Flux Growth",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "1273 K",
+                        "pressure": null,
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "sealed Pt tube in a vertical resistance furnace"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Cooling",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "873 K",
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Separation",
+                    "details": {
+                        "reagents": [],
+                        "solvent": "water",
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "several hours",
+                        "atmosphere": null,
+                        "equipment": "Pt tube"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM-EDX",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "LixMnO2 (x < 0.1)",
+                "phase": "cubic",
+                "dopants": [],
+                "morphology": null,
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Electrochemical Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMnO2 crystal",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "LiClO4/propylene carbonate + ethylene carbonate solution",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "overnight",
+                        "atmosphere": "air purified by a column",
+                        "equipment": "potentiostat, microelectrode-based system"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Chemical Delithiation",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiMnO2 single crystals",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "1 M HCl solution",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": "several hours",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [
+                {
+                    "step": 1,
+                    "label": "Washing",
+                    "details": {
+                        "temperature": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "ICP spectroscopy",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Powder X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Magnetic measurements",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMnO2",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Gradual and irreversible structural transformation of orthorhombic LiMnO2 into a spinel-type structure during several discharge-charge cycles.",
+                "type": "structural",
+                "impact": "This structural change is generally unfavorable for practical applications as it affects the stability and performance of the electrode material."
+            },
+            "solution": {
+                "description": "Electrochemically generated spinel electrodes were found to exhibit significantly better and more stable charge-discharge cycle characteristics compared to regular spinel-type LiMn2O4 electrodes.",
+                "methodology": "Utilization of electrochemical cycling to stabilize the spinel structure and improve its performance.",
+                "effectiveness": "The solution demonstrated improved stability and performance characteristics, but the structural transformation remains irreversible."
+            },
+            "evidence": {
+                "source": "Introduction section, references (2, 3)",
+                "data": "Observations of structural transformation during electrochemical cycling and comparison of performance characteristics of spinel electrodes."
+            },
+            "context": {
+                "material_properties": "Orthorhombic LiMnO2 has a zigzag layered structure with space group Pmnm.",
+                "experimental_conditions": "Discharge-charge cycles under electrochemical conditions.",
+                "application_relevance": "Relevant for use as cathode materials in secondary lithium batteries."
+            }
+        },
+        {
+            "material": "LixMnO2 (x < 0.1)",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Presence of additional spots indicating superlattice structure and diffuse scattering in X-ray precession photographs.",
+                "type": "structural",
+                "impact": "These features suggest ordered local structure or short-range ordering, complicating the determination of the average structure."
+            },
+            "solution": {
+                "description": "The average structure was described as disordered rock salt-type, simplifying the structural model despite the observed superlattice features.",
+                "methodology": "Use of single-crystal X-ray diffraction and structural refinement techniques to characterize the material.",
+                "effectiveness": "The solution provided a simplified structural model but did not fully resolve the nature of the superlattice features."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figures 6 and 7",
+                "data": "X-ray precession photographs showing weak intensity reflections and diffuse scattering."
+            },
+            "context": {
+                "material_properties": "Disordered rock salt-type structure with space group Fm3hm and lattice parameter a = 4.095(3) \u00c5.",
+                "experimental_conditions": "Single-crystal X-ray diffraction at room temperature.",
+                "application_relevance": "Understanding the structure is key to optimizing the material for battery applications."
+            }
+        },
+        {
+            "material": "LixMnO2 (x < 0.1)",
+            "stage": "application",
+            "challenge": {
+                "description": "Fragility and surface grooves observed in the delithiated crystals, along with a color change from black to brown.",
+                "type": "procedural",
+                "impact": "These changes indicate potential mechanical instability and altered material properties, which could affect performance in practical applications."
+            },
+            "solution": {
+                "description": "Careful rinsing and handling of the delithiated crystals to preserve their integrity during characterization and application.",
+                "methodology": "Use of controlled electrochemical delithiation and chemical analysis techniques.",
+                "effectiveness": "The solution mitigated handling issues but did not address the inherent fragility of the material."
+            },
+            "evidence": {
+                "source": "Results and Discussion section, Figure 5",
+                "data": "SEM photograph showing surface grooves and fragility of the delithiated crystals."
+            },
+            "context": {
+                "material_properties": "Delithiated LixMnO2 crystals exhibit a disordered rock salt-type structure with altered mechanical properties.",
+                "experimental_conditions": "Electrochemical delithiation under controlled potential.",
+                "application_relevance": "Mechanical stability is critical for the material's use in battery electrodes."
+            }
+        }
+    ]
+}

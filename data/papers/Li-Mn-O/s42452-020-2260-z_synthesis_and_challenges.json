@@ -1,0 +1,341 @@
+{
+    "file_name": "s42452-020-2260-z",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Li2Mn1\u2212xRuxO3 (x = 0.0, 0.05, 0.1)",
+                "phase": "C2/m",
+                "dopants": [
+                    {
+                        "element": "Ru",
+                        "concentration": "0.05"
+                    },
+                    {
+                        "element": "Ru",
+                        "concentration": "0.1"
+                    }
+                ],
+                "morphology": null,
+                "purity": "high purity"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "RuO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "temperature": "950 \u00b0C",
+                        "duration": "12 h",
+                        "atmosphere": "ambient atmosphere",
+                        "equipment": "muffle furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray powder diffraction",
+                        "parameters": {
+                            "step size": "0.015",
+                            "scan speed": "1 s/step",
+                            "wavelength": "1.09 \u00c5"
+                        }
+                    },
+                    {
+                        "name": "Raman spectroscopy",
+                        "parameters": {
+                            "laser wavelength": "514 nm",
+                            "laser power": "2 mW",
+                            "acquisition time": "50 s"
+                        }
+                    },
+                    {
+                        "name": "FTIR spectroscopy",
+                        "parameters": {
+                            "range": "400\u20134000 cm\u22121",
+                            "technique": "KBr pellet"
+                        }
+                    },
+                    {
+                        "name": "X-ray absorption spectroscopy",
+                        "parameters": {
+                            "energy range": "100\u20131200 eV",
+                            "mode": "total electron yield"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Sr4Ru2O9",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": "high purity"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "SrCO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "RuO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "850 \u00b0C",
+                        "duration": "36 h",
+                        "atmosphere": "oxygen atmosphere",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "950 \u00b0C",
+                        "duration": "36 h",
+                        "atmosphere": "oxygen atmosphere",
+                        "equipment": "tubular furnace"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": null,
+                "purity": "high purity"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "LiOH\u00b7H2O",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Heating",
+                    "details": {
+                        "temperature": "800 \u00b0C",
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        },
+        {
+            "material": {
+                "name": "LaMn0.8Ru0.2O3",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Ru",
+                        "concentration": "0.2"
+                    }
+                ],
+                "morphology": null,
+                "purity": "high purity"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "La2O3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "RuO2",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "900 \u00b0C",
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "1050 \u00b0C",
+                        "duration": "24 h",
+                        "atmosphere": "ambient atmosphere",
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": []
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "Li2Mn1\u2212xRuxO3 (x = 0.05, 0.1)",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Lattice distortion due to size mismatch between Ru+5 and Mn+3 ions.",
+                "type": "structural",
+                "impact": "Distortion in the lattice affects the material's stability and properties."
+            },
+            "solution": {
+                "description": "Optimized synthesis conditions to induce redox interaction between Ru+4 and Mn+4, resulting in mixed valence states.",
+                "methodology": "High-temperature solid-state reaction and doping Ru+4 at Mn+4 sites.",
+                "effectiveness": "Successfully induced mixed valence states and reduced impedance, but lattice distortion persisted."
+            },
+            "evidence": {
+                "source": "Raman and IR spectroscopic studies; Figures 4 and 5.",
+                "data": "Peak shifting and splitting in Raman and IR spectra indicate lattice distortion."
+            },
+            "context": {
+                "material_properties": "Mixed valence states of Mn+3/Mn+4 and Ru+4/Ru+5 enhance redox activity.",
+                "experimental_conditions": "Synthesis at 950\u00b0C for 12 hours in ambient atmosphere.",
+                "application_relevance": "Improved dye degradation efficiency in visible light due to enhanced redox activity."
+            }
+        },
+        {
+            "material": "Li2Mn1\u2212xRuxO3 (x = 0.05, 0.1)",
+            "stage": "application",
+            "challenge": {
+                "description": "High impedance in parent composition (x = 0.0) limits transport properties.",
+                "type": "electronic",
+                "impact": "Reduced efficiency in applications requiring fast electron transport."
+            },
+            "solution": {
+                "description": "Doping Ru+4 at Mn+4 sites to reduce impedance and increase capacitance.",
+                "methodology": "Substitution of Ru+4 ions and measurement of frequency-dependent impedance and capacitance.",
+                "effectiveness": "Impedance decreased by 102 times and capacitance increased significantly, improving transport properties."
+            },
+            "evidence": {
+                "source": "Impedance and capacitance measurements; Figure 8.",
+                "data": "Impedance reduced from 1.38 \u00d7 10^7 Ohm to 5.37 \u00d7 10^4 Ohm for x = 0.1 composition."
+            },
+            "context": {
+                "material_properties": "Mixed valence states facilitate electron hopping and reduce impedance.",
+                "experimental_conditions": "Frequency range from 1 Hz to 40 MHz at room temperature.",
+                "application_relevance": "Enhanced transport properties improve performance in dye degradation and other catalytic applications."
+            }
+        },
+        {
+            "material": "Li2Mn1\u2212xRuxO3 (x = 0.05, 0.1)",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Difficulty in confirming mixed valence states of Mn and Ru ions.",
+                "type": "chemical",
+                "impact": "Uncertainty in understanding the redox mechanisms and material behavior."
+            },
+            "solution": {
+                "description": "Used X-ray absorption spectroscopy (XAS) to identify mixed valence states of Mn+3/Mn+4 and Ru+4/Ru+5.",
+                "methodology": "Analysis of L2,3 and M4,5 edges in XAS spectra.",
+                "effectiveness": "Successfully confirmed mixed valence states, providing insights into redox mechanisms."
+            },
+            "evidence": {
+                "source": "XAS studies; Figures 6 and 7.",
+                "data": "Shifting of absorption peaks in L3 and M4 edges indicates mixed valence states."
+            },
+            "context": {
+                "material_properties": "Mixed valence states enhance redox activity and dye degradation efficiency.",
+                "experimental_conditions": "XAS measurements performed under ultra-high vacuum conditions.",
+                "application_relevance": "Understanding redox mechanisms is critical for optimizing catalytic performance."
+            }
+        }
+    ]
+}

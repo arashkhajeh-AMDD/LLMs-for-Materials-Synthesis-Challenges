@@ -1,0 +1,62 @@
+{
+    "Rietveld refinement and structural modeling techniques": [
+        "Used neutron powder diffraction (NPD) combined with Rietveld refinement to model dopant positions. High-resolution NPD data and structural modeling techniques.",
+        "Introduced disorder in the cationic distribution to account for the observed electron density in the 8a and 16d sites. Refined structural models considering partial occupancy of Mn2+ in the 8a site alongside Li and Ti4+.",
+        "Use of Rietveld refinement and high-quality PXRD data to distinguish between phases. Application of Rietveld refinement to PXRD data instead of simple peak matching.",
+        "The authors used a combination of experimental and computational methods, including Rietveld refinement and lattice energy calculations, to improve the accuracy of structural parameters. Application of X-ray diffraction techniques, Rietveld refinement, and computational modeling using the General Utility Lattice Program (GULP).",
+        "Careful modeling of the background and refinement of structural and profile parameters using advanced techniques. Rietveld refinement and simulations with the DIFFaX software were employed to account for stacking faults and improve the fit.",
+        "Combination of XRD, XANES, M\u00f6ssbauer spectroscopy, and magnetic measurements to analyze cation distribution and oxidation states. Use of Rietveld refinement for structural analysis and XANES for valence state determination.",
+        "Neutron diffraction was used alongside X-ray diffraction to refine structural parameters and confirm lithium ion distribution. Simultaneous Rietveld refinement of X-ray and neutron diffraction data, with constraints applied to improve consistency.",
+        "Comparison of stabilization energy and modeling of manganese ion distribution. Use of Rietveld refinement and theoretical models to infer manganese ion positions and valence states.",
+        "The (110) reflection was removed from the powder diffraction Rietveld refinement to suppress the ill-defined line. Exclusion of problematic diffraction peaks during structural refinement.",
+        "The authors used a modified cubic spinel model to account for cation displacement and lithium migration. Rietveld refinement with a modified cubic spinel model assuming partial occupancy of Mn at the 8a site and Li at the interstitial 16c site.",
+        "Refinement of the structure using XRD and TEM to identify the dominant phase and secondary phases. Rietveld refinement and TEM imaging to characterize the second phase and its transformation with varying lithium content.",
+        "Exploiting differences in scattering power between Li and Ni atoms to refine structural variations indirectly. Using Rietveld analysis of XRD data to estimate cation distributions based on scattering power differences."
+    ],
+    "Neutron diffraction and X-ray diffraction for atomic site and phase analysis": [
+        "Application of both neutron and X-ray powder diffraction techniques to obtain detailed structural information. Combined use of neutron diffraction for precise atomic site occupancy and X-ray diffraction for phase identification and lattice parameters.",
+        "Neutron diffraction techniques were used to overcome the limitations of X-ray diffraction. Neutron diffraction, which provides better sensitivity to lithium ions.",
+        "Refinement of the X-ray pattern of the powder used for neutron diffraction work revealed evidence of manganese vacancies on the 4g site. X-ray diffraction refinement to identify structural defects affecting magnetic measurements.",
+        "Use of neutron powder diffraction and difference Fourier maps to locate deuterium atoms in ordered positions. Neutron diffraction refinement with deuterium included at 96g sites."
+    ],
+    "Computational modeling and lattice energy calculations": [
+        "The authors applied modeling methods based on interatomic potentials derived for relevant binary oxides to predict lithium ion distribution. Use of computational modeling techniques, including lattice energy calculations and refinement of crystal structure parameters.",
+        "Application of computational methods based on lattice energy calculations to resolve discrepancies in lithium ion distribution. Lattice energy minimization using interatomic potentials and comparison of structural parameters determined by X-ray diffraction."
+    ],
+    "Synchrotron X-ray diffraction for high-resolution data collection": [
+        "Use of high-resolution synchrotron PXRD data to improve phase distinction. Collecting PXRD data with higher signal-to-noise ratio and resolution.",
+        "Utilized a smaller crystal (~0.03 mm in size) with high-flux synchrotron X-rays to reduce extinction problems and collected data at significantly higher resolution (d > 0.49 \u00c5) and lower temperature (230 K). High-flux synchrotron X-rays, smaller crystal size, and improved data collection strategy."
+    ],
+    "Single-crystal X-ray diffraction for symmetry and structural parameter analysis": [
+        "The average structure was described as disordered rock salt-type, simplifying the structural model despite the observed superlattice features. Use of single-crystal X-ray diffraction and structural refinement techniques to characterize the material.",
+        "The twinning domain ratio was estimated using integrated intensity ratios, and the twin matrix was determined to account for the structural complexity. Single-crystal X-ray diffraction mapping and analysis of integrated intensity ratios.",
+        "Use of single-crystal X-ray diffraction to clarify crystal symmetry and structural parameters. Single-crystal X-ray diffraction experiments conducted at various temperatures using a four-circle diffractometer and nitrogen gas flow cryostat."
+    ],
+    "Analysis of cation distribution and oxidation states using spectroscopy and diffraction": [
+        "Used X-ray absorption spectroscopy (XAS) to identify mixed valence states of Mn+3/Mn+4 and Ru+4/Ru+5. Analysis of L2,3 and M4,5 edges in XAS spectra."
+    ],
+    "Refinement techniques for structural defects and microstructural disorder": [
+        "Use of LS1 program based on the Rietveld method and Fourier analysis to account for peak broadening effects. Advanced computational refinement techniques to model microstructural disorder parameters.",
+        "Use of advanced characterization techniques to analyze structural defects and cation mixing. Combined neutron and synchrotron X-ray diffraction analyses, FAULTS program for stacking fault analysis, and HAADF-STEM observations.",
+        "Despite the high background, the authors successfully resolved diffraction peaks and performed structural refinements. Careful data analysis and refinement techniques were applied to extract meaningful information from noisy data."
+    ],
+    "Use of Fourier maps and displacement parameters for atomic position refinement": [
+        "Introduction of anisotropic atomic displacement parameters for oxygen atoms in the structural model. Difference Fourier maps and refinement of anisotropic displacement parameters were used to improve the model.",
+        "Proton positions were refined using Fourier difference maps and fixed occupancy values based on analytical stoichiometry. Two-step refinement process: (1) refining proton position with fixed occupancy, and (2) refining lithium and hydrogen occupancies with fixed proton position."
+    ],
+    "In situ and ex situ diffraction techniques for lithium content tracking": [
+        "The lithium content was refined using in situ neutron diffraction data, which was cross-validated with earlier ex situ neutron diffraction results. In situ neutron diffraction and Rietveld refinement techniques were employed to track lithium content as a function of cell potential."
+    ],
+    "Controlled synthesis and cooling processes to influence structural properties": [
+        "Adoption of nonstoichiometric spinel Li1+xMn2O4 (Sample B) with a homogeneous phase reaction over the entire intercalated range. Introduction of manganese vacancies to stabilize the structure during lithium extraction.",
+        "Suppression of the structural phase transition by increasing Mn valence through excess Li substitution. Synthesis of Li-rich samples with higher Mn valence, reducing Jahn-Teller distortions.",
+        "A slow cooling rate of 0.05 K/min was applied to obtain a single-domain specimen with orthorhombic symmetry. Controlled cooling process to reduce twinning effects.",
+        "Formation of truncated octahedral particles with lower surface energy. Controlled growth rate along {100} surfaces faster than {111} surfaces during synthesis."
+    ],
+    "Analysis of peak broadening and microstrain using XRD and Scherrer\u2019s equation": [
+        "Analysis of peak broadening using Scherrer\u2019s equation and strain calculations to quantify crystallite size and microstrain. X-ray diffraction (XRD) analysis combined with least-squares refinement."
+    ],
+    "Application of open-circuit potential data for electrochemical corrections": [
+        "Use of open-circuit potential (OCP) data after a 6-hour relaxation period to correct for self-discharge effects. Extrapolation of potential profiles using quadratic functions to account for potential decrease during relaxation."
+    ]
+}

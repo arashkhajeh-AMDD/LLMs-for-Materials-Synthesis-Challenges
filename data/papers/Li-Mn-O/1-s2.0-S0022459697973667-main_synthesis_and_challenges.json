@@ -1,0 +1,306 @@
+{
+    "file_name": "1-s2.0-S0022459697973667-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMn2O4",
+                "phase": null,
+                "dopants": [],
+                "morphology": "powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2 (EMD)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "400\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "750\u2013900\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "oxygen",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "h\u20132h scanning method"
+                    },
+                    {
+                        "name": "Rietveld analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li(Li0.033Mn1.967)O4",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Li",
+                        "concentration": "0.033"
+                    }
+                ],
+                "morphology": "powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2 (EMD)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "400\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "750\u2013900\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "oxygen",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "h\u20132h scanning method"
+                    },
+                    {
+                        "name": "Rietveld analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Li(Li0.065Mn1.935)O4",
+                "phase": null,
+                "dopants": [
+                    {
+                        "element": "Li",
+                        "concentration": "0.065"
+                    }
+                ],
+                "morphology": "powder",
+                "purity": null
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "MnO2 (EMD)",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Calcination",
+                    "details": {
+                        "temperature": "400\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Sintering",
+                    "details": {
+                        "temperature": "750\u2013900\u00b0C",
+                        "duration": "8 h",
+                        "atmosphere": "oxygen",
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Intermediate Grinding",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": "h\u20132h scanning method"
+                    },
+                    {
+                        "name": "Rietveld analysis",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "LiMn2O4",
+            "stage": "application",
+            "challenge": {
+                "description": "Poor cyclability of the charge-discharge process in the 4-V region.",
+                "type": "procedural",
+                "impact": "Limits commercial applications of LiMn2O4 as a cathode material for rechargeable lithium batteries."
+            },
+            "solution": {
+                "description": "Use of Li-rich compositions to suppress structural distortions and improve cyclability.",
+                "methodology": "Substitution of excess Li ions on the Mn site, increasing the average ionic valence of Mn and reducing Jahn-Teller distortions.",
+                "effectiveness": "Significantly improved cyclability in the 4-V region, as reported in previous studies."
+            },
+            "evidence": {
+                "source": "Introduction and Results sections",
+                "data": "Improved cyclability observed in Li-rich samples compared to stoichiometric samples; structural distortions suppressed with excess Li."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Mn ions at octahedral sites; Jahn-Teller distortions associated with Mn3+ ions.",
+                "experimental_conditions": "Cyclability tested in the 4-V region; excess Li compositions synthesized and characterized.",
+                "application_relevance": "Critical for improving battery performance and enabling commercial viability of LiMn2O4 cathodes."
+            }
+        },
+        {
+            "material": "LiMn2O4",
+            "stage": "characterization",
+            "challenge": {
+                "description": "Structural phase transition from cubic to tetragonal at 290 K in stoichiometric samples.",
+                "type": "structural",
+                "impact": "Causes anomalies in resistivity and susceptibility, potentially affecting material stability and performance."
+            },
+            "solution": {
+                "description": "Suppression of the structural phase transition by increasing Mn valence through excess Li substitution.",
+                "methodology": "Synthesis of Li-rich samples with higher Mn valence, reducing Jahn-Teller distortions.",
+                "effectiveness": "Structural phase transition suppressed in samples with higher Mn valence; no anomalies observed in resistivity and susceptibility."
+            },
+            "evidence": {
+                "source": "Results and Discussion sections",
+                "data": "X-ray diffraction and resistivity measurements show suppression of phase transition in Li-rich samples; anomalies absent in resistivity and susceptibility."
+            },
+            "context": {
+                "material_properties": "Spinel structure with Mn ions at octahedral sites; Jahn-Teller distortions associated with Mn3+ ions.",
+                "experimental_conditions": "Phase transition observed at 290 K in stoichiometric samples; Li-rich samples synthesized and characterized.",
+                "application_relevance": "Improved structural stability critical for reliable battery performance."
+            }
+        }
+    ]
+}

@@ -1,0 +1,495 @@
+{
+    "file_name": "010916740",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "Na0.67Co0.1Mn0.9O2 (NCM1)",
+                "phase": "P2",
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "0.1"
+                    }
+                ],
+                "morphology": "flake",
+                "purity": "high"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "cobalt acetate",
+                                "stoichiometry": "1/10"
+                            },
+                            {
+                                "name": "manganese acetate",
+                                "stoichiometry": "9/10"
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": "ammonium bicarbonate (NH4HCO3)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Hydrothermal Reaction",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "reactor"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Vacuum Drying",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "500\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Grinding and Final Calcination",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "precursor",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "anhydrous sodium carbonate",
+                                "stoichiometry": "5% mol excess"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "scanning range: 10\u00b0~80\u00b0, scanning rate: 2\u00b0 min\u22121"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "EDS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.67Co0.2Mn0.8O2 (NCM2)",
+                "phase": "P2",
+                "dopants": [
+                    {
+                        "element": "Co",
+                        "concentration": "0.2"
+                    }
+                ],
+                "morphology": "flake",
+                "purity": "high"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "cobalt acetate",
+                                "stoichiometry": "1/10"
+                            },
+                            {
+                                "name": "manganese acetate",
+                                "stoichiometry": "9/10"
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": "ammonium bicarbonate (NH4HCO3)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Hydrothermal Reaction",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "reactor"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Vacuum Drying",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "500\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Grinding and Final Calcination",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "precursor",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "anhydrous sodium carbonate",
+                                "stoichiometry": "5% mol excess"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "scanning range: 10\u00b0~80\u00b0, scanning rate: 2\u00b0 min\u22121"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "EDS",
+                        "parameters": null
+                    }
+                ]
+            }
+        },
+        {
+            "material": {
+                "name": "Na0.67MnO2 (NM)",
+                "phase": "P2",
+                "dopants": [],
+                "morphology": "flake",
+                "purity": "high"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "manganese acetate",
+                                "stoichiometry": "9/10"
+                            }
+                        ],
+                        "solvent": "deionized water",
+                        "precipitant": "ammonium bicarbonate (NH4HCO3)",
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Hydrothermal Reaction",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": "reactor"
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Filtration and Washing",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "Vacuum Drying",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "80\u00b0C",
+                        "pressure": null,
+                        "duration": "24 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": null,
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "500\u00b0C",
+                        "pressure": null,
+                        "duration": "6 h",
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 6,
+                    "label": "Grinding and Final Calcination",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "precursor",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "anhydrous sodium carbonate",
+                                "stoichiometry": "5% mol excess"
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "900\u00b0C",
+                        "pressure": null,
+                        "duration": "10 h",
+                        "atmosphere": null,
+                        "equipment": "agate mortar"
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "XRD",
+                        "parameters": "scanning range: 10\u00b0~80\u00b0, scanning rate: 2\u00b0 min\u22121"
+                    },
+                    {
+                        "name": "SEM",
+                        "parameters": null
+                    },
+                    {
+                        "name": "EDS",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": [
+        {
+            "material": "P2-Na0.67MnO2",
+            "stage": "application",
+            "challenge": {
+                "description": "Poor electrochemical stability due to Na+/vacancy interactions and MO2 layer slip during sodium ion de-intercalation.",
+                "type": "structural",
+                "impact": "Causes irreversible phase transitions, limiting the cycling stability and performance of the material."
+            },
+            "solution": {
+                "description": "Co-doping at the Mn site to increase the proportion of Mn4+ and suppress Jahn-Teller distortion.",
+                "methodology": "Incorporation of Co ions proven by DFT and XPS tests.",
+                "effectiveness": "Significantly improved cycling stability and reversibility, with 88.7% capacity retention after 200 cycles at 2C."
+            },
+            "evidence": {
+                "source": "Results and discussion section, Figures 8 and 11.",
+                "data": "Capacity retention rate of 88.7% after 200 cycles; suppression of Jahn-Teller distortion confirmed by DFT and XPS."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with Mn3+ prone to Jahn-Teller distortion.",
+                "experimental_conditions": "Cycling tests conducted at 2C rate; structural analysis performed using DFT and XPS.",
+                "application_relevance": "Improved cycling stability and reversibility are critical for sodium-ion battery performance."
+            }
+        },
+        {
+            "material": "P2-Na0.67Mn1\u2212xCoxO2 (x = 0.2)",
+            "stage": "synthesis",
+            "challenge": {
+                "description": "Uniform doping of Co ions into the Mn site while maintaining high purity and uniform particle size.",
+                "type": "procedural",
+                "impact": "Non-uniform doping could lead to inconsistent electrochemical performance and structural instability."
+            },
+            "solution": {
+                "description": "Hydrothermal synthesis method with precise stoichiometric control and calcination at optimized temperatures.",
+                "methodology": "Use of ammonium bicarbonate as a precipitant and calcination at 900\u00b0C for 10 hours.",
+                "effectiveness": "Achieved high-purity materials with uniform particle size and smooth surfaces conducive to enhanced electrochemical performance."
+            },
+            "evidence": {
+                "source": "Experimental section, Figures 4 and 5.",
+                "data": "SEM images showing uniform particle size and smooth surfaces; XRD analysis confirming single-phase material."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with Co doping to stabilize Mn4+ and suppress Jahn-Teller distortion.",
+                "experimental_conditions": "Hydrothermal synthesis followed by calcination at 900\u00b0C for 10 hours.",
+                "application_relevance": "Uniform doping and high-purity materials are essential for consistent performance in sodium-ion batteries."
+            }
+        },
+        {
+            "material": "P2-Na0.67Mn1\u2212xCoxO2 (x = 0.2)",
+            "stage": "testing",
+            "challenge": {
+                "description": "Voltage fade during consecutive charge-discharge cycles.",
+                "type": "electrochemical",
+                "impact": "Reduces the long-term stability and energy density of the material, limiting its practical application."
+            },
+            "solution": {
+                "description": "Optimization of Co doping to suppress Jahn-Teller distortion and stabilize the layered structure.",
+                "methodology": "Electrochemical testing combined with DFT calculations to analyze structural stability and charge compensation mechanisms.",
+                "effectiveness": "Voltage fade significantly suppressed, with improved cycling stability and capacity retention."
+            },
+            "evidence": {
+                "source": "Results and discussion section, Figures 8 and 11.",
+                "data": "Capacity retention rate of 88.7% after 200 cycles; reduced voltage fade observed in charge-discharge curves."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with Co doping to stabilize Mn4+ and suppress Jahn-Teller distortion.",
+                "experimental_conditions": "Cycling tests conducted at 2C rate; structural analysis performed using DFT and electrochemical testing.",
+                "application_relevance": "Voltage stability is critical for maintaining energy density and long-term performance in sodium-ion batteries."
+            }
+        },
+        {
+            "material": "P2-Na0.67Mn1\u2212xCoxO2 (x = 0.2)",
+            "stage": "application",
+            "challenge": {
+                "description": "High migration energy barrier for Na+ diffusion in the pristine material.",
+                "type": "kinetic",
+                "impact": "Limits the rate capability and overall performance of the material in high-power applications."
+            },
+            "solution": {
+                "description": "Co-doping to reduce the Na+ migration energy barrier and enhance diffusion kinetics.",
+                "methodology": "First-principles calculations using the NEB method to analyze Na+ diffusion paths and barriers.",
+                "effectiveness": "Migration energy barrier reduced from 1.21 eV to 0.58 eV, significantly improving Na+ diffusion and rate performance."
+            },
+            "evidence": {
+                "source": "Results and discussion section, Figure 11.",
+                "data": "First-principles calculations showing reduced migration energy barrier; improved rate performance observed in electrochemical tests."
+            },
+            "context": {
+                "material_properties": "Layered P2-type structure with Co doping to enhance Na+ diffusion kinetics.",
+                "experimental_conditions": "First-principles calculations and electrochemical testing under various current densities.",
+                "application_relevance": "Enhanced Na+ diffusion is essential for high-rate performance in sodium-ion batteries."
+            }
+        }
+    ]
+}

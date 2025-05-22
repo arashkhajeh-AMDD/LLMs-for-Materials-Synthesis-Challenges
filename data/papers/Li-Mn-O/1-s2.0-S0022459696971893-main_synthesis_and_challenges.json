@@ -1,0 +1,109 @@
+{
+    "file_name": "1-s2.0-S0022459696971893-main",
+    "synthesis_info": [
+        {
+            "material": {
+                "name": "LiMnO2",
+                "phase": "orthorhombic",
+                "dopants": [],
+                "morphology": null,
+                "purity": "99.997%"
+            },
+            "synthesis_steps": [
+                {
+                    "step": 1,
+                    "label": "Precursor Mixing",
+                    "details": {
+                        "reagents": [
+                            {
+                                "name": "MnO2",
+                                "stoichiometry": null
+                            },
+                            {
+                                "name": "Li2CO3",
+                                "stoichiometry": null
+                            }
+                        ],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 2,
+                    "label": "Grinding and Pelletizing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                },
+                {
+                    "step": 3,
+                    "label": "Calcination",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "600\u2013650\u00b0C",
+                        "pressure": null,
+                        "duration": "several hours",
+                        "atmosphere": "argon",
+                        "equipment": "horizontal tube furnace"
+                    }
+                },
+                {
+                    "step": 4,
+                    "label": "High-Temperature Baking",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": "800\u20131000\u00b0C",
+                        "pressure": null,
+                        "duration": "1 to 3 days",
+                        "atmosphere": "argon",
+                        "equipment": "horizontal tube furnace"
+                    }
+                },
+                {
+                    "step": 5,
+                    "label": "Grinding and Firing",
+                    "details": {
+                        "reagents": [],
+                        "solvent": null,
+                        "precipitant": null,
+                        "temperature": null,
+                        "pressure": null,
+                        "duration": null,
+                        "atmosphere": null,
+                        "equipment": null
+                    }
+                }
+            ],
+            "post_processing": [],
+            "characterization": {
+                "techniques": [
+                    {
+                        "name": "X-ray diffraction",
+                        "parameters": null
+                    },
+                    {
+                        "name": "Neutron diffraction",
+                        "parameters": null
+                    }
+                ]
+            }
+        }
+    ],
+    "challenges_info": []
+}
